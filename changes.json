@@ -2,6 +2,12 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "core-control-report",
+      "changed_at": "2026-09-11T18:43:50.991381+00:00",
+      "summary": "Dated control settings, source/deployment cross-checks and the unresolved owner-controller link.",
+      "path": "/p/usde/research/2026-09-12-who-controls-usde/"
+    },
+    {
       "change_id": "first-exit-report",
       "changed_at": "2026-09-11T07:33:13+00:00",
       "summary": "Direct, staked and nested/lending exits with a bounded system-risk picture.",

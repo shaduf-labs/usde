@@ -1,0 +1,140 @@
+{
+  "topic": "USDe",
+  "question_revision": 2,
+  "question": "What risks exist across USDe's mechanisms, smart contracts, protocols, integrations, and counterparties, and how can those risks combine and propagate through the system?",
+  "report": "Who can change USDe’s rules?",
+  "research_date": "2026-09-12",
+  "research_date_timezone": "Asia/Bangkok",
+  "observation": {
+    "chain_id": 1,
+    "block_hex": "0x18c0249",
+    "block_number": 25952841,
+    "block_hash": "0x608803fe345eb1e3aabca34208f7e62e3397ee9fd55092f3f4d17aa97e1a1540",
+    "block_timestamp_utc": "2026-09-11T08:03:35+00:00",
+    "finality_basis": "Operator-supplied provider response to finalized; not independently verified consensus."
+  },
+  "evidence_class": "Supplied public-provider responses, decoded and locally cross-checked; not independently fetched consensus/compiled proof",
+  "observed_addresses": {
+    "usde": "0x4c9edd5852cd905f086c759e8383e09bff1e68b3",
+    "mint": "0xe3490297a08d6fc8da46edb7b6142e4f461b62d3",
+    "staking": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+    "owner": "0xe8dc0fab349ea169283c48ccfd09d797e6db7c94",
+    "safe": "0x3b0aaf6e6fcd4a7ceef8c92c32dfea9e64dc1862",
+    "silo": "0x7fc7c91d556b400afa565013e3f32055a0713425"
+  },
+  "decoded": {
+    "call-ff1e68b3-owner": "0xe8dc0fab349ea169283c48ccfd09d797e6db7c94",
+    "call-ff1e68b3-minter": "0xe3490297a08d6fc8da46edb7b6142e4f461b62d3",
+    "call-461b62d3-owner": "0xe8dc0fab349ea169283c48ccfd09d797e6db7c94",
+    "call-797a3497-silo": "0x7fc7c91d556b400afa565013e3f32055a0713425",
+    "globalConfig": {
+      "globalMaxMintPerBlock_raw": "200000000000000000000000000",
+      "globalMaxRedeemPerBlock_raw": "10000000000000000000000000",
+      "decimals": 18,
+      "globalMaxMintPerBlock_USDe": "200000000",
+      "globalMaxRedeemPerBlock_USDe": "10000000",
+      "semantics": "Configured global gross per-block ceilings, not remaining capacity, a supply cap, or liquidity assurance."
+    },
+    "cooldown_seconds": 86400,
+    "safe_threshold": 5,
+    "safe_owners": [
+      "0x66096e581863ec2682e4e317da41b80510a274f6",
+      "0x18d32b1ab042b5e9a3430e77fde8b4783a019234",
+      "0xb93c042c688f1cf038bab03c4f832f2630bb7d8f",
+      "0x66892c66711b2640360c3123e6c23c0cfa50550f",
+      "0xe3f95f2e1adec092337fb5d93c1fe87558658b11",
+      "0x99682f56f4cccf61bd7e449924f2f62d395e1e45",
+      "0x980742edea6b0df3566c19ff4945c57e95449a13",
+      "0x54d0d64f7326b128959bf37ed7b5f2510656a471",
+      "0xe987e14b2e204fdf5827a3cfca7d476e8df6a99e",
+      "0xe5ca87da3a209ad85fdcbb515e1bd92644e9e1a6"
+    ]
+  },
+  "source_provenance": [
+    {
+      "name": "usde",
+      "address": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+      "source_provider_url": "https://sourcify.dev/server/v2/contract/1/0x4c9EDD5852cd905f086C759E8383e09bff1E68B3?fields=abi,metadata,sources,compilation,deployment",
+      "compiler": "0.8.19+commit.7dd6d404",
+      "provider_match": "exact_match",
+      "provider_creation_match": "exact_match",
+      "provider_runtime_match": "exact_match",
+      "deployment": {
+        "transactionHash": "0xc8119dfca3e004587af37affd06ff7e73bfe47035147c1d478a17daa71dcfcc6",
+        "blockNumber": "18571358",
+        "transactionIndex": "111",
+        "deployer": "0x8dE54b1cefEdeAB1766b947c7D9A9963436E8FaE"
+      },
+      "runtime_keccak256": "0x6ca5462ff0355c610301f701d0bb1136becca144e195da86d240b5e604ef9625",
+      "runtime_bytes": 7567,
+      "independently_recompiled": false
+    },
+    {
+      "name": "susde",
+      "address": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497",
+      "source_provider_url": "https://sourcify.dev/server/v2/contract/1/0x9D39A5DE30e57443BfF2A8307A4256c8797A3497?fields=abi,metadata,sources,compilation,deployment",
+      "compiler": "0.8.19+commit.7dd6d404",
+      "provider_match": "exact_match",
+      "provider_creation_match": "exact_match",
+      "provider_runtime_match": "exact_match",
+      "deployment": {
+        "transactionHash": "0x9b099ba3c8e64ea8904cc6de83f2245e309e0f91c3ce1f976328b601e4dda314",
+        "blockNumber": "18571359",
+        "transactionIndex": "26",
+        "deployer": "0x8dE54b1cefEdeAB1766b947c7D9A9963436E8FaE"
+      },
+      "runtime_keccak256": "0xadc4989c92fab525a1a22b3f60f5b61b77f9eb11b693e8afeba5736ea4b502e3",
+      "runtime_bytes": 17299,
+      "independently_recompiled": false
+    },
+    {
+      "name": "mint-v2",
+      "address": "0xe3490297a08d6fC8Da46Edb7B6142E4F461b62D3",
+      "source_provider_url": "https://sourcify.dev/server/v2/contract/1/0xe3490297a08d6fC8Da46Edb7B6142E4F461b62D3?fields=abi,metadata,sources,compilation,deployment",
+      "compiler": "0.8.20+commit.a1b79de6",
+      "provider_match": "exact_match",
+      "provider_creation_match": "exact_match",
+      "provider_runtime_match": "exact_match",
+      "deployment": {
+        "transactionHash": "0x55adccea83bd22040401976a17fb34ce4c3ea3a429fbca1d0360ff160430c84b",
+        "blockNumber": "20142841",
+        "transactionIndex": "95",
+        "deployer": "0x8dE54b1cefEdeAB1766b947c7D9A9963436E8FaE"
+      },
+      "runtime_keccak256": "0x637a83a32c13f603b9e02f9ca0e945d1604e361693915f1ba02f29d474d67488",
+      "runtime_bytes": 24027,
+      "independently_recompiled": false
+    },
+    {
+      "name": "development-safe",
+      "address": "0x3B0AAf6e6fCd4a7cEEf8c92C32DFeA9E64dC1862",
+      "source_provider_url": "https://sourcify.dev/server/v2/contract/1/0x3B0AAf6e6fCd4a7cEEf8c92C32DFeA9E64dC1862?fields=abi,metadata,sources,compilation,deployment",
+      "compiler": "0.7.6+commit.7338295f",
+      "provider_match": "match",
+      "provider_creation_match": "match",
+      "provider_runtime_match": "match",
+      "deployment": {
+        "transactionHash": "0xed64fde7b2335843a0c6412c7089be0edddbb067ac765501fc57c9c8242acf94",
+        "blockNumber": "18233861",
+        "transactionIndex": "83",
+        "deployer": "0x796Ee28CE42BF7bd43A09aCd43FAd0aACD7C3b29"
+      },
+      "runtime_keccak256": "0xb89c1b3bdf2cf8827818646bce9a8f6e372885f8c55e5c07acbd307cb133b000",
+      "runtime_bytes": 171,
+      "independently_recompiled": false
+    }
+  ],
+  "missing": [
+    "Owner controller code/roles/whitelist/delay at the observation block",
+    "Safe singleton/modules/guard/fallback at the observation block",
+    "Current staking owner and operational role sets",
+    "Per-asset caps, inventory and executable market exits",
+    "Independent compilation and EVM tests"
+  ],
+  "interpretation_limits": [
+    "Global cap values are gross per-block ceilings, not supply caps, remaining capacity, inventory or loss bounds.",
+    "86400 seconds is the staking cooldown getter, not a measured governance delay.",
+    "Five required signatures and ten owner addresses do not prove human independence or every authority path.",
+    "Raw input packet remains private; this is a curated research-derived public record."
+  ]
+}

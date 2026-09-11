@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "20260911-180608-1cebb161",
+      "status": "completed",
+      "started_at": "2026-09-12T01:07:44.450000+07:00",
+      "completed_at": "2026-09-11T18:43:50.991381+00:00",
+      "report_path": "/p/usde/research/2026-09-12-who-controls-usde/",
+      "entrypoint": "research/2026-09-12-who-controls-usde/index.html",
+      "title": "Who can change USDe’s rules?",
+      "summary": "Dated control settings, source/deployment cross-checks and the unresolved owner-controller link.",
+      "answer_change": "meaningful_change"
+    },
+    {
       "run_id": "20260911-064244-f1b4d835",
       "status": "completed",
       "started_at": "2026-09-11T13:44:02.122000+07:00",

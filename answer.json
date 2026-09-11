@@ -1,18 +1,18 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "Direct USDe, sUSDe and nested/lending positions expose different claims and exits. Historical core and adapter sources support specific authority, accounting and timing findings. Shared settlement, credit, valuation and sale dependencies can propagate stress, but live code/configuration, current balances and executable exits are not established.",
+  "current_answer": "USDe issuance can change through its replaceable minter even when the token bytecode is fixed. A supplied 11 September Ethereum snapshot resolves core owner/minter, global mint/redeem ceilings, a 5-of-10 Dev Safe, and a 24-hour staking cooldown. Source/provider/runtime checks strengthen the core identity picture, but the measured owner differs from the Safe: upstream controller roles, implementation links and any notice guarantee remain open. Pause, transfer and staking restrictions affect different actions.",
   "summary": [
-    "Direct, staked and nested/lending exits with a bounded system-risk picture."
+    "Dated control settings, source/deployment cross-checks and the unresolved owner-controller link."
   ],
   "uncertainty": [
-    "Selected historical code and documents; current deployment/configuration and executable market evidence remain unverified."
+    "Ethereum core controls at a supplied block; no independent rebuild or complete authority/market assurance."
   ],
-  "checked_at": "2026-09-11T07:12:40Z",
-  "meaningfully_updated_at": "2026-09-11T07:12:40Z",
-  "freshness_note": "Selected historical code and documents; current deployment/configuration and executable market evidence remain unverified.",
+  "checked_at": "2026-09-11T18:29:15.567121+00:00",
+  "meaningfully_updated_at": "2026-09-11T18:29:15.567121+00:00",
+  "freshness_note": "Ethereum core controls at a supplied block; no independent rebuild or complete authority/market assurance.",
   "catalogue_card": {
     "question": "USDe Risk Audit",
-    "text": "A token designed to stay near a dollar is not a promise that every holder can turn it into cash immediately. Start with what you own—and what has to happen next."
+    "text": "A dollar-like token is only the start. Understand what you own, who can change its rules, and what has to happen before you receive the asset you need."
   }
 }
