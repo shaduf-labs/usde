@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "pool_id": "pool_usde",
+  "slug": "usde",
+  "title": "USDe Risk Audit",
+  "locale": "en",
+  "canonical_url": "https://shaduf.ai/p/usde/",
+  "question": "What risks exist across USDe's mechanisms, smart contracts, protocols, integrations, and counterparties, and how can those risks combine and propagate through the system?",
+  "description": "Understand USDe, staking and nested positions by tracing the next asset, the wait and the exit.",
+  "cadence": "Manual research runs",
+  "release_state": "live",
+  "latest_research_at": "2026-09-11T07:33:13+00:00",
+  "evidence_scope": "Selected historical code and documents; current deployment/configuration and executable market evidence remain unverified.",
+  "methodology_summary": "Follow the dollar. Then follow the exit.",
+  "public_repo": "https://github.com/shaduf-labs/usde",
+  "tags": [
+    "USDe",
+    "Risk",
+    "Stablecoins"
+  ],
+  "categories": [
+    "finance"
+  ],
+  "related_pools": []
+}

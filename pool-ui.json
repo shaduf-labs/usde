@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "default_page": "home",
+  "pages": [
+    {
+      "id": "home",
+      "slug": "",
+      "label": "Overview",
+      "parent": null,
+      "group": "Pages",
+      "visibility": "public",
+      "indexable": true,
+      "entrypoint": "index.html",
+      "redirects": []
+    },
+    {
+      "id": "coverage",
+      "slug": "coverage",
+      "label": "Audit scope",
+      "parent": null,
+      "group": "Pages",
+      "visibility": "public",
+      "indexable": true,
+      "entrypoint": "coverage/index.html",
+      "redirects": []
+    },
+    {
+      "id": "method",
+      "slug": "method",
+      "label": "Evidence method",
+      "parent": null,
+      "group": "Pages",
+      "visibility": "public",
+      "indexable": true,
+      "entrypoint": "method/index.html",
+      "redirects": []
+    },
+    {
+      "id": "research",
+      "slug": "research",
+      "label": "Research",
+      "parent": null,
+      "group": "Pages",
+      "visibility": "public",
+      "indexable": true,
+      "entrypoint": "research/index.html",
+      "redirects": []
+    }
+  ]
+}

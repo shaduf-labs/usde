@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0.0",
+  "items": [
+    {
+      "change_id": "first-exit-report",
+      "changed_at": "2026-09-11T07:33:13+00:00",
+      "summary": "Direct, staked and nested/lending exits with a bounded system-risk picture.",
+      "path": "/p/usde/research/2026-09-11-following-usde-exits/"
+    }
+  ]
+}

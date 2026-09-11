@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0.0",
+  "status": "current",
+  "current_answer": "Direct USDe, sUSDe and nested/lending positions expose different claims and exits. Historical core and adapter sources support specific authority, accounting and timing findings. Shared settlement, credit, valuation and sale dependencies can propagate stress, but live code/configuration, current balances and executable exits are not established.",
+  "summary": [
+    "Direct, staked and nested/lending exits with a bounded system-risk picture."
+  ],
+  "uncertainty": [
+    "Selected historical code and documents; current deployment/configuration and executable market evidence remain unverified."
+  ],
+  "checked_at": "2026-09-11T07:12:40Z",
+  "meaningfully_updated_at": "2026-09-11T07:12:40Z",
+  "freshness_note": "Selected historical code and documents; current deployment/configuration and executable market evidence remain unverified.",
+  "catalogue_card": {
+    "question": "What risks exist across USDe's mechanisms, smart contracts, protocols, integrations, and counterparties, and how can those risks combine and propagate through the system?",
+    "text": "A token designed to stay near a dollar is not a promise that every holder can turn it into cash immediately. Start with what you own—and what has to happen next."
+  }
+}

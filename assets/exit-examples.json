@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.0.0",
+  "research_date": "2026-09-11",
+  "purpose": "Reproducible inputs and formulas for examples in the report; not live data.",
+  "items": [
+    {
+      "id": "calc:disclosed-backing",
+      "type": "historical-disclosure-arithmetic",
+      "as_of": "2025-11-26T23:59:00Z",
+      "unit": "USD except USDe supply counted in tokens at assumed $1 reporting unit",
+      "inputs": {
+        "usde_supply": "7286000000",
+        "issuer_aggregate_backing_usd": "7297000000",
+        "reserve_usd": "62084000",
+        "copper_usd": "2672000000",
+        "ceffu_usd": "1989000000",
+        "coinbase_wallet_assets_usd": "2540000000",
+        "mint_redeem_contract_assets_usd": "94711000"
+      },
+      "formula": "sum(components); aggregate - component_sum; (backing + reserve)/supply * 100",
+      "outputs": {
+        "component_sum_usd": "7295711000",
+        "difference_usd": "1289000",
+        "maximum_rounding_difference_usd": "2000500",
+        "within_rounding_bound": true,
+        "issuer_aggregate_plus_reserve_ratio_pct": "101.0030743892396376612681855613505352731",
+        "component_sum_plus_reserve_ratio_pct": "100.9853829261597584408454570409003568488",
+        "mint_redeem_contract_share_of_supply_pct": "1.299903925336261323085369201207795772715"
+      },
+      "assumptions": [
+        "Three billion-denominated component amounts and aggregate rounded to nearest $1m; contract amount to nearest $1,000.",
+        "Reserve treated as separate as publisher presentation indicates.",
+        "No independent verification that assets are unencumbered or accessible."
+      ],
+      "limits": [
+        "Rounding compatibility does not verify any balance.",
+        "Three custody letter images unread.",
+        "Historical snapshot, not September 2026 backing or liquidity.",
+        "Contract asset fraction is not the entire usable redemption buffer."
+      ],
+      "sources": [
+        {
+          "title": "November 2025 backing disclosure",
+          "url": "https://paragraph.com/@ethena-labs/custodian-attestations-of-assets-backing-usde-november-1"
+        }
+      ]
+    },
+    {
+      "id": "calc:hedge-timing",
+      "type": "illustrative-not-observed",
+      "inputs": {
+        "initial_asset_usd": "1000",
+        "asset_fall_fraction": "0.10",
+        "matching_short_receivable_usd": "100"
+      },
+      "outputs": {
+        "asset_value_usd": "900",
+        "book_total_usd": "1000",
+        "available_if_only_asset_can_be_sold_usd": "900"
+      },
+      "assumptions": [
+        "Exactly offsetting short payoff, no basis/funding/fees/margin movement.",
+        "Short proceeds unavailable until settlement."
+      ],
+      "limits": [
+        "Not the actual portfolio, an estimate of insolvency, or an available-cash calculation."
+      ],
+      "sources": [
+        {
+          "title": "Off-exchange settlement in detail",
+          "url": "https://docs.ethena.fi/backing-custody-and-security/overview/off-exchange-settlement-in-detail"
+        },
+        {
+          "title": "Exchange failure risk",
+          "url": "https://docs.ethena.fi/protocol-overview/risks/exchange-failure-risk"
+        },
+        {
+          "title": "Underlying derivatives",
+          "url": "https://docs.ethena.fi/protocol-overview/underlying-derivatives"
+        }
+      ]
+    },
+    {
+      "id": "calc:leverage-loss",
+      "type": "illustrative-not-observed",
+      "inputs": {
+        "initial_net_equity_usd": "100",
+        "debt_to_collateral_value_ratio": "0.8",
+        "collateral_value_fall_fraction": "0.05"
+      },
+      "formula": "gross = equity/(1-ratio); debt = gross-equity; final_equity = gross*(1-fall)-debt",
+      "outputs": {
+        "gross_collateral_usd": "5.0E+2",
+        "debt_usd": "400",
+        "final_equity_usd": "75.0",
+        "net_equity_loss_pct": "25"
+      },
+      "assumptions": [
+        "Unchanged debt value, no interest, fees, collateral additions or liquidation."
+      ],
+      "limits": [
+        "Not a recommended leverage, actual position or return prediction."
+      ],
+      "sources": [
+        {
+          "title": "Pendle PT as collateral",
+          "url": "https://docs.pendle.finance/pendle-v2-dev/Oracles/PTAsCollateral"
+        },
+        {
+          "title": "Morpho liquidation concepts",
+          "url": "https://docs.morpho.org/learn/concepts/liquidation/"
+        }
+      ]
+    },
+    {
+      "id": "calc:liquidation-margin",
+      "type": "illustrative-not-observed",
+      "formula": "relative collateral price fall = 1 - initial_LTV / liquidation_LTV",
+      "inputs": {
+        "illustrative_initial_ltv": "0.80",
+        "illustrative_liquidation_ltv": "0.86"
+      },
+      "outputs": {
+        "relative_price_fall_to_equality_pct": "6.976744186046511627906976744186046511630",
+        "75_to_86_relative_fall_pct": "12.79069767441860465116279069767441860465",
+        "72_to_75_relative_fall_pct": "4.00"
+      },
+      "assumptions": [
+        "Single collateral and debt; oracle price equals realizable price; debt and collateral quantity unchanged."
+      ],
+      "limits": [
+        "Percentage-point LTV gaps are not percentage price-fall buffers.",
+        "These are not verified live risk settings.",
+        "Equality boundary is not a guarantee of liquidation execution or its cost."
+      ],
+      "sources": [
+        {
+          "title": "Morpho liquidation concepts",
+          "url": "https://docs.morpho.org/learn/concepts/liquidation/"
+        }
+      ]
+    },
+    {
+      "id": "calc:cooldown-reset",
+      "type": "source-inspired-toy-state-transition",
+      "inputs": {
+        "hypothetical_duration_days": 14,
+        "first_request_day": 0,
+        "first_request_usde": 100,
+        "second_request_day": 10,
+        "second_request_usde": 50
+      },
+      "outputs": {
+        "end_without_second_request_day": 14,
+        "accumulated_request_usde": 150,
+        "end_with_second_request_day": 24
+      },
+      "assumptions": [
+        "Both requests use the same direct vault account, nonzero unchanged duration, successful execution."
+      ],
+      "limits": [
+        "Not a reading of current 14-day policy.",
+        "Not an EVM test; wrapper-specific requests may differ."
+      ],
+      "sources": [
+        {
+          "title": "StakedUSDeV2.sol",
+          "url": "https://github.com/ethena-labs/bbp-public-assets/blob/f3e56d5f06bfef82367d5d5b561398e91d5bebc1/contracts/contracts/StakedUSDeV2.sol"
+        }
+      ]
+    }
+  ]
+}
