@@ -12,7 +12,7 @@
   "meaningfully_updated_at": "2026-09-11T07:12:40Z",
   "freshness_note": "Selected historical code and documents; current deployment/configuration and executable market evidence remain unverified.",
   "catalogue_card": {
-    "question": "What risks exist across USDe's mechanisms, smart contracts, protocols, integrations, and counterparties, and how can those risks combine and propagate through the system?",
+    "question": "USDe Risk Audit",
     "text": "A token designed to stay near a dollar is not a promise that every holder can turn it into cash immediately. Start with what you own—and what has to happen next."
   }
 }
