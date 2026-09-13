@@ -2,6 +2,12 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "custody-and-usable-funds-report",
+      "changed_at": "2026-09-14T02:29:25+07:00",
+      "summary": "Custody, settlement and release gates between a protected asset and usable funds.",
+      "path": "/p/usde/research/2026-09-13-custody-and-usable-funds/"
+    },
+    {
       "change_id": "direct-redemption-and-settlement-report",
       "changed_at": "2026-09-13T16:29:14+07:00",
       "summary": "Issuer eligibility, signed authorization, privileged submission and the atomic settlement boundary.",

@@ -1,0 +1,742 @@
+{
+  "topic": "USDe",
+  "question_revision": 2,
+  "question": "What risks exist across USDe's mechanisms, smart contracts, protocols, integrations, and counterparties, and how can those risks combine and propagate through the system?",
+  "research_date": "2026-09-13",
+  "scope": "Public provider conditions and selected historical evidence, not current account data",
+  "settlement_conditions": [
+    "exchange collateral",
+    "currency and instruction state",
+    "release/encumbrance",
+    "main-account availability",
+    "completed destination transfer"
+  ],
+  "entities": [
+    {
+      "id": "route5:holder",
+      "entity": "USDe holder / sUSDe or downstream position",
+      "asset_or_claim": "Holder owns the token or product claim, not automatically a specific custodian wallet.",
+      "release_conditions": "Transfer, sale, staking claim and issuer redemption use different actors and conditions.",
+      "clock": "Holder route and product-specific clock; prior queue setting remains dated.",
+      "evidence_limit": "Inherited accepted runs 3\u20134; no refreshed eligibility, price or loan state.",
+      "source_ids": [
+        "r5s:oes"
+      ]
+    },
+    {
+      "id": "route5:issuer",
+      "entity": "Ethena issuing/operating arrangements",
+      "asset_or_claim": "Backing control and issuer delivery obligations are distinct from holder custody.",
+      "release_conditions": "Issuer operator needs appropriate asset, inventory and permissions for payout.",
+      "clock": "Back-end settlement precedes an available issuer payout; bank/market exit is separate.",
+      "evidence_limit": "Legal entity and specific agreement must be established per route; no current inventory.",
+      "source_ids": [
+        "r5s:custody-overview"
+      ]
+    },
+    {
+      "id": "route5:clearloop",
+      "entity": "Copper ClearLoop and connected exchange",
+      "asset_or_claim": "Original collateral is held off exchange and mirrored for trading; a mirror is not another asset.",
+      "release_conditions": "Exchange computes PnL; its collateral and client/exchange completion steps can constrain receipt.",
+      "clock": "Described cycles depend on venue; failed or partial instructions add delay.",
+      "evidence_limit": "Provider docs, not actual Ethena account or current settlement performance.",
+      "source_ids": [
+        "r5s:copper-intro",
+        "r5s:copper-settlements",
+        "r5s:copper-status"
+      ]
+    },
+    {
+      "id": "route5:release",
+      "entity": "ClearLoop main account / subaccounts",
+      "asset_or_claim": "Delegated amount and available-to-undelegate measure different scopes.",
+      "release_conditions": "Only main-account funds can follow undelegation; subaccount transfer and linked-order completion matter.",
+      "clock": "Activity, release, transfer and credited destination have separate timestamps.",
+      "evidence_limit": "Actual available balance and time to complete not obtained.",
+      "source_ids": [
+        "r5s:copper-balances",
+        "r5s:copper-undelegate"
+      ]
+    },
+    {
+      "id": "route5:mirrorx",
+      "entity": "Ceffu / MirrorX / Binance-side counterparties",
+      "asset_or_claim": "Historical service descriptions separate custody and virtual trading balances.",
+      "release_conditions": "Applicable trust/collateral terms and service operator must be identified; custody licensing is not automatically MirrorX licensing.",
+      "clock": "Historical T+1 and withdrawal-triggered settlement descriptions are not a present universal SLA.",
+      "evidence_limit": "Generic terms only; PDF parse/render caveat; no executed Ethena agreement.",
+      "source_ids": [
+        "r5s:ceffu-integration",
+        "r5s:ceffu-uae",
+        "r5s:ceffu-terms",
+        "r5s:binance-mirror"
+      ]
+    },
+    {
+      "id": "route5:loan",
+      "entity": "Anchorage A1, Ltd. / Maple PPO Alpha in March proposal",
+      "asset_or_claim": "A claim on a borrower or pool is not free cash at a custody address.",
+      "release_conditions": "Borrower performance, loan recall and remedies govern release; private terms undisclosed.",
+      "clock": "No public verified recall deadline or immediately liquid floor established.",
+      "evidence_limit": "Proposal/review and group-entity distinctions, not actual deployment or liquidity.",
+      "source_ids": [
+        "r5s:lending"
+      ]
+    },
+    {
+      "id": "route5:buffer",
+      "entity": "Independent free liquidity / conversion route",
+      "asset_or_claim": "Only unencumbered resources available in the required asset can cover a deadline.",
+      "release_conditions": "A reserve using the failing provider or an unavailable conversion is not automatically available.",
+      "clock": "Must arrive before the obligation, not merely by period end.",
+      "evidence_limit": "Conditional reasoning and toy model, not measured buffer or recommendation.",
+      "source_ids": [
+        "r5s:copper-settlements",
+        "r5s:llamarisk-bybit"
+      ]
+    }
+  ],
+  "example": {
+    "classification": "toy-scenario",
+    "inputs": {
+      "receipts": [
+        {
+          "claim_id": "free-usdc",
+          "asset": "USDC",
+          "amount": 6000,
+          "ready_hour": 0,
+          "released": true,
+          "dependency": "independent"
+        },
+        {
+          "claim_id": "free-usdt",
+          "asset": "USDT",
+          "amount": 2000,
+          "ready_hour": 0,
+          "released": true,
+          "dependency": "independent"
+        },
+        {
+          "claim_id": "pnl-receivable",
+          "asset": "USDT",
+          "amount": 4000,
+          "ready_hour": 8,
+          "released": true,
+          "dependency": "exchange-A"
+        },
+        {
+          "claim_id": "recall-claim",
+          "asset": "USDC",
+          "amount": 5000,
+          "ready_hour": 24,
+          "released": true,
+          "dependency": "borrower-B"
+        }
+      ],
+      "obligations": [
+        {
+          "obligation_id": "margin",
+          "asset": "USDT",
+          "amount": 5000,
+          "hour": 2
+        },
+        {
+          "obligation_id": "redemption-payout",
+          "asset": "USDC",
+          "amount": 8000,
+          "hour": 4
+        }
+      ]
+    },
+    "units": "integer hundredths of the named token; synthetic hour offsets, not actual dollars or calendar dates",
+    "scenarios": {
+      "delayed_inflows": {
+        "minimum_free_buffer_at_hour_zero": {
+          "USDC": 2000,
+          "USDT": 3000
+        },
+        "end_balance": {
+          "USDC": 3000,
+          "USDT": 1000
+        },
+        "trace": [
+          {
+            "hour": 0,
+            "kind": "receipt",
+            "asset": "USDC",
+            "delta": 6000,
+            "balance": 6000,
+            "id": "free-usdc"
+          },
+          {
+            "hour": 0,
+            "kind": "receipt",
+            "asset": "USDT",
+            "delta": 2000,
+            "balance": 2000,
+            "id": "free-usdt"
+          },
+          {
+            "hour": 2,
+            "kind": "obligation",
+            "asset": "USDT",
+            "delta": -5000,
+            "balance": -3000,
+            "id": "margin"
+          },
+          {
+            "hour": 4,
+            "kind": "obligation",
+            "asset": "USDC",
+            "delta": -8000,
+            "balance": -2000,
+            "id": "redemption-payout"
+          },
+          {
+            "hour": 8,
+            "kind": "receipt",
+            "asset": "USDT",
+            "delta": 4000,
+            "balance": 1000,
+            "id": "pnl-receivable"
+          },
+          {
+            "hour": 24,
+            "kind": "receipt",
+            "asset": "USDC",
+            "delta": 5000,
+            "balance": 3000,
+            "id": "recall-claim"
+          }
+        ],
+        "all_deadlines_funded": false
+      },
+      "sufficient_independent_free_buffer": {
+        "minimum_free_buffer_at_hour_zero": {
+          "USDC": 0,
+          "USDT": 0
+        },
+        "end_balance": {
+          "USDC": 5000,
+          "USDT": 4000
+        },
+        "trace": [
+          {
+            "hour": 0,
+            "kind": "receipt",
+            "asset": "USDC",
+            "delta": 2000,
+            "balance": 2000,
+            "id": "buffer-usdc"
+          },
+          {
+            "hour": 0,
+            "kind": "receipt",
+            "asset": "USDC",
+            "delta": 6000,
+            "balance": 8000,
+            "id": "free-usdc"
+          },
+          {
+            "hour": 0,
+            "kind": "receipt",
+            "asset": "USDT",
+            "delta": 2000,
+            "balance": 2000,
+            "id": "free-usdt"
+          },
+          {
+            "hour": 0,
+            "kind": "receipt",
+            "asset": "USDT",
+            "delta": 3000,
+            "balance": 5000,
+            "id": "buffer-usdt"
+          },
+          {
+            "hour": 2,
+            "kind": "obligation",
+            "asset": "USDT",
+            "delta": -5000,
+            "balance": 0,
+            "id": "margin"
+          },
+          {
+            "hour": 4,
+            "kind": "obligation",
+            "asset": "USDC",
+            "delta": -8000,
+            "balance": 0,
+            "id": "redemption-payout"
+          },
+          {
+            "hour": 8,
+            "kind": "receipt",
+            "asset": "USDT",
+            "delta": 4000,
+            "balance": 4000,
+            "id": "pnl-receivable"
+          },
+          {
+            "hour": 24,
+            "kind": "receipt",
+            "asset": "USDC",
+            "delta": 5000,
+            "balance": 5000,
+            "id": "recall-claim"
+          }
+        ],
+        "all_deadlines_funded": true
+      },
+      "same_nominal_extra_wrong_asset": {
+        "minimum_free_buffer_at_hour_zero": {
+          "USDC": 0,
+          "USDT": 3000
+        },
+        "end_balance": {
+          "USDC": 8000,
+          "USDT": 1000
+        },
+        "trace": [
+          {
+            "hour": 0,
+            "kind": "receipt",
+            "asset": "USDC",
+            "delta": 5000,
+            "balance": 5000,
+            "id": "buffer-only-usdc"
+          },
+          {
+            "hour": 0,
+            "kind": "receipt",
+            "asset": "USDC",
+            "delta": 6000,
+            "balance": 11000,
+            "id": "free-usdc"
+          },
+          {
+            "hour": 0,
+            "kind": "receipt",
+            "asset": "USDT",
+            "delta": 2000,
+            "balance": 2000,
+            "id": "free-usdt"
+          },
+          {
+            "hour": 2,
+            "kind": "obligation",
+            "asset": "USDT",
+            "delta": -5000,
+            "balance": -3000,
+            "id": "margin"
+          },
+          {
+            "hour": 4,
+            "kind": "obligation",
+            "asset": "USDC",
+            "delta": -8000,
+            "balance": 3000,
+            "id": "redemption-payout"
+          },
+          {
+            "hour": 8,
+            "kind": "receipt",
+            "asset": "USDT",
+            "delta": 4000,
+            "balance": 1000,
+            "id": "pnl-receivable"
+          },
+          {
+            "hour": 24,
+            "kind": "receipt",
+            "asset": "USDC",
+            "delta": 5000,
+            "balance": 8000,
+            "id": "recall-claim"
+          }
+        ],
+        "all_deadlines_funded": false
+      },
+      "buffer_in_failed_dependency": {
+        "minimum_free_buffer_at_hour_zero": {
+          "USDC": 2000,
+          "USDT": 3000
+        },
+        "end_balance": {
+          "USDC": 3000,
+          "USDT": -3000
+        },
+        "trace": [
+          {
+            "hour": 0,
+            "kind": "receipt",
+            "asset": "USDC",
+            "delta": 6000,
+            "balance": 6000,
+            "id": "free-usdc"
+          },
+          {
+            "hour": 0,
+            "kind": "receipt",
+            "asset": "USDT",
+            "delta": 2000,
+            "balance": 2000,
+            "id": "free-usdt"
+          },
+          {
+            "hour": 2,
+            "kind": "obligation",
+            "asset": "USDT",
+            "delta": -5000,
+            "balance": -3000,
+            "id": "margin"
+          },
+          {
+            "hour": 4,
+            "kind": "obligation",
+            "asset": "USDC",
+            "delta": -8000,
+            "balance": -2000,
+            "id": "redemption-payout"
+          },
+          {
+            "hour": 24,
+            "kind": "receipt",
+            "asset": "USDC",
+            "delta": 5000,
+            "balance": 3000,
+            "id": "recall-claim"
+          }
+        ],
+        "all_deadlines_funded": false
+      },
+      "explicit_early_conversion": {
+        "minimum_free_buffer_at_hour_zero": {
+          "USDC": 0,
+          "USDT": 0
+        },
+        "end_balance": {
+          "USDC": 5000,
+          "USDT": 4000
+        },
+        "trace": [
+          {
+            "hour": 0,
+            "kind": "receipt",
+            "asset": "USDC",
+            "delta": 5000,
+            "balance": 5000,
+            "id": "extra-usdc"
+          },
+          {
+            "hour": 0,
+            "kind": "receipt",
+            "asset": "USDC",
+            "delta": 6000,
+            "balance": 11000,
+            "id": "free-usdc"
+          },
+          {
+            "hour": 0,
+            "kind": "receipt",
+            "asset": "USDT",
+            "delta": 2000,
+            "balance": 2000,
+            "id": "free-usdt"
+          },
+          {
+            "hour": 1,
+            "kind": "receipt",
+            "asset": "USDT",
+            "delta": 3000,
+            "balance": 5000,
+            "id": "conversion-received"
+          },
+          {
+            "hour": 1,
+            "kind": "obligation",
+            "asset": "USDC",
+            "delta": -3000,
+            "balance": 8000,
+            "id": "conversion-spend"
+          },
+          {
+            "hour": 2,
+            "kind": "obligation",
+            "asset": "USDT",
+            "delta": -5000,
+            "balance": 0,
+            "id": "margin"
+          },
+          {
+            "hour": 4,
+            "kind": "obligation",
+            "asset": "USDC",
+            "delta": -8000,
+            "balance": 0,
+            "id": "redemption-payout"
+          },
+          {
+            "hour": 8,
+            "kind": "receipt",
+            "asset": "USDT",
+            "delta": 4000,
+            "balance": 4000,
+            "id": "pnl-receivable"
+          },
+          {
+            "hour": 24,
+            "kind": "receipt",
+            "asset": "USDC",
+            "delta": 5000,
+            "balance": 5000,
+            "id": "recall-claim"
+          }
+        ],
+        "all_deadlines_funded": true
+      },
+      "explicit_late_conversion": {
+        "minimum_free_buffer_at_hour_zero": {
+          "USDC": 0,
+          "USDT": 3000
+        },
+        "end_balance": {
+          "USDC": 5000,
+          "USDT": 4000
+        },
+        "trace": [
+          {
+            "hour": 0,
+            "kind": "receipt",
+            "asset": "USDC",
+            "delta": 5000,
+            "balance": 5000,
+            "id": "extra-usdc"
+          },
+          {
+            "hour": 0,
+            "kind": "receipt",
+            "asset": "USDC",
+            "delta": 6000,
+            "balance": 11000,
+            "id": "free-usdc"
+          },
+          {
+            "hour": 0,
+            "kind": "receipt",
+            "asset": "USDT",
+            "delta": 2000,
+            "balance": 2000,
+            "id": "free-usdt"
+          },
+          {
+            "hour": 1,
+            "kind": "obligation",
+            "asset": "USDC",
+            "delta": -3000,
+            "balance": 8000,
+            "id": "conversion-spend"
+          },
+          {
+            "hour": 2,
+            "kind": "obligation",
+            "asset": "USDT",
+            "delta": -5000,
+            "balance": -3000,
+            "id": "margin"
+          },
+          {
+            "hour": 3,
+            "kind": "receipt",
+            "asset": "USDT",
+            "delta": 3000,
+            "balance": 0,
+            "id": "conversion-received"
+          },
+          {
+            "hour": 4,
+            "kind": "obligation",
+            "asset": "USDC",
+            "delta": -8000,
+            "balance": 0,
+            "id": "redemption-payout"
+          },
+          {
+            "hour": 8,
+            "kind": "receipt",
+            "asset": "USDT",
+            "delta": 4000,
+            "balance": 4000,
+            "id": "pnl-receivable"
+          },
+          {
+            "hour": 24,
+            "kind": "receipt",
+            "asset": "USDC",
+            "delta": 5000,
+            "balance": 5000,
+            "id": "recall-claim"
+          }
+        ],
+        "all_deadlines_funded": false
+      }
+    },
+    "tests_run": 12,
+    "failures": 0,
+    "errors": 0,
+    "successful": true,
+    "limits": [
+      "No measured Ethena balances, actual service latency, recovery, losses or probabilities.",
+      "No EVM, provider API, signature, wallet or transaction execution.",
+      "Receipts at the exact deadline are assumed usable first; real cut-offs need separate evidence.",
+      "No implicit currency conversion, bridge, netting, credit or borrowing.",
+      "No priority optimization: funding must cover every listed obligation by its deadline."
+    ]
+  },
+  "assurance_reading": {
+    "latest_month_listed": "2026-08",
+    "latest_body_read": false,
+    "november_2025_publisher_prose_read": true,
+    "historical_letter_images_read": false,
+    "current_reserve_opinion": null
+  },
+  "current_roles": null,
+  "current_available_cash": null,
+  "current_settlement_latency": null,
+  "null_semantics": "not established, not zero or false",
+  "sources": [
+    {
+      "url": "https://docs.ethena.fi/backing-custody-and-security/overview/off-exchange-settlement-in-detail",
+      "accessed_on": "2026-09-13",
+      "source_date": null,
+      "id": "r5s:oes"
+    },
+    {
+      "url": "https://docs.ethena.fi/protocol-overview/risks/exchange-failure-risk",
+      "accessed_on": "2026-09-13",
+      "source_date": null,
+      "id": "r5s:exchange-risk"
+    },
+    {
+      "url": "https://docs.ethena.fi/overview/off-exchange-custody",
+      "accessed_on": "2026-09-13",
+      "source_date": null,
+      "id": "r5s:custody-overview"
+    },
+    {
+      "url": "https://docs.ethena.fi/resources/custodian-attestations",
+      "accessed_on": "2026-09-13",
+      "source_date": null,
+      "id": "r5s:attestation-index"
+    },
+    {
+      "url": "https://paragraph.com/@ethena-labs/custodian-attestations-of-assets-backing-usde-november-1",
+      "accessed_on": "2026-09-13",
+      "source_date": "2025-11-26 snapshot",
+      "id": "r5s:november-disclosure"
+    },
+    {
+      "url": "https://copper.co/en-ch/solutions/clearloop-network",
+      "accessed_on": "2026-09-13",
+      "source_date": null,
+      "id": "r5s:copper-product"
+    },
+    {
+      "url": "https://developer.copper.co/guides/clearloop/introduction",
+      "accessed_on": "2026-09-13",
+      "source_date": null,
+      "id": "r5s:copper-intro"
+    },
+    {
+      "url": "https://developer.copper.co/guides/clearloop/settlements",
+      "accessed_on": "2026-09-13",
+      "source_date": null,
+      "id": "r5s:copper-settlements"
+    },
+    {
+      "url": "https://developer.copper.co/enums/ClearLoopSettlementStatus",
+      "accessed_on": "2026-09-13",
+      "source_date": null,
+      "id": "r5s:copper-status"
+    },
+    {
+      "url": "https://developer.copper.co/guides/clearloop/fetch-delegated-balances",
+      "accessed_on": "2026-09-13",
+      "source_date": null,
+      "id": "r5s:copper-balances"
+    },
+    {
+      "url": "https://developer.copper.co/guides/clearloop/binding",
+      "accessed_on": "2026-09-13",
+      "source_date": null,
+      "id": "r5s:copper-binding"
+    },
+    {
+      "url": "https://developer.copper.co/guides/clearloop/delegate-funds",
+      "accessed_on": "2026-09-13",
+      "source_date": null,
+      "id": "r5s:copper-delegate"
+    },
+    {
+      "url": "https://developer.copper.co/guides/clearloop/undelegate-funds",
+      "accessed_on": "2026-09-13",
+      "source_date": null,
+      "id": "r5s:copper-undelegate"
+    },
+    {
+      "url": "https://copper.co/en-uae/insights/emea/deribit-and-copper-bolster-longstanding-clearloop",
+      "accessed_on": "2026-09-13",
+      "source_date": "Header 2023-06-26; body dateline 2023-06-27",
+      "id": "r5s:copper-trust"
+    },
+    {
+      "url": "https://www.ceffu.com/blog/ethena-has-integrated-ceffu-mirrorx-off-exchange-settlement",
+      "accessed_on": "2026-09-13",
+      "source_date": "2024-03-13",
+      "id": "r5s:ceffu-integration"
+    },
+    {
+      "url": "https://www.ceffu.com/en-AE/solutions/mirrorx",
+      "accessed_on": "2026-09-13",
+      "source_date": null,
+      "id": "r5s:ceffu-uae"
+    },
+    {
+      "url": "https://www.ceffu.com/download/Ceffu-Digital-BT-Terms-Of-Use.pdf",
+      "accessed_on": "2026-09-13",
+      "source_date": "Cover shows 2026-06-08",
+      "id": "r5s:ceffu-terms"
+    },
+    {
+      "url": "https://www.binance.com/en/blog/vip/7578047330993855911",
+      "accessed_on": "2026-09-13",
+      "source_date": "2023-08-28",
+      "id": "r5s:binance-mirror"
+    },
+    {
+      "url": "https://gov.ethenafoundation.com/t/proposal-maple-and-anchorage-digital-as-direct-lending-partners/756",
+      "accessed_on": "2026-09-13",
+      "source_date": "2026-03-10 to 2026-03-19",
+      "id": "r5s:lending"
+    },
+    {
+      "url": "https://www.llamarisk.com/research/bybit-incident-post-mortem-ethena-s-risk-mitigation-and-resilience",
+      "accessed_on": "2026-09-13",
+      "source_date": "2025-02-25",
+      "id": "r5s:llamarisk-bybit"
+    },
+    {
+      "url": "https://pcaobus.org/resources/information-for-investors/investor-advisories/investor-advisory-exercise-caution-with-third-party-verification-proof-of-reserve-reports",
+      "accessed_on": "2026-09-13",
+      "source_date": "2023-03-08",
+      "id": "r5s:pcaob"
+    },
+    {
+      "url": "https://www.sec.gov/newsroom/speeches-statements/munter-statement-crypto-072723",
+      "accessed_on": "2026-09-13",
+      "source_date": "2023-07-27",
+      "id": "r5s:sec"
+    }
+  ]
+}
