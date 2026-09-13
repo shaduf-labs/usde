@@ -1,18 +1,18 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "On the inspected native Ethereum route, cooldown burns sUSDe shares immediately and fixes queued USDe, excluding later vault rewards. Additional requests replace the whole account release time; a claim returns USDe rather than cash. Exact rounding and inherited maximum getters require route-aware interpretation. The source associated with the observed USDe/Mint owner has separate scheduled and whitelisted execution paths, and inherited role administration makes constructor-only authority claims insufficient. These source findings do not close the same-block runtime, role/whitelist, staking-owner or upstream Safe chain. No universal notice window, current backing adequacy, executable market exit or whole-system safety verdict is established.",
+  "current_answer": "Issuer eligibility, signed authorization, service admission, privileged submission and settlement are separate gates. Mint V2 verifyOrder checks a subset; a signature does not reserve capacity. A reverting collateral payout rolls back the same transaction's USDe burn and nonce/counters, not earlier waiting, token-dollar value or bank delivery. The API documents HTTP 200 for both executed and reverted states; RFQ reuse, on-chain nonce consumption and quote/admission/inclusion deadlines are distinct. Signing-wallet validity can be state-dependent. These source/policy findings do not establish current permissions, inventory, receipts or backing adequacy. Claimed sUSDe cooldown output remains USDe and requires its own subsequent issuer or market exit.",
   "summary": [
-    "Fixed queued USDe, reward and timer consequences, exact units and the separate controller execution paths."
+    "Issuer eligibility, signed authorization, privileged submission and the atomic settlement boundary."
   ],
   "uncertainty": [
-    "Native Ethereum staking and owner-associated source; current role/whitelist/runtime chain and executable exits remain unverified."
+    "Published conditions, selected Mint V2 code and pinned client examples; no new current-state, live quote or settlement receipt."
   ],
-  "checked_at": "2026-09-13T05:21:08Z",
-  "meaningfully_updated_at": "2026-09-13T05:21:08Z",
-  "freshness_note": "Native Ethereum staking and owner-associated source; current role/whitelist/runtime chain and executable exits remain unverified.",
+  "checked_at": "2026-09-13",
+  "meaningfully_updated_at": "2026-09-13",
+  "freshness_note": "Published conditions, selected Mint V2 code and pinned client examples; no new current-state, live quote or settlement receipt.",
   "catalogue_card": {
     "question": "USDe Risk Audit",
-    "text": "A dollar-like token is only the start. Understand what you own, who can change its rules, and what has to happen before you receive the asset you need."
+    "text": "What you hold, who can execute the next step, and what finally arrives are different questions."
   }
 }

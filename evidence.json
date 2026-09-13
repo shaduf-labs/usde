@@ -2,29 +2,92 @@
   "schema_version": "1.0.0",
   "items": [
     {
-      "evidence_id": "r03-public-paragraph-1",
-      "source_url": "https://sourcify.dev/server/v2/contract/1/0x9d39a5de30e57443bff2a8307a4256c8797a3497?fields=abi,metadata,sources,compilation,deployment",
-      "source_title": "StakedUSDeV2 deployment source bundle",
-      "claim": "[1] Staking source. Sourcify bundle for Ethereum sUSDe. Supplied evidence reread on 13 September 2026: StakedUSDe, StakedUSDeV2, USDeSilo, SingleAdminAccessControl, custom interfaces and the ERC4626 conversion/withdrawal path. Compiler metadata: Solidity 0.8.19, Paris, optimizer 20,000 runs. Selected imports are not a complete dependency security audit. Earlier provenance: dated control snapshot.",
-      "accessed_at": "2026-09-12T20:44:36Z",
+      "evidence_id": "r04-public-paragraph-1",
+      "source_url": "https://docs.ethena.fi/resources/usde-terms-and-conditions",
+      "source_title": "USDe terms",
+      "claim": "[1] Published conditions. USDe terms and Mint User agreement, displayed update August 2025, substantive bodies read 13 September 2026. Sections on eligibility, reserve title, fees, interruption, processing and precedence were inspected. No private agreement or enforceability opinion.",
+      "accessed_at": "2026-09-13",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "r03-public-paragraph-2",
-      "source_url": "https://sourcify.dev/server/v2/contract/1/0xe8dc0fab349ea169283c48ccfd09d797e6db7c94?fields=abi,metadata,sources,compilation,deployment",
-      "source_title": "Observed owner: Sourcify source bundle",
-      "claim": "[2] Owner-associated source. Sourcify bundle for the observed owner. Supplied retrieval ended 12 September 2026 at 14:06:08 UTC. Reviewed custom EthenaTimelockController, inherited TimelockController, AccessControl and ReentrancyGuard. Source association and declared metadata hashes are not an independent same-block runtime match or proof of current roles.",
-      "accessed_at": "2026-09-12",
+      "evidence_id": "r04-public-paragraph-2",
+      "source_url": "https://docs.ethena.fi/resources/usde-mint-user-agreement",
+      "source_title": "Mint User agreement",
+      "claim": "[1] Published conditions. USDe terms and Mint User agreement, displayed update August 2025, substantive bodies read 13 September 2026. Sections on eligibility, reserve title, fees, interruption, processing and precedence were inspected. No private agreement or enforceability opinion.",
+      "accessed_at": "2026-09-13",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "r03-public-paragraph-3",
-      "source_url": "https://gov.ethenafoundation.com/t/proposal-adopt-a-dynamic-cooldown-period-for-susde-unstaking/759",
-      "source_title": "Dynamic sUSDe cooldown proposal and adviser responses",
-      "claim": "[4] Governance context. March 2026 dynamic-cooldown proposal and adviser discussion. Proposal and analysis, not a deployment receipt, present liquidity statement or market-execution test.",
-      "accessed_at": "2026-09-12",
+      "evidence_id": "r04-public-paragraph-3",
+      "source_url": "https://sourcify.dev/server/v2/contract/1/0xe3490297a08d6fC8Da46Edb7B6142E4F461b62D3?fields=abi,metadata,sources,compilation,deployment",
+      "source_title": "Provider bundle for Ethereum Mint V2",
+      "claim": "[2] Mint V2 source. Provider bundle for Ethereum Mint V2: EthenaMinting.sol, SingleAdminAccessControl and IEthenaMinting read in the supplied immutable evidence. Solidity 0.8.20, Shanghai, optimizer 20,000. The previous provider/runtime corroboration is inherited, not a new rebuild or current-state poll.",
+      "accessed_at": "2026-09-11",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r04-public-paragraph-4",
+      "source_url": "https://docs.ethena.fi/api-documentation/overview",
+      "source_title": "API overview",
+      "claim": "[3] API and public client. API overview, RFQ, submission, error and order-status sections, with the substantive reading completed on 13 September 2026. Published behavior, not a live API test. Official client at commit 40b4c32: four complete TypeScript/Python files read, not executed. Different retrieval, same issuer—not independent assurance.",
+      "accessed_at": "2026-09-13",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r04-public-paragraph-5",
+      "source_url": "https://www.bybit.com/en/learn/stablecoin/how-to-obtain-usde",
+      "source_title": "Bybit obtain-USDe guide",
+      "claim": "[4] Exchange-described route. Bybit obtain-USDe guide and USDe product page, read 13 September 2026. Published product descriptions, not an account test, current quote or processing guarantee.",
+      "accessed_at": "2026-09-13",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r04-public-paragraph-6",
+      "source_url": "https://www.bybit.com/en/earn/usde-page/",
+      "source_title": "USDe product page",
+      "claim": "[4] Exchange-described route. Bybit obtain-USDe guide and USDe product page, read 13 September 2026. Published product descriptions, not an account test, current quote or processing guarantee.",
+      "accessed_at": "2026-09-13",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r04-public-paragraph-7",
+      "source_url": "https://gov.ethenafoundation.com/t/proposal-usde-redeem-for-dislocations-on-secondary-markets/712",
+      "source_title": "November 2025 secondary-market dislocation proposal and adviser replies",
+      "claim": "[5] Countercase and proposed support. November 2025 secondary-market dislocation proposal and adviser replies. Historical issuer/adviser accounts; execution and reported quantities were not independently replayed.",
+      "accessed_at": "2026-09-13",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r04-public-paragraph-8",
+      "source_url": "https://docs.ethena.fi/technical-design/minting-usde/order-validity-checks",
+      "source_title": "Order-validity checks",
+      "claim": "[6] Published admission policy. Order-validity checks, complete substantive body read 13 September 2026. Off-chain last-look and admission conditions are distinct from source enforcement and measured service performance.",
+      "accessed_at": "2026-09-13",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r04-public-paragraph-9",
+      "source_url": "https://eips.ethereum.org/EIPS/eip-1271",
+      "source_title": "ERC-1271",
+      "claim": "[7] Signature standards. ERC-1271 specification and reference validation, and EIP-712 type encoding, domain and replay sections, read 13 September 2026. Standards do not establish the configuration or correct behavior of an actual wallet.",
+      "accessed_at": "2026-09-13",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r04-public-paragraph-10",
+      "source_url": "https://eips.ethereum.org/EIPS/eip-712",
+      "source_title": "EIP-712",
+      "claim": "[7] Signature standards. ERC-1271 specification and reference validation, and EIP-712 type encoding, domain and replay sections, read 13 September 2026. Standards do not establish the configuration or correct behavior of an actual wallet.",
+      "accessed_at": "2026-09-13",
       "relation": "context",
       "publication_basis": "linked-summary"
     }

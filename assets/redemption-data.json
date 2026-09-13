@@ -1,0 +1,73 @@
+{
+  "topic": "USDe",
+  "question_revision": 2,
+  "question": "What risks exist across USDe's mechanisms, smart contracts, protocols, integrations, and counterparties, and how can those risks combine and propagate through the system?",
+  "research_date": "2026-09-13",
+  "scope": "Published conditions and inspected Ethereum Mint V2 source; no new current-state verification",
+  "mint_v2": "0xe3490297a08d6fC8Da46Edb7B6142E4F461b62D3",
+  "stages": [
+    "eligibility/RFQ",
+    "signed authorization",
+    "privileged operator submission",
+    "atomic burn and collateral transfer",
+    "separate desired-asset or bank route"
+  ],
+  "helper_omissions": [
+    "caller role",
+    "active asset gate",
+    "remaining capacity",
+    "used nonce",
+    "USDe balance/allowance",
+    "payout inventory"
+  ],
+  "nonce_key": "benefactor + low 64 bits; zero rejected",
+  "nonce_collision_example": {
+    "first": 123,
+    "second": "18446744073709551739",
+    "scope": "hypothetical rejection collision, not replay exploitation"
+  },
+  "quantity_example": {
+    "usde_burned": 100,
+    "collateral_units": 100,
+    "hypothetical_usd_per_unit": 0.98,
+    "gross_usd_before_fees": 98,
+    "scope": "illustration, not quote"
+  },
+  "model_checks": {
+    "count": 30,
+    "original": 20,
+    "continuation": 10,
+    "failures": 0,
+    "route_cases_inside_one_test": 999,
+    "scope": "off-chain source/policy models with synthetic fixtures, not EVM, cryptography or actual API/receipt tests"
+  },
+  "api_status": {
+    "executed_http": 200,
+    "reverted_http": 200,
+    "meaning": "HTTP transport success alone does not establish settlement; inspect status and matching receipt/output.",
+    "live_test": false
+  },
+  "admission_policy": {
+    "rfq": "Published single-use RFQ independent of the contract nonce bitmap",
+    "clocks": "Quote validity, API advance-expiry buffer and signed inclusion deadline are different",
+    "last_look": "Off-chain acceptance condition, not authority to rewrite signed terms",
+    "server_implementation_verified": false
+  },
+  "signature_boundary": "ERC-1271 wallet validity may depend on time, state and signer authorization; EIP-712 alone does not implement replay protection.",
+  "current_roles": null,
+  "current_inventory": null,
+  "live_processing_time": null,
+  "null_semantics": "not established; not zero or absent",
+  "prior_observation_block": 25952841,
+  "prior_observation_ref": "control-snapshot.json",
+  "sources": [
+    "https://docs.ethena.fi/resources/usde-terms-and-conditions",
+    "https://docs.ethena.fi/resources/usde-mint-user-agreement",
+    "https://github.com/ethena-labs/ethena-minting-client/tree/40b4c32a1c952105cbd7db7df776e0d83d9ee259",
+    "https://docs.ethena.fi/api-documentation/overview",
+    "https://gov.ethenafoundation.com/t/proposal-usde-redeem-for-dislocations-on-secondary-markets/712",
+    "https://docs.ethena.fi/technical-design/minting-usde/order-validity-checks",
+    "https://eips.ethereum.org/EIPS/eip-1271",
+    "https://eips.ethereum.org/EIPS/eip-712"
+  ]
+}

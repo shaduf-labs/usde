@@ -2,6 +2,12 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "direct-redemption-and-settlement-report",
+      "changed_at": "2026-09-13T16:29:14+07:00",
+      "summary": "Issuer eligibility, signed authorization, privileged submission and the atomic settlement boundary.",
+      "path": "/p/usde/research/2026-09-13-direct-redemption-gates/"
+    },
+    {
       "change_id": "staking-and-controller-report",
       "changed_at": "2026-09-13T05:28:18Z",
       "summary": "Fixed queued USDe, reward and timer consequences, exact units and the separate controller execution paths.",

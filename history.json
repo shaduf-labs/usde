@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "20260913-072403-a76db024",
+      "status": "completed",
+      "started_at": "2026-09-13T14:30:22.610+07:00",
+      "completed_at": "2026-09-13T16:29:14+07:00",
+      "report_path": "/p/usde/research/2026-09-13-direct-redemption-gates/",
+      "entrypoint": "research/2026-09-13-direct-redemption-gates/index.html",
+      "title": "A signed redemption is not a completed exit.",
+      "summary": "Issuer eligibility, signed authorization, privileged submission and the atomic settlement boundary.",
+      "answer_change": "meaningful_change"
+    },
+    {
       "run_id": "20260912-185652-075b6a5f",
       "status": "completed",
       "started_at": "2026-09-13T02:58:24.322000+07:00",
