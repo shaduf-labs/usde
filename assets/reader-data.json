@@ -1,0 +1,70 @@
+{
+  "topic":"USDe Risk Audit",
+  "question_revision":2,
+  "question":"What risks exist across USDe's mechanisms, smart contracts, protocols, integrations, and counterparties, and how can those risks combine and propagate through the system?",
+  "report":"Unstaking is not the same as getting out.",
+  "research_date":"2026-09-13","research_date_timezone":"Asia/Bangkok",
+  "scope":"Native Ethereum sUSDe source mechanics and owner-associated controller source; no new same-block role/runtime verification.",
+  "staking_address":"0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+  "observed_owner_address_for_usde_and_mint":"0xe8dc0fab349ea169283c48ccfd09d797e6db7c94",
+  "configuration_observation":{
+    "chain_id":1,"block_number":25952841,
+    "block_hash":"0x608803fe345eb1e3aabca34208f7e62e3397ee9fd55092f3f4d17aa97e1a1540",
+    "block_timestamp_utc":"2026-09-11T08:03:35Z",
+    "staking_cooldown_seconds":86400,
+    "staking_owner":null,"controller_min_delay":null,"controller_role_sets":null,"controller_whitelist_pairs":null,
+    "null_semantics":"Not successfully established at this common block; null is not zero, false or an empty set."
+  },
+  "owner_source_provenance":{
+    "url":"https://sourcify.dev/server/v2/contract/1/0xe8dc0fab349ea169283c48ccfd09d797e6db7c94?fields=abi,metadata,sources,compilation,deployment",
+    "retrieved_at_utc":"2026-09-12T14:06:08.680243+00:00",
+    "original_body_bytes":102578,
+    "original_body_sha256":"97480ccff15e9a137140883cd9b5db42dca07073d6104dc5cf7b95399440e8a9",
+    "digest_basis":"Recorded transport digest; not independently recomputed from the complete raw response in this run.",
+    "compiler":"0.8.26+commit.8a97fa7a","evm_version":"cancun","optimizer_enabled":false,
+    "independent_runtime_match":false,
+    "inspected_inheritance":["TimelockController","AccessControl","ReentrancyGuard"]
+  },
+  "mechanics":{
+    "accounted_assets":"vault USDe balance minus unvested rewards",
+    "redeem_formula":"floor(shares * (accounted_assets + 1) / (total_supply + 1))",
+    "units":"Raw 18-decimal units; virtual 1 is not one whole token",
+    "reward_vesting_seconds":28800,"maximum_cooldown_seconds":7776000,
+    "queue_amount_fixed_at":"confirmed cooldown initiation",
+    "queue_receives_later_vault_rewards":false,
+    "queue_topup":"Adds underlying and replaces the whole account queue timestamp; date can move earlier or later when duration changes",
+    "post_maturity_expiry_window_in_inspected_code":false,"claim_output":"USDe",
+    "maximum_getter_limit":"Inherited maxWithdraw/maxRedeem can remain nonzero while positive cooldown disables direct withdrawals. Cooldown methods use these same getters as amount bounds.",
+    "preview_limit":"ERC-4626 previews intentionally ignore withdrawal limits; a preview is not route availability.",
+    "silo_transfer_limit":"Silo does not check transfer's boolean return. A reverting transfer rolls back the claim; a hypothetical false return is different. No false-return behavior or loss in configured USDe is established.",
+    "controller_paths":["scheduled execute/executeBatch","separate role-gated target/selector-whitelisted execution"],
+    "controller_role_limit":"Constructor self-administration does not establish current role membership. Inherited grant/revoke authority follows getRoleAdmin; renunciation is disabled in the custom contract.",
+    "scope_warning":"Source rules, not current permissions, a firm quote or legal eligibility."
+  },
+  "calculation":{
+    "starting_shares":1000,"initial_accounted_usde":1000,"funded_reward_usde":80,
+    "cooldown_shares_burned":100,"fixed_queue_usde":100,"remaining_shares":900,"remaining_usde_after_vesting":980,
+    "note":"Hypothetical values, not protocol balances, APY or a forecast. Queued USDe does not participate in later vesting."
+  },
+  "units_example":{
+    "shares":100,"hypothetical_usde_per_share":1.2,"approximate_usde_received":120,
+    "hypothetical_usd_per_usde":0.98,"approximate_gross_usd_before_fees":117.6,
+    "illustrative_raw_accounted_assets":"1200000000000000000000",
+    "illustrative_raw_total_supply":"1000000000000000000000",
+    "exact_raw_usde_for_100_shares_under_formula":"119999999999999999999",
+    "note":"Neither rate is a quote or forecast. Display rounds to whole/currency units. PT maturity must be checked separately."
+  },
+  "checks":{
+    "original_off_chain_specification_tests":12,"continuation_source_model_tests":8,"rounding_grid_cases_within_one_test":4563,
+    "final_failures":0,"original_model_byte_match":true,
+    "evm_tests":false,"token_transfer_execution_test":false,"independent_compilation":false,"live_market_execution":false,
+    "scope":"Hand-written models of selected source paths, not full contract execution or an independent security audit."
+  },
+  "source_links":[
+    "https://sourcify.dev/server/v2/contract/1/0x9d39a5de30e57443bff2a8307a4256c8797a3497?fields=abi,metadata,sources,compilation,deployment",
+    "https://sourcify.dev/server/v2/contract/1/0xe8dc0fab349ea169283c48ccfd09d797e6db7c94?fields=abi,metadata,sources,compilation,deployment",
+    "https://eips.ethereum.org/EIPS/eip-4626",
+    "https://gov.ethenafoundation.com/t/proposal-adopt-a-dynamic-cooldown-period-for-susde-unstaking/759",
+    "control-snapshot.json"
+  ]
+}

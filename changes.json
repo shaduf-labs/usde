@@ -2,6 +2,12 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "staking-and-controller-report",
+      "changed_at": "2026-09-13T05:28:18Z",
+      "summary": "Fixed queued USDe, reward and timer consequences, exact units and the separate controller execution paths.",
+      "path": "/p/usde/research/2026-09-13-unstaking-is-not-exiting/"
+    },
+    {
       "change_id": "core-control-report",
       "changed_at": "2026-09-11T18:43:50.991381+00:00",
       "summary": "Dated control settings, source/deployment cross-checks and the unresolved owner-controller link.",

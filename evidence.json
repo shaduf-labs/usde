@@ -2,65 +2,29 @@
   "schema_version": "1.0.0",
   "items": [
     {
-      "evidence_id": "r02-public-paragraph-1",
-      "source_url": "https://github.com/pashov/audits/blob/13af3256a19f4aaae93e62f6b661a803fc359d93/team/md/Ethena-security-review-May.md",
-      "source_title": "Pashov Ethena Mint V2 security review — May",
-      "claim": "Pashov May minting review. Specific nonce/constructor patterns compared; not an audit of every current contract.",
-      "accessed_at": "2026-09-11",
+      "evidence_id": "r03-public-paragraph-1",
+      "source_url": "https://sourcify.dev/server/v2/contract/1/0x9d39a5de30e57443bff2a8307a4256c8797a3497?fields=abi,metadata,sources,compilation,deployment",
+      "source_title": "StakedUSDeV2 deployment source bundle",
+      "claim": "[1] Staking source. Sourcify bundle for Ethereum sUSDe. Supplied evidence reread on 13 September 2026: StakedUSDe, StakedUSDeV2, USDeSilo, SingleAdminAccessControl, custom interfaces and the ERC4626 conversion/withdrawal path. Compiler metadata: Solidity 0.8.19, Paris, optimizer 20,000 runs. Selected imports are not a complete dependency security audit. Earlier provenance: dated control snapshot.",
+      "accessed_at": "2026-09-12T20:44:36Z",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "r02-public-paragraph-2",
-      "source_url": "https://docs.ethena.fi/technical-design/key-addresses",
-      "source_title": "Key addresses",
-      "claim": "Key addresses, trust assumptions and contract overview. Freshly revisited issuer descriptions; publication/version dates not established.",
-      "accessed_at": "2026-09-11T07:10:13Z",
+      "evidence_id": "r03-public-paragraph-2",
+      "source_url": "https://sourcify.dev/server/v2/contract/1/0xe8dc0fab349ea169283c48ccfd09d797e6db7c94?fields=abi,metadata,sources,compilation,deployment",
+      "source_title": "Observed owner: Sourcify source bundle",
+      "claim": "[2] Owner-associated source. Sourcify bundle for the observed owner. Supplied retrieval ended 12 September 2026 at 14:06:08 UTC. Reviewed custom EthenaTimelockController, inherited TimelockController, AccessControl and ReentrancyGuard. Source association and declared metadata hashes are not an independent same-block runtime match or proof of current roles.",
+      "accessed_at": "2026-09-12",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "r02-public-paragraph-3",
-      "source_url": "https://docs.ethena.fi/technical-design/key-trust-assumptions",
-      "source_title": "Key Trust Assumptions — fresh control wording",
-      "claim": "Key addresses, trust assumptions and contract overview. Freshly revisited issuer descriptions; publication/version dates not established.",
-      "accessed_at": "2026-09-11",
-      "relation": "context",
-      "publication_basis": "linked-summary"
-    },
-    {
-      "evidence_id": "r02-public-paragraph-4",
-      "source_url": "https://docs.ethena.fi/technical-design/overview/github-overview",
-      "source_title": "GitHub / architecture overview",
-      "claim": "Key addresses, trust assumptions and contract overview. Freshly revisited issuer descriptions; publication/version dates not established.",
-      "accessed_at": "2026-09-11T07:10:13Z",
-      "relation": "context",
-      "publication_basis": "linked-summary"
-    },
-    {
-      "evidence_id": "r02-public-paragraph-5",
-      "source_url": "https://github.com/TokenBrice/pharos-watch/blob/2aa499883288fc3072b1c5b8b04d5c60cb2e6d23/shared/data/stablecoins/domains/mint-authority/usde-ethena.json",
-      "source_title": "Pharos USDe mint-authority review record",
-      "claim": "Earlier Pharos control record. Reports August observations; automation-authored research per its review footer. Corroborating lead, not reproduced September state.",
-      "accessed_at": "2026-09-11",
-      "relation": "context",
-      "publication_basis": "linked-summary"
-    },
-    {
-      "evidence_id": "r02-public-paragraph-6",
-      "source_url": "https://github.com/GuardianAudits/EthenaTimelockDefender/blob/a69575c026e1a75a36eb37c8e3a6fbc270b90fb7/src/EthenaTimelockController.sol",
-      "source_title": "EthenaTimelockController example source",
-      "claim": "Timelock example and Cyfrin review. Not matched to the owner deployment in this review.",
-      "accessed_at": "2026-09-11",
-      "relation": "context",
-      "publication_basis": "linked-summary"
-    },
-    {
-      "evidence_id": "r02-public-paragraph-7",
-      "source_url": "https://github.com/Cyfrin/cyfrin-audit-reports/blob/2727914787e31aaa979ed4c324e0ef582598bd89/reports_md/2025-05-16-cyfrin-ethena-timelock-v2.0.md",
-      "source_title": "Cyfrin Ethena timelock review v2.0",
-      "claim": "Timelock example and Cyfrin review. Not matched to the owner deployment in this review.",
-      "accessed_at": "2026-09-11",
+      "evidence_id": "r03-public-paragraph-3",
+      "source_url": "https://gov.ethenafoundation.com/t/proposal-adopt-a-dynamic-cooldown-period-for-susde-unstaking/759",
+      "source_title": "Dynamic sUSDe cooldown proposal and adviser responses",
+      "claim": "[4] Governance context. March 2026 dynamic-cooldown proposal and adviser discussion. Proposal and analysis, not a deployment receipt, present liquidity statement or market-execution test.",
+      "accessed_at": "2026-09-12",
       "relation": "context",
       "publication_basis": "linked-summary"
     }
