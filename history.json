@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "20260912-185652-075b6a5f",
+      "status": "completed",
+      "started_at": "2026-09-13T02:58:24.322000+07:00",
+      "completed_at": "2026-09-13T05:28:18Z",
+      "report_path": "/p/usde/research/2026-09-13-unstaking-is-not-exiting/",
+      "entrypoint": "research/2026-09-13-unstaking-is-not-exiting/index.html",
+      "title": "Unstaking is not the same as getting out.",
+      "summary": "Fixed queued USDe, reward and timer consequences, exact units and the separate controller execution paths.",
+      "answer_change": "meaningful_change"
+    },
+    {
       "run_id": "20260911-180608-1cebb161",
       "status": "completed",
       "started_at": "2026-09-12T01:07:44.450000+07:00",
