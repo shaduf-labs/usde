@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "20260913-131854-02989551",
+      "status": "completed",
+      "started_at": "2026-09-13T20:26:03+07:00",
+      "completed_at": "2026-09-14T02:29:25+07:00",
+      "report_path": "/p/usde/research/2026-09-13-custody-and-usable-funds/",
+      "entrypoint": "research/2026-09-13-custody-and-usable-funds/index.html",
+      "title": "Off exchange does not mean ready to pay.",
+      "summary": "Custody, settlement and release gates between a protected asset and usable funds.",
+      "answer_change": "meaningful_change"
+    },
+    {
       "run_id": "20260913-072403-a76db024",
       "status": "completed",
       "started_at": "2026-09-13T14:30:22.610+07:00",

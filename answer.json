@@ -1,18 +1,18 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "Issuer eligibility, signed authorization, service admission, privileged submission and settlement are separate gates. Mint V2 verifyOrder checks a subset; a signature does not reserve capacity. A reverting collateral payout rolls back the same transaction's USDe burn and nonce/counters, not earlier waiting, token-dollar value or bank delivery. The API documents HTTP 200 for both executed and reverted states; RFQ reuse, on-chain nonce consumption and quote/admission/inclusion deadlines are distinct. Signing-wallet validity can be state-dependent. These source/policy findings do not establish current permissions, inventory, receipts or backing adequacy. Claimed sUSDe cooldown output remains USDe and requires its own subsequent issuer or market exit.",
+  "current_answer": "Provider documentation identifies exchange settlement funding, instruction/signature completion, main-account release and transfer conditions between protected custody assets and usable payment resources. These mechanisms do not establish current Ethena balances, agreements or performance. Asset-specific timely independent buffers can interrupt the conditional shortfall path; a mirror or blocked reserve is not extra free cash. Current roles, complete control chains, current assurance and executable exits remain unverified.",
   "summary": [
-    "Issuer eligibility, signed authorization, privileged submission and the atomic settlement boundary."
+    "Custody, settlement and release gates between a protected asset and usable funds."
   ],
   "uncertainty": [
-    "Published conditions, selected Mint V2 code and pinned client examples; no new current-state, live quote or settlement receipt."
+    "Provider documents, selected legal/assurance reading, historical countercases and a toy timing model; no current account or reserve audit."
   ],
   "checked_at": "2026-09-13",
   "meaningfully_updated_at": "2026-09-13",
-  "freshness_note": "Published conditions, selected Mint V2 code and pinned client examples; no new current-state, live quote or settlement receipt.",
+  "freshness_note": "Provider documents, selected legal/assurance reading, historical countercases and a toy timing model; no current account or reserve audit.",
   "catalogue_card": {
     "question": "USDe Risk Audit",
-    "text": "What you hold, who can execute the next step, and what finally arrives are different questions."
+    "text": "What you own, who must pay, and when usable funds arrive are different questions."
   }
 }
