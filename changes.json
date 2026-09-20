@@ -2,6 +2,12 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "whole-system-foundation-v02",
+      "changed_at": "2026-09-19T13:03:35+07:00",
+      "summary": "Why backing, legal claims, privileged actions, collateral pricing and exit liquidity must be assessed together—and why the person facing the deadline matters.",
+      "path": "/p/usde/research/2026-09-18-whole-system-audit/"
+    },
+    {
       "change_id": "custody-and-usable-funds-report",
       "changed_at": "2026-09-14T02:29:25+07:00",
       "summary": "Custody, settlement and release gates between a protected asset and usable funds.",

@@ -1,18 +1,18 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "Provider documentation identifies exchange settlement funding, instruction/signature completion, main-account release and transfer conditions between protected custody assets and usable payment resources. These mechanisms do not establish current Ethena balances, agreements or performance. Asset-specific timely independent buffers can interrupt the conditional shortfall path; a mirror or blocked reserve is not extra free cash. Current roles, complete control chains, current assurance and executable exits remain unverified.",
+  "current_answer": "The central judgement: USDe’s risks are not captured by whether its token trades near one dollar. A managed backing portfolio, privileged issuance and redemption, and the routes through which a holder can leave must all work together. A holder can suffer a delay or forced-sale loss even without a demonstrated backing shortfall.",
   "summary": [
-    "Custody, settlement and release gates between a protected asset and usable funds."
+    "A token can keep moving while an exit stops. The useful question is what claim you hold, who must deliver the next asset, and whether it can arrive in time."
   ],
   "uncertainty": [
-    "Provider documents, selected legal/assurance reading, historical countercases and a toy timing model; no current account or reserve audit."
+    "The opening whole-system investigation is complete within its stated scope. It does not establish current reserve coverage, complete contract security, or an available par exit for every holder. Read the judgement and its evidence."
   ],
-  "checked_at": "2026-09-13",
-  "meaningfully_updated_at": "2026-09-13",
-  "freshness_note": "Provider documents, selected legal/assurance reading, historical countercases and a toy timing model; no current account or reserve audit.",
+  "checked_at": "2026-09-18",
+  "meaningfully_updated_at": "2026-09-19T13:03:35+07:00",
+  "freshness_note": "Research dated 18 September 2026; observations retain their own dates and blocks. Not a live monitor.",
   "catalogue_card": {
     "question": "USDe Risk Audit",
-    "text": "What you own, who must pay, and when usable funds arrive are different questions."
+    "text": "A token can keep moving while an exit stops. The useful question is what claim you hold, who must deliver the next asset, and whether it can arrive in time."
   }
 }

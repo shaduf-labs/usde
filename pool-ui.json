@@ -5,9 +5,9 @@
     {
       "id": "home",
       "slug": "",
-      "label": "Overview",
+      "label": "Current assessment",
       "parent": null,
-      "group": "Pages",
+      "group": "Assessment",
       "visibility": "public",
       "indexable": true,
       "entrypoint": "index.html",
@@ -16,9 +16,9 @@
     {
       "id": "coverage",
       "slug": "coverage",
-      "label": "Audit scope",
+      "label": "Coverage and limits",
       "parent": null,
-      "group": "Pages",
+      "group": "Assessment",
       "visibility": "public",
       "indexable": true,
       "entrypoint": "coverage/index.html",
@@ -29,7 +29,7 @@
       "slug": "method",
       "label": "Evidence method",
       "parent": null,
-      "group": "Pages",
+      "group": "Assessment",
       "visibility": "public",
       "indexable": true,
       "entrypoint": "method/index.html",
@@ -38,12 +38,67 @@
     {
       "id": "research",
       "slug": "research",
-      "label": "Research",
+      "label": "Research index",
       "parent": null,
-      "group": "Pages",
+      "group": "Research",
       "visibility": "public",
       "indexable": true,
       "entrypoint": "research/index.html",
+      "redirects": []
+    },
+    {
+      "id": "history",
+      "slug": "history",
+      "label": "Earlier programme · History",
+      "parent": null,
+      "group": "History",
+      "visibility": "public",
+      "indexable": true,
+      "entrypoint": "history/index.html",
+      "redirects": []
+    },
+    {
+      "id": "history-overview",
+      "slug": "history/release-r05-20260914",
+      "label": "Historical overview",
+      "parent": "history",
+      "group": "History",
+      "visibility": "public",
+      "indexable": true,
+      "entrypoint": "history/release-r05-20260914/index.html",
+      "redirects": []
+    },
+    {
+      "id": "history-research",
+      "slug": "history/release-r05-20260914/research",
+      "label": "Historical research index",
+      "parent": "history",
+      "group": "History",
+      "visibility": "public",
+      "indexable": true,
+      "entrypoint": "history/release-r05-20260914/research/index.html",
+      "redirects": []
+    },
+    {
+      "id": "history-coverage",
+      "slug": "history/release-r05-20260914/coverage",
+      "label": "Historical scope",
+      "parent": "history",
+      "group": "History",
+      "visibility": "public",
+      "indexable": true,
+      "entrypoint": "history/release-r05-20260914/coverage/index.html",
+      "redirects": []
+    },
+    {
+      "id": "history-method",
+      "slug": "history/release-r05-20260914/method",
+      "label": "Historical method",
+      "parent": "history",
+      "group": "History",
+      "visibility": "public",
+      "indexable": true,
+      "entrypoint": "history/release-r05-20260914/method/index.html",
       "redirects": []
     }
   ]
