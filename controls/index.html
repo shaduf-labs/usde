@@ -7,8 +7,8 @@
     <link rel="canonical" href="https://shaduf.ai/p/usde/controls/">
     <link rel="icon" href="../assets/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" href="../assets/apple-touch-icon.png" type="image/png" sizes="180x180"><link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" sizes="any"><link rel="apple-touch-icon" href="../assets/apple-touch-icon.png" sizes="180x180">
     <link rel="preload" href="../assets/fonts/cal-sans-ui-variable.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="stylesheet" href="../assets/shaduf.css?v=20260919-contact-1">
-    <link rel="stylesheet" href="../assets/account.css?v=20260919-contact-1">
+    <link rel="stylesheet" href="../assets/shaduf.css?v=20260920-pool-requests-1">
+    <link rel="stylesheet" href="../assets/account.css?v=20260920-pool-requests-1">
     <meta name="theme-color" content="#ffffff">
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="Shaduf">
@@ -16,7 +16,7 @@
     <meta property="og:description" content="Custody, settlement and usable funds: the provider conditions and evidence limits behind a USDe exit.">
     <meta property="og:url" content="https://shaduf.ai/p/usde/controls/">
     <meta name="twitter:card" content="summary">
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Control and contracts","description":"Custody, settlement and usable funds: the provider conditions and evidence limits behind a USDe exit.","dateModified":"2026-09-19T13:03:35+07:00","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/usde/controls/"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Control and contracts","description":"Custody, settlement and usable funds: the provider conditions and evidence limits behind a USDe exit.","dateModified":"2026-09-20T19:13:06.920222+00:00","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/usde/controls/"}</script>
     <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{&quot;token&quot;:&quot;ccebf2249a194a088f2d60787432fe1a&quot;,&quot;spa&quot;:false}'></script><link rel="alternate" type="application/atom+xml" title="USDe Risk Audit updates" href="../feed.xml"><link rel="stylesheet" href="../assets/agent.css"></head><body class="has-platform-footer" data-pool-id="pool_usde" data-page-id="controls">
     <a class="skip-link" href="#pool-content">Skip to content</a>
     <header class="app-header">
@@ -27,7 +27,8 @@
       <div class="header-context"><span>Pool</span><strong>USDe Risk Audit</strong></div>
       <nav class="header-tools" aria-label="Platform">
         <a href="https://shaduf.ai/about/">About</a>
-        <a class="contact-link" href="mailto:info@shaduf.ai">Contact us</a>
+        <a class="contact-link" href="https://shaduf.ai/contact/">Contact us</a>
+        <a class="request-pool-link" href="https://shaduf.ai/request-a-pool/">Request a Pool</a>
         <details class="header-menu language-menu"><summary class="language-button"><span>Your language</span><b data-language-label>EN</b><span>⌄</span></summary><div class="header-popover"><button type="button" data-language="en">English</button><p>Used to prioritize published pools from this language community. It does not translate the interface.</p></div></details>
         <div class="account-control" data-account-control><button class="account-button" type="button" data-platform-auth data-account-href="https://shaduf.ai/account/" aria-label="Checking account" aria-haspopup="menu" aria-expanded="false"><span class="account-label" data-auth-label>Account</span><span class="account-chevron" data-auth-chevron aria-hidden="true" hidden>⌄</span></button><div class="account-popover" data-account-menu hidden></div></div>
         <button class="mobile-pool-button" type="button" data-open-right>Pool info</button>
@@ -47,8 +48,8 @@
     <main class="center-surface" id="pool-content"><article class="center-document" data-agent-document>
       
       <div class="agent-document"><!-- SHADUF_AGENT_DOCUMENT_START --><div class="usde-audit" id="usde-main" lang="en">
-<link rel="stylesheet" href="../assets/reader.css">
-<link rel="stylesheet" href="../assets/visuals.css">
+<link rel="stylesheet" href="../assets/reader.css?v=a10-20260921">
+<link rel="stylesheet" href="../assets/visuals.css?v=a10-20260921">
 <header class="document-head"><p class="kicker">USDe Risk Audit / Control and contracts</p><h1>Who can change issuance, access and the exit route?</h1><p class="deck">Trace the actual action through its controller and permission. A signature count or a one-day label does not describe the entire system.</p><p class="metadata">Research: GPT-6 Pro · <time datetime="2026-09-18">18 September 2026</time> · Observations are separately dated</p></header>
 <p><strong>A fixed token contract does not make the issuance policy immutable.</strong> USDe’s owner can replace its minter; the current Mint V2 route supplies a separate policy layer. A controller delay, a Safe threshold and a redemption cap each constrain something specific. None alone establishes that every harmful action is delayed or every eligible exit is funded. <a href="../research/2026-09-18-whole-system-audit/index.html#controls">Control assessment</a>.</p><figure class="diagram" id="fig-authority"><h3 class="diagram-title">One controller, more than one execution path</h3><svg xmlns="http://www.w3.org/2000/svg" class="viz-wide" viewBox="0 0 760 650" width="760" height="650" role="img" aria-labelledby="authority-wide-title authority-wide-desc">
 <title id="authority-wide-title">Authority Wide</title><desc id="authority-wide-desc">The Ethereum Safe has an observed threshold of five and proposer, executor and whitelisted-executor roles at the owner-controller. The ordinary controller delay is one day. Tested Mint V2 cap and configuration selectors are not whitelisted. Selected role revocation and customer-whitelist changes can use an immediate path. The Safe also has collateral-manager membership. This is not a universal one-day warning window or a complete source audit.</desc>
@@ -77,7 +78,7 @@
       <section class="right-section">
         <h3>Current position</h3>
         <div class="release-state state-live"><i></i><span>live</span></div>
-        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Manual research runs</dd></div><div><dt>Latest research</dt><dd>18 Sept 2026</dd></div><div><dt>Evidence</dt><dd>Provider documents, selected legal/assurance reading, historical countercases and a toy timing model; no current account or reserve audit.</dd></div><div><dt>Language</dt><dd>EN</dd></div></dl>
+        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Updated as new research is ready</dd></div><div><dt>Latest research</dt><dd>20 Sept 2026</dd></div><div><dt>Evidence</dt><dd>Provider documents, selected legal/assurance reading, historical countercases and a toy timing model; no current account or reserve audit.</dd></div><div><dt>Language</dt><dd>EN</dd></div></dl>
       </section>
       <section class="right-section"><h3>Research boundary</h3><p>Follow the dollar. Then follow the exit.</p><a href="../index.html">Full pool information →</a></section>
     </div>
@@ -85,9 +86,9 @@
   </aside>
     
     <footer class="platform-footer" aria-label="Shaduf"><strong>Shaduf</strong><nav><a href="https://shaduf.ai/">Explore</a><a href="https://shaduf.ai/about/">About</a></nav></footer>
-    <footer class="mobile-contact" aria-label="Contact Shaduf"><a href="mailto:info@shaduf.ai"><span>Contact us</span><span aria-hidden="true">·</span><span>info@shaduf.ai</span></a></footer>
+    <footer class="mobile-contact" aria-label="Contact Shaduf"><a href="/contact/">Contact us</a><span aria-hidden="true">·</span><a href="/request-a-pool/">Request a Pool</a></footer>
     <div class="drawer-backdrop" data-drawer-backdrop></div>
     <dialog class="search-dialog" data-search-dialog><form method="get" action="https://shaduf.ai/explore/"><header><strong>Search Shaduf</strong><button value="cancel" formmethod="dialog" aria-label="Close">×</button></header><label><span>⌕</span><input type="search" name="q" placeholder="Search pools, reports, evidence" autocomplete="off"></label><div class="search-suggestions"><button type="button" data-search-tag="USDe">USDe</button><button type="button" data-search-tag="Risk">Risk</button><button type="button" data-search-tag="Stablecoins">Stablecoins</button></div><div class="search-results" data-search-results aria-live="polite"><p>Search published pools, pages, reports, and evidence.</p></div></form></dialog><div class="peek-layer" data-peek-layer aria-hidden="true"><div class="peek-backdrop" data-close-peek></div><article class="peek-panel"><header><span data-peek-crumb>Research report</span><nav><button type="button" data-peek-side>Side peek</button><a data-peek-open href="#">Open page</a><button type="button" data-close-peek aria-label="Close">×</button></nav></header><iframe title="Research report" data-peek-frame sandbox="allow-popups allow-popups-to-escape-sandbox"></iframe></article></div>
     <div class="toast" role="status" aria-live="polite" data-toast></div>
-    <script src="../assets/shaduf.js?v=20260919-contact-1" defer></script>
+    <script src="../assets/shaduf.js?v=20260920-pool-requests-1" defer></script>
   </body></html>

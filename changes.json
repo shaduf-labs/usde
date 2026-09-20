@@ -2,6 +2,12 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "backing-recovery-20260920",
+      "changed_at": "2026-09-20T19:13:06.920222+00:00",
+      "summary": "A loan-pool share, a fund redemption and an eligible holder\u2019s payout are different claims, controlled by different parties. Follow the asset across each boundary before treating it as usable cash.",
+      "path": "/p/usde/research/2026-09-20-backing-recovery-and-redemption-capacity/"
+    },
+    {
       "change_id": "reader-structure-20260920",
       "changed_at": "2026-09-20T09:46:56.717649+00:00",
       "summary": "Subject guides, a complete research catalogue and visual explanations. Historical report routes retained.",
@@ -10,7 +16,7 @@
     {
       "change_id": "whole-system-foundation-v02",
       "changed_at": "2026-09-19T13:03:35+07:00",
-      "summary": "Why backing, legal claims, privileged actions, collateral pricing and exit liquidity must be assessed together—and why the person facing the deadline matters.",
+      "summary": "Why backing, legal claims, privileged actions, collateral pricing and exit liquidity must be assessed together\u2014and why the person facing the deadline matters.",
       "path": "/p/usde/research/2026-09-18-whole-system-audit/"
     },
     {
