@@ -2,164 +2,490 @@
   "schema_version": "1.0.0",
   "items": [
     {
-      "evidence_id": "r05-public-paragraph-1",
-      "source_url": "https://developer.copper.co/guides/clearloop/settlements",
-      "source_title": "Settlement conditions and API fields",
-      "claim": "[1] Copper operational settlement. Settlement conditions and API fields; status definitions. Relevant substantive bodies read 13 September 2026. Public documentation, not actual account responses.",
-      "accessed_at": "2026-09-13",
+      "evidence_id": "foundation-paragraph-105-0",
+      "source_url": "https://docs.ethena.fi/resources/usde-terms-and-conditions",
+      "claim": "USDe terms and conditions and Mint User Agreement. Published terms displayed an August 2025 update. Eligibility, reserve-based redemption, title and processing conditions were read. These are not a private customer agreement or a jurisdiction-specific enforceability opinion.",
+      "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "r05-public-paragraph-2",
-      "source_url": "https://developer.copper.co/enums/ClearLoopSettlementStatus",
-      "source_title": "status definitions",
-      "claim": "[1] Copper operational settlement. Settlement conditions and API fields; status definitions. Relevant substantive bodies read 13 September 2026. Public documentation, not actual account responses.",
-      "accessed_at": "2026-09-13",
+      "evidence_id": "foundation-paragraph-105-1",
+      "source_url": "https://docs.ethena.fi/resources/usde-mint-user-agreement",
+      "claim": "USDe terms and conditions and Mint User Agreement. Published terms displayed an August 2025 update. Eligibility, reserve-based redemption, title and processing conditions were read. These are not a private customer agreement or a jurisdiction-specific enforceability opinion.",
+      "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "r05-public-paragraph-3",
-      "source_url": "https://developer.copper.co/guides/clearloop/fetch-delegated-balances",
-      "source_title": "ClearLoop delegated balances",
-      "claim": "[2] Release scope. ClearLoop delegated balances; undelegation workflow. Narrative, limits and linked-order fields read 13 September 2026; not every generic order field or a live withdrawal.",
-      "accessed_at": "2026-09-13",
+      "evidence_id": "foundation-paragraph-106-0",
+      "source_url": "https://docs.ethena.fi/backing-assets/overview",
+      "claim": "Ethena’s backing overview, crypto basis description, derivatives explanation, liquid stablecoins and DeFi lending describe mechanisms, not a verified current allocation.",
+      "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "r05-public-paragraph-4",
-      "source_url": "https://developer.copper.co/guides/clearloop/undelegate-funds",
-      "source_title": "undelegation workflow",
-      "claim": "[2] Release scope. ClearLoop delegated balances; undelegation workflow. Narrative, limits and linked-order fields read 13 September 2026; not every generic order field or a live withdrawal.",
-      "accessed_at": "2026-09-13",
+      "evidence_id": "foundation-paragraph-106-1",
+      "source_url": "https://docs.ethena.fi/backing-assets/crypto-basis-trade",
+      "claim": "Ethena’s backing overview, crypto basis description, derivatives explanation, liquid stablecoins and DeFi lending describe mechanisms, not a verified current allocation.",
+      "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "r05-public-paragraph-5",
-      "source_url": "https://developer.copper.co/guides/clearloop/introduction",
-      "source_title": "ClearLoop introduction",
-      "claim": "[3] Asset and clock descriptions. ClearLoop introduction; Ethena's off-exchange detail, exchange-failure page and custody overview. Read 13 September 2026; undated provider lists and intervals are not a current position register.",
-      "accessed_at": "2026-09-13",
+      "evidence_id": "foundation-paragraph-106-2",
+      "source_url": "https://docs.ethena.fi/protocol-overview/underlying-derivatives",
+      "claim": "Ethena’s backing overview, crypto basis description, derivatives explanation, liquid stablecoins and DeFi lending describe mechanisms, not a verified current allocation.",
+      "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "r05-public-paragraph-6",
-      "source_url": "https://docs.ethena.fi/backing-custody-and-security/overview/off-exchange-settlement-in-detail",
-      "source_title": "off-exchange detail",
-      "claim": "[3] Asset and clock descriptions. ClearLoop introduction; Ethena's off-exchange detail, exchange-failure page and custody overview. Read 13 September 2026; undated provider lists and intervals are not a current position register.",
-      "accessed_at": "2026-09-13",
+      "evidence_id": "foundation-paragraph-106-3",
+      "source_url": "https://docs.ethena.fi/backing-assets/liquid-stablecoins",
+      "claim": "Ethena’s backing overview, crypto basis description, derivatives explanation, liquid stablecoins and DeFi lending describe mechanisms, not a verified current allocation.",
+      "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "r05-public-paragraph-7",
-      "source_url": "https://docs.ethena.fi/protocol-overview/risks/exchange-failure-risk",
-      "source_title": "exchange-failure page",
-      "claim": "[3] Asset and clock descriptions. ClearLoop introduction; Ethena's off-exchange detail, exchange-failure page and custody overview. Read 13 September 2026; undated provider lists and intervals are not a current position register.",
-      "accessed_at": "2026-09-13",
+      "evidence_id": "foundation-paragraph-106-4",
+      "source_url": "https://docs.ethena.fi/backing-assets/defi-lending",
+      "claim": "Ethena’s backing overview, crypto basis description, derivatives explanation, liquid stablecoins and DeFi lending describe mechanisms, not a verified current allocation.",
+      "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "r05-public-paragraph-8",
-      "source_url": "https://docs.ethena.fi/overview/off-exchange-custody",
-      "source_title": "custody overview",
-      "claim": "[3] Asset and clock descriptions. ClearLoop introduction; Ethena's off-exchange detail, exchange-failure page and custody overview. Read 13 September 2026; undated provider lists and intervals are not a current position register.",
-      "accessed_at": "2026-09-13",
+      "evidence_id": "foundation-paragraph-107-0",
+      "source_url": "https://gov.ethenafoundation.com/t/ethena-s-june-2026-governance-update/808",
+      "claim": "The 17 July 2026 update reports June; its approximately $310 million institutional lending and $501 million total RWA figures retain that period. The non-crypto basis framework and 28 August equity-basis framework do not establish actual funded exposures.",
+      "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "r05-public-paragraph-9",
-      "source_url": "https://copper.co/en-uae/insights/emea/deribit-and-copper-bolster-longstanding-clearloop",
-      "source_title": "Copper/Deribit trust announcement",
-      "claim": "[4] Historical arrangements. Copper/Deribit trust announcement, header 26 June 2023, body dateline 27 June; Binance MirrorX announcement, 28 August 2023; Ceffu/Ethena integration, 13 March 2024. Bodies read 13 September 2026; not present SLAs.",
-      "accessed_at": "2026-09-13",
+      "evidence_id": "foundation-paragraph-107-1",
+      "source_url": "https://docs.ethena.fi/backing-assets/non-crypto-basis-trade",
+      "claim": "The 17 July 2026 update reports June; its approximately $310 million institutional lending and $501 million total RWA figures retain that period. The non-crypto basis framework and 28 August equity-basis framework do not establish actual funded exposures.",
+      "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "r05-public-paragraph-10",
-      "source_url": "https://www.binance.com/en/blog/vip/7578047330993855911",
-      "source_title": "Binance MirrorX announcement",
-      "claim": "[4] Historical arrangements. Copper/Deribit trust announcement, header 26 June 2023, body dateline 27 June; Binance MirrorX announcement, 28 August 2023; Ceffu/Ethena integration, 13 March 2024. Bodies read 13 September 2026; not present SLAs.",
-      "accessed_at": "2026-09-13",
+      "evidence_id": "foundation-paragraph-107-2",
+      "source_url": "https://gov.ethenafoundation.com/t/a-framework-for-the-tokenized-equity-basis-trade/832",
+      "claim": "The 17 July 2026 update reports June; its approximately $310 million institutional lending and $501 million total RWA figures retain that period. The non-crypto basis framework and 28 August equity-basis framework do not establish actual funded exposures.",
+      "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "r05-public-paragraph-11",
-      "source_url": "https://www.ceffu.com/blog/ethena-has-integrated-ceffu-mirrorx-off-exchange-settlement",
-      "source_title": "Ceffu/Ethena integration",
-      "claim": "[4] Historical arrangements. Copper/Deribit trust announcement, header 26 June 2023, body dateline 27 June; Binance MirrorX announcement, 28 August 2023; Ceffu/Ethena integration, 13 March 2024. Bodies read 13 September 2026; not present SLAs.",
-      "accessed_at": "2026-09-13",
-      "relation": "context",
-      "publication_basis": "linked-summary"
-    },
-    {
-      "evidence_id": "r05-public-paragraph-12",
-      "source_url": "https://www.ceffu.com/en-AE/solutions/mirrorx",
-      "source_title": "Ceffu UAE MirrorX page",
-      "claim": "[5] Service perimeter. Ceffu UAE MirrorX page, including disclaimer, read 13 September 2026. Provider-described service boundary, not independent licence or client-jurisdiction verification.",
-      "accessed_at": "2026-09-13",
-      "relation": "context",
-      "publication_basis": "linked-summary"
-    },
-    {
-      "evidence_id": "r05-public-paragraph-13",
+      "evidence_id": "foundation-paragraph-108-0",
       "source_url": "https://gov.ethenafoundation.com/t/proposal-maple-and-anchorage-digital-as-direct-lending-partners/756",
-      "source_title": "March 2026 proposal and adviser replies",
-      "claim": "[6] Lending counterparty and liquidity discussion. March 2026 proposal and adviser replies, reread 13 September 2026. Private agreements and actual allocations not supplied.",
-      "accessed_at": "2026-09-13",
+      "claim": "10 March 2026 Maple/Anchorage proposal and reviews; 28 May update reporting first deployments at end-April. The later report supports reported deployment; the proposal alone does not.",
+      "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "r05-public-paragraph-14",
-      "source_url": "https://www.llamarisk.com/research/bybit-incident-post-mortem-ethena-s-risk-mitigation-and-resilience",
-      "source_title": "LlamaRisk's 25 February 2025 post-mortem",
-      "claim": "[7] Resilience countercase. LlamaRisk's 25 February 2025 post-mortem, prose read 13 September 2026. An Ethena risk adviser's historical account, not an independent financial audit or this run's transaction replay.",
-      "accessed_at": "2026-09-13",
+      "evidence_id": "foundation-paragraph-108-1",
+      "source_url": "https://gov.ethenafoundation.com/t/ethena-s-march-and-april-2026-governance-update/791",
+      "claim": "10 March 2026 Maple/Anchorage proposal and reviews; 28 May update reporting first deployments at end-April. The later report supports reported deployment; the proposal alone does not.",
+      "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "r05-public-paragraph-15",
+      "evidence_id": "foundation-paragraph-109-0",
+      "source_url": "https://gov.ethenafoundation.com/t/llamarisk-legal-review-of-payward-mla/813",
+      "claim": "23 July Payward legal review and 4 August FalconX legal review. Adviser analysis of named entities and agreements, not inspected private executed terms, proof of positive current drawdown or a complete recovery waterfall.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "foundation-paragraph-109-1",
+      "source_url": "https://gov.ethenafoundation.com/t/llamarisk-legal-review-of-falconx-credit-agreement/822",
+      "claim": "23 July Payward legal review and 4 August FalconX legal review. Adviser analysis of named entities and agreements, not inspected private executed terms, proof of positive current drawdown or a complete recovery waterfall.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "foundation-paragraph-110-0",
+      "source_url": "https://gov.ethenafoundation.com/t/evaluation-stac-as-usde-backing-asset/799",
+      "claim": "June 2026 STAC evaluation and comparison. The review distinguishes the relevant tokenized vehicles and describes asset-sale-dependent realisation intervals. Seniority, ratings and described T+ intervals are not guaranteed cash performance. The June total RWA amount is reported in the July update, not a verified September JAAA/STAC allocation.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "foundation-paragraph-110-1",
+      "source_url": "https://gov.ethenafoundation.com/t/ethena-s-june-2026-governance-update/808",
+      "claim": "June 2026 STAC evaluation and comparison. The review distinguishes the relevant tokenized vehicles and describes asset-sale-dependent realisation intervals. Seniority, ratings and described T+ intervals are not guaranteed cash performance. The June total RWA amount is reported in the July update, not a verified September JAAA/STAC allocation.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "foundation-paragraph-111-0",
+      "source_url": "https://docs.ethena.fi/overview/off-exchange-custody",
+      "claim": "Ethena’s custody overview and settlement detail; Copper’s ClearLoop settlement conditions and delegated-balance guide. Public service descriptions support the pending-settlement and release distinctions. They do not establish current Ethena account balances, applicable signed protections or actual completed transfers.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "foundation-paragraph-111-1",
+      "source_url": "https://docs.ethena.fi/backing-custody-and-security/overview/off-exchange-settlement-in-detail",
+      "claim": "Ethena’s custody overview and settlement detail; Copper’s ClearLoop settlement conditions and delegated-balance guide. Public service descriptions support the pending-settlement and release distinctions. They do not establish current Ethena account balances, applicable signed protections or actual completed transfers.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "foundation-paragraph-111-2",
+      "source_url": "https://developer.copper.co/guides/clearloop/settlements",
+      "claim": "Ethena’s custody overview and settlement detail; Copper’s ClearLoop settlement conditions and delegated-balance guide. Public service descriptions support the pending-settlement and release distinctions. They do not establish current Ethena account balances, applicable signed protections or actual completed transfers.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "foundation-paragraph-111-3",
+      "source_url": "https://developer.copper.co/guides/clearloop/fetch-delegated-balances",
+      "claim": "Ethena’s custody overview and settlement detail; Copper’s ClearLoop settlement conditions and delegated-balance guide. Public service descriptions support the pending-settlement and release distinctions. They do not establish current Ethena account balances, applicable signed protections or actual completed transfers.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "foundation-paragraph-112-0",
       "source_url": "https://docs.ethena.fi/resources/custodian-attestations",
-      "source_title": "Issuer index",
-      "claim": "[8] Assurance access. Issuer index and November 2025 disclosure, read 13 September 2026. Latest listed body and embedded historical letters remain unread.",
-      "accessed_at": "2026-09-13",
+      "claim": "Custodian-attestation index and transparency dashboard. The index listed August 2026, but its complete report body was not read; the current portfolio view was restricted. These are locators and access boundaries, not affirmative evidence of a reserve ratio, an adverse opinion or current liquid coverage.",
+      "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "r05-public-paragraph-16",
-      "source_url": "https://paragraph.com/@ethena-labs/custodian-attestations-of-assets-backing-usde-november-1",
-      "source_title": "November 2025 disclosure",
-      "claim": "[8] Assurance access. Issuer index and November 2025 disclosure, read 13 September 2026. Latest listed body and embedded historical letters remain unread.",
-      "accessed_at": "2026-09-13",
+      "evidence_id": "foundation-paragraph-112-1",
+      "source_url": "https://app.ethena.fi/dashboards/transparency",
+      "claim": "Custodian-attestation index and transparency dashboard. The index listed August 2026, but its complete report body was not read; the current portfolio view was restricted. These are locators and access boundaries, not affirmative evidence of a reserve ratio, an adverse opinion or current liquid coverage.",
+      "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "r05-public-paragraph-17",
-      "source_url": "https://pcaobus.org/resources/information-for-investors/investor-advisories/investor-advisory-exercise-caution-with-third-party-verification-proof-of-reserve-reports",
-      "source_title": "PCAOB Investor Advocate staff advisory",
-      "claim": "[9] General assurance limits. PCAOB Investor Advocate staff advisory, 8 March 2023; SEC Chief Accountant statement, 27 July 2023. Substantive bodies and disclaimers read 13 September 2026. Neither is an Ethena-specific finding or a new legal rule.",
-      "accessed_at": "2026-09-13",
+      "evidence_id": "foundation-paragraph-113-0",
+      "source_url": "https://docs.ethena.fi/backing-assets/protocol-revenue",
+      "claim": "Protocol revenue and reserve fund. Policy and mechanism descriptions, not measured current flows, reserve sufficiency or a legal insurance promise. A revenue-allocation statement is not a reserve-balance read.",
+      "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "r05-public-paragraph-18",
-      "source_url": "https://www.sec.gov/newsroom/speeches-statements/munter-statement-crypto-072723",
-      "source_title": "SEC Chief Accountant statement",
-      "claim": "[9] General assurance limits. PCAOB Investor Advocate staff advisory, 8 March 2023; SEC Chief Accountant statement, 27 July 2023. Substantive bodies and disclaimers read 13 September 2026. Neither is an Ethena-specific finding or a new legal rule.",
-      "accessed_at": "2026-09-13",
+      "evidence_id": "foundation-paragraph-113-1",
+      "source_url": "https://docs.ethena.fi/protocol-overview/reserve-fund",
+      "claim": "Protocol revenue and reserve fund. Policy and mechanism descriptions, not measured current flows, reserve sufficiency or a legal insurance promise. A revenue-allocation statement is not a reserve-balance read.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "foundation-paragraph-114-0",
+      "source_url": "https://docs.ethena.fi/technical-design/staking-usde",
+      "claim": "Staking design and source associated with Ethereum sUSDe. Selected custom staking, Silo and consequential paths were read; this is not a complete fresh audit of every inherited dependency or wrapper. The one-day setting is separately identified in the core observation table.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "foundation-paragraph-114-1",
+      "source_url": "https://smarts.md/eth/0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "claim": "Staking design and source associated with Ethereum sUSDe. Selected custom staking, Silo and consequential paths were read; this is not a complete fresh audit of every inherited dependency or wrapper. The one-day setting is separately identified in the core observation table.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "foundation-paragraph-115-0",
+      "source_url": "https://smarts.md/eth/0x4c9edd5852cd905f086c759e8383e09bff1e68b3",
+      "claim": "USDe custom source; owner-controller source; issuer key addresses and architecture overview. Associated source and documented identities are distinct from the recorded owner, role, threshold and selector reads. No full independent compilation or exhaustive Safe/role-history verification is claimed.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "foundation-paragraph-115-1",
+      "source_url": "https://smarts.md/eth/0xe8dc0fab349ea169283c48ccfd09d797e6db7c94",
+      "claim": "USDe custom source; owner-controller source; issuer key addresses and architecture overview. Associated source and documented identities are distinct from the recorded owner, role, threshold and selector reads. No full independent compilation or exhaustive Safe/role-history verification is claimed.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "foundation-paragraph-115-2",
+      "source_url": "https://docs.ethena.fi/technical-design/key-addresses",
+      "claim": "USDe custom source; owner-controller source; issuer key addresses and architecture overview. Associated source and documented identities are distinct from the recorded owner, role, threshold and selector reads. No full independent compilation or exhaustive Safe/role-history verification is claimed.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "foundation-paragraph-115-3",
+      "source_url": "https://docs.ethena.fi/technical-design/overview/github-overview",
+      "claim": "USDe custom source; owner-controller source; issuer key addresses and architecture overview. Associated source and documented identities are distinct from the recorded owner, role, threshold and selector reads. No full independent compilation or exhaustive Safe/role-history verification is claimed.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "foundation-paragraph-116-0",
+      "source_url": "https://docs.ethena.fi/technical-design/minting-usde/mint-and-redeem-contract-v2",
+      "claim": "Mint/redeem V2 design; API description; client ABI at commit 8aa953d9a4cd1db18bfad782c34c66163509b0fc; Sourcify metadata locator.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "foundation-paragraph-116-1",
+      "source_url": "https://docs.ethena.fi/api-documentation/overview",
+      "claim": "Mint/redeem V2 design; API description; client ABI at commit 8aa953d9a4cd1db18bfad782c34c66163509b0fc; Sourcify metadata locator.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "foundation-paragraph-116-2",
+      "source_url": "https://github.com/ethena-labs/ethena-minting-client/blob/8aa953d9a4cd1db18bfad782c34c66163509b0fc/py/mint_abi.json",
+      "claim": "Mint/redeem V2 design; API description; client ABI at commit 8aa953d9a4cd1db18bfad782c34c66163509b0fc; Sourcify metadata locator.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "foundation-paragraph-116-3",
+      "source_url": "https://sourcify.dev/server/v2/contract/1/0xe3490297a08d6fC8Da46Edb7B6142E4F461b62D3?fields=abi,metadata,sources,compilation,deployment",
+      "claim": "Mint/redeem V2 design; API description; client ABI at commit 8aa953d9a4cd1db18bfad782c34c66163509b0fc; Sourcify metadata locator.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "foundation-paragraph-118-0",
+      "source_url": "https://github.com/pashov/audits/blob/47990bdd4ab5d4af42c0fe11ec6b0a321dac59d9/team/md/Ethena-security-review-May.md",
+      "claim": "Pashov May review at audit-repository commit 47990bdd4ab5d4af42c0fe11ec6b0a321dac59d9. The reviewed implementation commit is b60b7193636d499ce7f89c4f5afe3b99cf31a2b6, with fix review at 9cd4ad7b46acc35f6b3340c808200279fbe75de0. Historical findings, fix scope and present deployment equivalence are separate questions. The issuer audit index is not a warranty of the whole system.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "foundation-paragraph-118-1",
+      "source_url": "https://docs.ethena.fi/resources/audits",
+      "claim": "Pashov May review at audit-repository commit 47990bdd4ab5d4af42c0fe11ec6b0a321dac59d9. The reviewed implementation commit is b60b7193636d499ce7f89c4f5afe3b99cf31a2b6, with fix review at 9cd4ad7b46acc35f6b3340c808200279fbe75de0. Historical findings, fix scope and present deployment equivalence are separate questions. The issuer audit index is not a warranty of the whole system.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "foundation-paragraph-119-0",
+      "source_url": "https://github.com/aave-dao/aave-address-book/blob/4e13aa197ca74e84c7e878bc752e519c260d6f30/src/AaveV3Ethereum.sol",
+      "claim": "Aave address book at commit 4e13aa197ca74e84c7e878bc752e519c260d6f30; PriceCapAdapterBase and PriceCapAdapterStable, both at f6f1a02978db539979cc0e2c3c0a917f9db369d0.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "foundation-paragraph-119-1",
+      "source_url": "https://github.com/aave/aave-capo/blob/f6f1a02978db539979cc0e2c3c0a917f9db369d0/src/contracts/PriceCapAdapterBase.sol",
+      "claim": "Aave address book at commit 4e13aa197ca74e84c7e878bc752e519c260d6f30; PriceCapAdapterBase and PriceCapAdapterStable, both at f6f1a02978db539979cc0e2c3c0a917f9db369d0.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "foundation-paragraph-119-2",
+      "source_url": "https://github.com/aave/aave-capo/blob/f6f1a02978db539979cc0e2c3c0a917f9db369d0/src/contracts/PriceCapAdapterStable.sol",
+      "claim": "Aave address book at commit 4e13aa197ca74e84c7e878bc752e519c260d6f30; PriceCapAdapterBase and PriceCapAdapterStable, both at f6f1a02978db539979cc0e2c3c0a917f9db369d0.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "foundation-paragraph-121-0",
+      "source_url": "https://app.morpho.org/base/variable/0x54cf9be57fdfa6457a660991907434ff9d295c465a603a50126ff647d50b7354/usdc-usde",
+      "claim": "Selected Base USDC/USDe market; market-identifier library at commit 8e26ca6a8dbc5089edcd67fb576248810fd2870a; liquidation mechanics; risk explanation; Circle’s USDC address reference.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "foundation-paragraph-121-1",
+      "source_url": "https://github.com/morpho-org/morpho-blue/blob/8e26ca6a8dbc5089edcd67fb576248810fd2870a/src/libraries/MarketParamsLib.sol",
+      "claim": "Selected Base USDC/USDe market; market-identifier library at commit 8e26ca6a8dbc5089edcd67fb576248810fd2870a; liquidation mechanics; risk explanation; Circle’s USDC address reference.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "foundation-paragraph-121-2",
+      "source_url": "https://docs.morpho.org/learn/concepts/liquidation/",
+      "claim": "Selected Base USDC/USDe market; market-identifier library at commit 8e26ca6a8dbc5089edcd67fb576248810fd2870a; liquidation mechanics; risk explanation; Circle’s USDC address reference.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "foundation-paragraph-121-3",
+      "source_url": "https://docs.morpho.org/learn/resources/risks/",
+      "claim": "Selected Base USDC/USDe market; market-identifier library at commit 8e26ca6a8dbc5089edcd67fb576248810fd2870a; liquidation mechanics; risk explanation; Circle’s USDC address reference.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "foundation-paragraph-121-4",
+      "source_url": "https://developers.circle.com/stablecoins/usdc-contract-addresses",
+      "claim": "Selected Base USDC/USDe market; market-identifier library at commit 8e26ca6a8dbc5089edcd67fb576248810fd2870a; liquidation mechanics; risk explanation; Circle’s USDC address reference.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "foundation-paragraph-123-0",
+      "source_url": "https://github.com/Steakhouse-Financial/steakhouse-oracles/blob/5ce0e80adb69bc06f5b390032150e7ea41d30c02/src/MetaOracleDeviationTimelock.sol",
+      "claim": "Candidate MetaOracleDeviationTimelock at commit 5ce0e80adb69bc06f5b390032150e7ea41d30c02; MorphoChainlinkOracleV2 family at commit 9d2a0b66589d0669c52e47310af8eb804facf97e.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "foundation-paragraph-123-1",
+      "source_url": "https://github.com/morpho-org/morpho-blue-oracles/blob/9d2a0b66589d0669c52e47310af8eb804facf97e/src/morpho-chainlink/MorphoChainlinkOracleV2.sol",
+      "claim": "Candidate MetaOracleDeviationTimelock at commit 5ce0e80adb69bc06f5b390032150e7ea41d30c02; MorphoChainlinkOracleV2 family at commit 9d2a0b66589d0669c52e47310af8eb804facf97e.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "foundation-paragraph-125-0",
+      "source_url": "https://app.morpho.org/base/vault/0xbeeff2490FEffa212faC2f6553682C219E6a8845/steakhouse-high-yield-usdc-edition",
+      "claim": "Steakhouse High Yield USDC Edition; separate Ethena x Steakhouse USDC vehicle; Vault V2 concepts; pinned adapter source blob.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "foundation-paragraph-125-1",
+      "source_url": "https://app.morpho.org/base/vault/0xBeEfF0be997Cca5B1c13A7433c2004637975739e/ethena-x-steakhouse-usdc",
+      "claim": "Steakhouse High Yield USDC Edition; separate Ethena x Steakhouse USDC vehicle; Vault V2 concepts; pinned adapter source blob.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "foundation-paragraph-125-2",
+      "source_url": "https://docs.morpho.org/learn/concepts/vault-v2/",
+      "claim": "Steakhouse High Yield USDC Edition; separate Ethena x Steakhouse USDC vehicle; Vault V2 concepts; pinned adapter source blob.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "foundation-paragraph-125-3",
+      "source_url": "https://api.github.com/repos/morpho-org/vault-v2/git/blobs/b192f453c819cb7fd8561277cc8daad970db33a1",
+      "claim": "Steakhouse High Yield USDC Edition; separate Ethena x Steakhouse USDC vehicle; Vault V2 concepts; pinned adapter source blob.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "foundation-paragraph-127-0",
+      "source_url": "https://docs.pendle.finance/pendle-v2/Introduction",
+      "claim": "Pendle introduction. Generic design only for this investigation. A live pre-maturity market, its exact standardized-yield output, oracle and unwind must be established independently before assigning its current risk. No historical principal-token proposal is relabelled as an installed case.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "foundation-paragraph-128-0",
+      "source_url": "https://www.bybit.com/en/help-center/article/FAQ-Unified-Trading-Account",
+      "claim": "Unified Trading Account FAQ, displayed 4 August 2026; account introduction, displayed 13 January 2026; collateral-value methodology, displayed 30 March 2026.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "foundation-paragraph-128-1",
+      "source_url": "https://www.bybit.com/en/help-center/article/Introduction-to-Bybit-Unified-Trading-Account",
+      "claim": "Unified Trading Account FAQ, displayed 4 August 2026; account introduction, displayed 13 January 2026; collateral-value methodology, displayed 30 March 2026.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "foundation-paragraph-128-2",
+      "source_url": "https://www.bybit.com/en/help-center/article/Assets-Collateral-Value-Ratio-List-UTA",
+      "claim": "Unified Trading Account FAQ, displayed 4 August 2026; account introduction, displayed 13 January 2026; collateral-value methodology, displayed 30 March 2026.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "foundation-paragraph-129-0",
+      "source_url": "https://announcements.bybit.com/en/article/important-updates-to-rlusd-and-usde-collateral-ratios-under-institutional-loans--art385ed0a3e768/",
+      "claim": "1 September Institutional Loans announcement, effective 2 September at 08:00 UTC, is a different product. The investigation did not obtain the current USDe-specific UTA tier, actual account eligibility or a usable substantive account legal body. Published generic margin rules are not a live account test.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "foundation-paragraph-130-0",
+      "source_url": "https://developers.uniswap.org/docs/protocols/v3/deployments/v3-ethereum-deployments",
+      "claim": "Official Ethereum V3 deployment reference; pool identity; QuoterV2 identity. The quote table preserves block, size, input/output units and method. Simulation is not a fill; a single pool is not the whole market, and USDT output is not assured bank dollars.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "foundation-paragraph-130-1",
+      "source_url": "https://etherscan.io/address/0x435664008f38b0650fbc1c9fc971d0a3bc2f1e47",
+      "claim": "Official Ethereum V3 deployment reference; pool identity; QuoterV2 identity. The quote table preserves block, size, input/output units and method. Simulation is not a fill; a single pool is not the whole market, and USDT output is not assured bank dollars.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "foundation-paragraph-130-2",
+      "source_url": "https://etherscan.io/address/0x61ffe014ba17989e743c5f6cb21bf9697530b21e",
+      "claim": "Official Ethereum V3 deployment reference; pool identity; QuoterV2 identity. The quote table preserves block, size, input/output units and method. Simulation is not a fill; a single pool is not the whole market, and USDT output is not assured bank dollars.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "foundation-paragraph-131-0",
+      "source_url": "https://docs.layerzero.network/v2/developers/evm/oft/quickstart",
+      "claim": "LayerZero OFT design provides mechanism context, not proof of the selected deployment’s complete security settings. Base remote token 0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34 returned endpoint 0x1a44076050125825900e736c501f859c50fe728c, shared decimals 6, conversion factor 10¹² and the sampled peer entry for endpoint ID 30101. Owner-controller and peer-reading limits.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "foundation-paragraph-132-0",
+      "source_url": "https://gov.ethenafoundation.com/t/proposal-usde-redeem-for-dislocations-on-secondary-markets/712",
+      "claim": "17 November 2025 issuer retrospective/proposal concerns the 10 October 2025 dislocation. Its prices and redemption amount are attributed reports, not this investigation’s independent replay or a present-day guarantee.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "foundation-paragraph-133-0",
+      "source_url": "https://governance.aave.com/t/arfc-ethena-usde-risk-oracle-and-automated-freeze-guardian/23303",
+      "claim": "Aave risk-oracle and freeze-guardian discussion, opened 24 October 2025 with a 2 November response, contains both LlamaRisk’s protection proposal and Chaos Labs’ concern about liquidation during a recoverable discount. Proposed safeguards are not proof of installed or funded protection.",
+      "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     }

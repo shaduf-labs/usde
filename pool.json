@@ -9,7 +9,7 @@
   "description": "Custody, settlement and usable funds: the provider conditions and evidence limits behind a USDe exit.",
   "cadence": "Manual research runs",
   "release_state": "live",
-  "latest_research_at": "2026-09-14T02:29:25+07:00",
+  "latest_research_at": "2026-09-18",
   "evidence_scope": "Provider documents, selected legal/assurance reading, historical countercases and a toy timing model; no current account or reserve audit.",
   "methodology_summary": "Follow the dollar. Then follow the exit.",
   "public_repo": "https://github.com/shaduf-labs/usde",

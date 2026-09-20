@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "pro-v02-research-001",
+      "status": "completed",
+      "started_at": "2026-09-18",
+      "completed_at": "2026-09-18",
+      "report_path": "/p/usde/research/2026-09-18-whole-system-audit/",
+      "entrypoint": "research/2026-09-18-whole-system-audit/index.html",
+      "title": "USDe’s whole-system risk: from backing to usable funds",
+      "summary": "Why backing, legal claims, privileged actions, collateral pricing and exit liquidity must be assessed together—and why the person facing the deadline matters.",
+      "answer_change": "meaningful_change"
+    },
+    {
       "run_id": "20260913-131854-02989551",
       "status": "completed",
       "started_at": "2026-09-13T20:26:03+07:00",
