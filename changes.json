@@ -2,6 +2,12 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "reader-structure-20260920",
+      "changed_at": "2026-09-20T09:46:56.717649+00:00",
+      "summary": "Subject guides, a complete research catalogue and visual explanations. Historical report routes retained.",
+      "path": "/p/usde/"
+    },
+    {
       "change_id": "whole-system-foundation-v02",
       "changed_at": "2026-09-19T13:03:35+07:00",
       "summary": "Why backing, legal claims, privileged actions, collateral pricing and exit liquidity must be assessed together—and why the person facing the deadline matters.",
