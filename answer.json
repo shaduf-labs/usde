@@ -1,16 +1,16 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "The central judgement: USDe’s risks are not captured by whether its token trades near one dollar. A managed backing portfolio, privileged issuance and redemption, and the routes through which a holder can leave must all work together. A holder can suffer a delay or forced-sale loss even without a demonstrated backing shortfall.",
+  "current_answer": "The central judgement: USDe\u2019s risks are not captured by whether its token trades near one dollar. A managed backing portfolio, privileged issuance and redemption, and the routes through which a holder can leave must all work together. A holder can suffer a delay or forced-sale loss even without a demonstrated backing shortfall.",
   "summary": [
     "A token can keep moving while an exit stops. The useful question is what claim you hold, who must deliver the next asset, and whether it can arrive in time."
   ],
   "uncertainty": [
-    "The opening whole-system investigation is complete within its stated scope. It does not establish current reserve coverage, complete contract security, or an available par exit for every holder. Read the judgement and its evidence."
+    "The evidence supports a whole-system assessment, but does not establish current reserve coverage, complete contract security or an available par exit for every holder."
   ],
-  "checked_at": "2026-09-18",
-  "meaningfully_updated_at": "2026-09-19T13:03:35+07:00",
-  "freshness_note": "Research dated 18 September 2026; observations retain their own dates and blocks. Not a live monitor.",
+  "checked_at": "2026-09-20",
+  "meaningfully_updated_at": "2026-09-20T19:13:06.920222+00:00",
+  "freshness_note": "Research dated 18 and 20 September 2026. Individual observations retain their dates. Not a live monitor.",
   "catalogue_card": {
     "question": "USDe Risk Audit",
     "text": "A token can keep moving while an exit stops. The useful question is what claim you hold, who must deliver the next asset, and whether it can arrive in time."

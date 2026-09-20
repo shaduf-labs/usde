@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "pro-v02-research-002",
+      "status": "completed",
+      "started_at": "2026-09-20",
+      "completed_at": "2026-09-20",
+      "report_path": "/p/usde/research/2026-09-20-backing-recovery-and-redemption-capacity/",
+      "entrypoint": "research/2026-09-20-backing-recovery-and-redemption-capacity/index.html",
+      "title": "When backing becomes money the issuer can pay",
+      "summary": "A loan-pool share, a fund redemption and an eligible holder’s payout are different claims, controlled by different parties. Follow the asset across each boundary before treating it as usable cash.",
+      "answer_change": "meaningful_change"
+    },
+    {
       "run_id": "pro-v02-research-001",
       "status": "completed",
       "started_at": "2026-09-18",
