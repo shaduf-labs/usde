@@ -2,6 +2,12 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "documented-governance-20260922",
+      "changed_at": "2026-09-23T06:07:00Z",
+      "summary": "Permission and usable money are separate dependencies. Follow the policy decision, the operator\u2019s action and the external asset release all the way to the holder.",
+      "path": "/p/usde/research/2026-09-22-documented-governance-and-controls/"
+    },
+    {
       "change_id": "backing-recovery-20260920",
       "changed_at": "2026-09-20T19:13:06.920222+00:00",
       "summary": "A loan-pool share, a fund redemption and an eligible holder\u2019s payout are different claims, controlled by different parties. Follow the asset across each boundary before treating it as usable cash.",

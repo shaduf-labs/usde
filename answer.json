@@ -9,8 +9,8 @@
     "The evidence supports a whole-system assessment, but does not establish current reserve coverage, complete contract security or an available par exit for every holder."
   ],
   "checked_at": "2026-09-20",
-  "meaningfully_updated_at": "2026-09-20T19:13:06.920222+00:00",
-  "freshness_note": "Research dated 18 and 20 September 2026. Individual observations retain their dates. Not a live monitor.",
+  "meaningfully_updated_at": "2026-09-23T06:07:00Z",
+  "freshness_note": "Documentary governance research dated 22 September 2026. Prior contract and recovery observations retain their 18 and 20 September dates. No live monitoring or current deployed-behaviour verification.",
   "catalogue_card": {
     "question": "USDe Risk Audit",
     "text": "A token can keep moving while an exit stops. The useful question is what claim you hold, who must deliver the next asset, and whether it can arrive in time."
