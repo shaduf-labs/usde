@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "pro-v02-governance-chapter-20260922",
+      "status": "completed",
+      "started_at": "2026-09-22",
+      "completed_at": "2026-09-22",
+      "report_path": "/p/usde/research/2026-09-22-documented-governance-and-controls/",
+      "entrypoint": "research/2026-09-22-documented-governance-and-controls/index.html",
+      "title": "Who can change the rules—and release the cash?",
+      "summary": "Permission and usable money are separate dependencies. Follow the policy decision, the operator’s action and the external asset release all the way to the holder.",
+      "answer_change": "meaningful_change"
+    },
+    {
       "run_id": "pro-v02-research-002",
       "status": "completed",
       "started_at": "2026-09-20",
