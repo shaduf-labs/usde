@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "pro-v02-authority-continuation-20260926",
+      "status": "completed",
+      "started_at": "2026-09-26",
+      "completed_at": "2026-09-26",
+      "report_path": "/p/usde/research/2026-09-26-authority-restoration-and-exits/",
+      "entrypoint": "research/2026-09-26-authority-restoration-and-exits/index.html",
+      "title": "Stopping, restoring and completing an exit",
+      "summary": "Permission to act, successful execution and money received are different milestones. A control can protect backing without giving every holder time—or a funded route—to leave.",
+      "answer_change": "meaningful_change"
+    },
+    {
       "run_id": "pro-v02-governance-chapter-20260922",
       "status": "completed",
       "started_at": "2026-09-22",

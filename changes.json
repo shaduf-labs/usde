@@ -2,15 +2,21 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "editor-a15-20260926",
+      "changed_at": "2026-09-26T14:29:16.422013+00:00",
+      "summary": "Permission to act, successful execution and money received are different milestones. A control can protect backing without giving every holder time—or a funded route—to leave.",
+      "path": "/p/usde/research/2026-09-26-authority-restoration-and-exits/"
+    },
+    {
       "change_id": "documented-governance-20260922",
       "changed_at": "2026-09-23T06:07:00Z",
-      "summary": "Permission and usable money are separate dependencies. Follow the policy decision, the operator\u2019s action and the external asset release all the way to the holder.",
+      "summary": "Permission and usable money are separate dependencies. Follow the policy decision, the operator’s action and the external asset release all the way to the holder.",
       "path": "/p/usde/research/2026-09-22-documented-governance-and-controls/"
     },
     {
       "change_id": "backing-recovery-20260920",
       "changed_at": "2026-09-20T19:13:06.920222+00:00",
-      "summary": "A loan-pool share, a fund redemption and an eligible holder\u2019s payout are different claims, controlled by different parties. Follow the asset across each boundary before treating it as usable cash.",
+      "summary": "A loan-pool share, a fund redemption and an eligible holder’s payout are different claims, controlled by different parties. Follow the asset across each boundary before treating it as usable cash.",
       "path": "/p/usde/research/2026-09-20-backing-recovery-and-redemption-capacity/"
     },
     {
@@ -22,7 +28,7 @@
     {
       "change_id": "whole-system-foundation-v02",
       "changed_at": "2026-09-19T13:03:35+07:00",
-      "summary": "Why backing, legal claims, privileged actions, collateral pricing and exit liquidity must be assessed together\u2014and why the person facing the deadline matters.",
+      "summary": "Why backing, legal claims, privileged actions, collateral pricing and exit liquidity must be assessed together—and why the person facing the deadline matters.",
       "path": "/p/usde/research/2026-09-18-whole-system-audit/"
     },
     {
