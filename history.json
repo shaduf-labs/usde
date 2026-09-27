@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "pro-v02-integration-funding-20260927",
+      "status": "completed",
+      "started_at": "2026-09-27",
+      "completed_at": "2026-09-27",
+      "report_path": "/p/usde/research/2026-09-27-collateral-value-and-repayment-cash/",
+      "entrypoint": "research/2026-09-27-collateral-value-and-repayment-cash/index.html",
+      "title": "Collateral value is not repayment cash",
+      "summary": "Accepted value, releasable collateral and timely debt-token cash answer different questions. Following all three reveals who is still exposed after the original lender is paid.",
+      "answer_change": "meaningful_change"
+    },
+    {
       "run_id": "pro-v02-authority-continuation-20260926",
       "status": "completed",
       "started_at": "2026-09-26",
