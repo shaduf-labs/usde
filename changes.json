@@ -2,6 +2,12 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "editor-a19-20260929",
+      "changed_at": "2026-09-28T20:23:47.995251+00:00",
+      "summary": "Start with the payment that releases collateral. Then follow the quoted output token, its size and the creditor who still has to be paid.",
+      "path": "/p/usde/research/2026-09-28-local-quotes-and-prior-payments/"
+    },
+    {
       "change_id": "editor-a17-20260927",
       "changed_at": "2026-09-27T14:01:22.066199+00:00",
       "summary": "Accepted value, releasable collateral and timely debt-token cash answer different questions. Following all three reveals who is still exposed after the original lender is paid.",

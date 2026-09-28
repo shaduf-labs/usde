@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "pro-v02-integration-funding-20260928",
+      "status": "completed",
+      "started_at": "2026-09-28",
+      "completed_at": "2026-09-28",
+      "report_path": "/p/usde/research/2026-09-28-local-quotes-and-prior-payments/",
+      "entrypoint": "research/2026-09-28-local-quotes-and-prior-payments/index.html",
+      "title": "A local quote is not yet a funded exit",
+      "summary": "Start with the payment that releases collateral. Then follow the quoted output token, its size and the creditor who still has to be paid.",
+      "answer_change": "meaningful_change"
+    },
+    {
       "run_id": "pro-v02-integration-funding-20260927",
       "status": "completed",
       "started_at": "2026-09-27",
