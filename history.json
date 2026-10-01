@@ -2,6 +2,20 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "pro-v02-integration-funding-20261001",
+      "status": "completed",
+      "started_at": "2026-10-01",
+      "completed_at": "2026-10-01",
+      "report_path": "/p/usde/research/2026-10-01-temporary-funding-and-final-repayment/",
+      "entrypoint": "research/2026-10-01-temporary-funding-and-final-repayment/index.html",
+      "title": "Temporary funding is not final repayment",
+      "summary": "Paying the first creditor can release collateral without paying the last one. Follow the final asset, the sellable quantity and the amount that actually reaches the holder.",
+      "answer_change": "meaningful_change",
+      "research_scope_status": "partial",
+      "analysis_date": "2026-10-01",
+      "new_on_chain_observations": false
+    },
+    {
       "run_id": "pro-v02-integration-funding-20260928",
       "status": "completed",
       "started_at": "2026-09-28",

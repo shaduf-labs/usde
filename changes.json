@@ -2,6 +2,12 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "editor-a21-20261001",
+      "changed_at": "2026-10-01T17:50:09.498954+00:00",
+      "summary": "Paying the first creditor can release collateral without paying the last one. Follow the final asset, the sellable quantity and the amount that actually reaches the holder.",
+      "path": "/p/usde/research/2026-10-01-temporary-funding-and-final-repayment/"
+    },
+    {
       "change_id": "editor-a19-20260929",
       "changed_at": "2026-09-28T20:23:47.995251+00:00",
       "summary": "Start with the payment that releases collateral. Then follow the quoted output token, its size and the creditor who still has to be paid.",

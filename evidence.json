@@ -488,6 +488,46 @@
       "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "funding-analysis-october-paragraph-66-0",
+      "source_url": "https://github.com/morpho-org/sdks/blob/88e3383fb3a305afa8322a1eda792ca80f29f3ec/docs/adrs/ADR-2026-08-28-vault-exit-force-withdraw.md",
+      "claim": "VaultExitBundlesV1 force-withdrawal design record, accepted status in the inspected version. Financial amount conventions, coverage, admission omissions and rounding discussion through line 330 were examined in the 1 October investigation. Git blob 7387e29c91e679bb5e2f063eeae7943e79f2e25b. Reported deployment/audit coverage is the design author’s statement; no build or production-user validation follows.",
+      "accessed_at": "2026-10-01",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "funding-analysis-october-paragraph-67-0",
+      "source_url": "https://github.com/morpho-org/sdks/blob/88e3383fb3a305afa8322a1eda792ca80f29f3ec/packages/morpho-ts/src/addresses.ts",
+      "claim": "Chain-address registry at the same revision, including its Base entry. Git blob 0adc13ac6e53c940d22f6ac0320d1e6784f9f017. It lists 0xe52e169c342c096c4949abb944dc9f30e3f5ea84. A fixed published locator is not a runtime match, sufficient holder balance, current allowance or receiver admission.",
+      "accessed_at": "2026-10-01",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "funding-analysis-october-paragraph-68-0",
+      "source_url": "https://morpho.org/blog/morpho-blue-and-how-it-enables-our-vision-for-defi-lending/",
+      "claim": "Paul Frambot / Morpho, Morpho Blue and its lending design. The relied-on proposition is public temporary liquidity with same-transaction repayment. Historical design, marketing, efficiency or safety statements do not establish current Base funding or admitted use by the selected account.",
+      "accessed_at": "2026-10-01",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "funding-analysis-october-paragraph-69-0",
+      "source_url": "https://gov.ethenafoundation.com/t/proposal-adopt-a-dynamic-cooldown-period-for-susde-unstaking/759/3",
+      "claim": "LlamaRisk, review of the dynamic sUSDe cooldown proposal. Used for share burn, USDe escrow, the non-earning waiting claim and user-specific timing. Earlier March figures and protection ratings are not adopted as current capacity; no new installed-behavior check was performed.",
+      "accessed_at": "2026-10-01",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "funding-analysis-october-paragraph-70-0",
+      "source_url": "https://gov.ethenafoundation.com/t/ethena-s-march-and-april-2026-governance-update/791",
+      "claim": "Kairos Research’s account in the March–April governance update reports March activation and a one-day setting. The October review uses only that retrospective chronology. It does not refresh September getters, establish an October individual claim time or import the update’s reserve and bridge claims.",
+      "accessed_at": "2026-10-01",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }
