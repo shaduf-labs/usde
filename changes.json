@@ -2,6 +2,12 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "a25-20261003",
+      "changed_at": "2026-10-03T08:40:55.266608+00:00",
+      "summary": "Repaying a protocol, leaving a wrapper and paying the final creditor are different events. Follow the cash used, the time financed and the claim that remains.",
+      "path": "/p/usde/research/2026-10-03-repayment-maturity-and-in-kind-exits/"
+    },
+    {
       "change_id": "a23-20261002",
       "changed_at": "2026-10-02T17:04:10.859955+00:00",
       "summary": "An Aave borrower has measured USDe outside its pledged position. A vault shareholder’s claim fits ordinary screened cash before costs and competition. Those advances still leave larger conversions, costs and the last creditor’s deadline to resolve.",

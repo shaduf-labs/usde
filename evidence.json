@@ -680,6 +680,110 @@
       "accessed_at": "2026-10-02",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a25-paragraph-71-0",
+      "source_url": "https://aave.com/docs/aave-v3/smart-contracts/pool",
+      "claim": "Parsed repayment, withdrawal and same-reserve aToken repayment sections examined on 3 October. Financial denomination and sequence, not new installed parameters or contract tests.",
+      "accessed_at": "2026-10-03",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a25-paragraph-72-0",
+      "source_url": "https://governance.aave.com/t/direct-to-aip-onboard-pt-susde-26nov2026-to-aave-v4-plus-hub/25497/2",
+      "claim": "Published 31 August; numerical source labels 25 August 2026. Substantive search-served primary text; direct opening failed and chart images were not inspected. Historical rates and proposed V4 listing, not current terms or listing execution.",
+      "accessed_at": "2026-10-03",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a25-paragraph-73-0",
+      "source_url": "https://armitage.wintermute.com/updates",
+      "claim": "Selected onboarding entry dated 24 August. Search-served primary text; shortened identifiers and cap are curator representations. Later entries concern other maturities.",
+      "accessed_at": "2026-10-03",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a25-paragraph-74-0",
+      "source_url": "https://armitage.wintermute.com/docs/vaults/ecosystem",
+      "claim": "Search-served primary text. Update label 9/10/2026, described as September by the source discovery. Published Ethereum context only; no current balance, commitment or fee verification.",
+      "accessed_at": "2026-10-03",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a25-paragraph-75-0",
+      "source_url": "https://docs.pendle.finance/pendle-academy/pendle-101/chapter-2-yield-tokenization-basics",
+      "claim": "Parsed product description examined. PT sale, matched PT/YT redemption and PT-only maturity are different mechanisms; no matching YT holding or purchase was observed.",
+      "accessed_at": "2026-10-03",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a25-paragraph-76-0",
+      "source_url": "https://docs.ethena.fi/resources/usde-terms-and-conditions",
+      "claim": "Labelled August 2025; relevant search-served primary sections examined. Published conditions, not selected-account admission or independent enforceability diligence.",
+      "accessed_at": "2026-10-03",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a25-paragraph-77-0",
+      "source_url": "https://docs.ethena.fi/resources/usde-mint-user-agreement",
+      "claim": "Labelled August 2025. Relevant fees, limits, timing and insufficient-funds text was search-served; direct body retrieval was unavailable. No executed individual amendment inspected.",
+      "accessed_at": "2026-10-03",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a25-paragraph-78-0",
+      "source_url": "https://docs.morpho.org/curate/concepts/in-kind-redemption/",
+      "claim": "Substantive search-served primary text. Idle cash and direct market positions have different payment content. Selected alternative-route admission is not verified.",
+      "accessed_at": "2026-10-03",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a25-paragraph-79-0",
+      "source_url": "https://docs.morpho.org/developers/contracts/morpho-vaults-v2/",
+      "claim": "Relevant primary sections examined for penalty denomination, conservative maximum views and financial meanings. The penalty input remains the October 2 observation.",
+      "accessed_at": "2026-10-03",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a25-paragraph-80-0",
+      "source_url": "https://docs.morpho.org/learn/concepts/bundles/",
+      "claim": "Search-served primary text. The optional referral-fee exclusion is not an all-in cost measurement or fee waiver for this shareholder.",
+      "accessed_at": "2026-10-03",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a25-paragraph-81-0",
+      "source_url": "https://help.morpho.org/en/articles/17241670-what-is-in-kind-redemption",
+      "claim": "Primary excerpt examined. Its fee example is not adopted as this vault’s current parameter or exact rounding convention.",
+      "accessed_at": "2026-10-03",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a25-paragraph-82-0",
+      "source_url": "https://docs.morpho.org/curate/tutorials-v2/public-allocator/",
+      "claim": "Relevant primary text examined. Possible redistribution is not a measured competing cash use or newly committed funding.",
+      "accessed_at": "2026-10-03",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a25-paragraph-83-0",
+      "source_url": "https://docs.morpho.org/learn/concepts/vault-v2/",
+      "claim": "Substantive primary text examined. Optional gates qualify broad exit language; no universal cash-exit guarantee is adopted.",
+      "accessed_at": "2026-10-03",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }

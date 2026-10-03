@@ -2,6 +2,20 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "pro-v02-repayment-maturity-20261003",
+      "status": "completed",
+      "started_at": "2026-10-03",
+      "completed_at": "2026-10-03",
+      "report_path": "/p/usde/research/2026-10-03-repayment-maturity-and-in-kind-exits/",
+      "entrypoint": "research/2026-10-03-repayment-maturity-and-in-kind-exits/index.html",
+      "title": "Which obligation has actually been paid?",
+      "summary": "Repaying a protocol, leaving a wrapper and paying the final creditor are different events. Follow the cash used, the time financed and the claim that remains.",
+      "answer_change": "meaningful_change",
+      "research_scope_status": "partial",
+      "analysis_date": "2026-10-03",
+      "new_on_chain_observations": false
+    },
+    {
       "run_id": "pro-v02-actual-accounts-20261002",
       "status": "completed",
       "started_at": "2026-10-02",
