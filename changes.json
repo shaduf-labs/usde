@@ -2,6 +2,12 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "a23-20261002",
+      "changed_at": "2026-10-02T17:04:10.859955+00:00",
+      "summary": "An Aave borrower has measured USDe outside its pledged position. A vault shareholder’s claim fits ordinary screened cash before costs and competition. Those advances still leave larger conversions, costs and the last creditor’s deadline to resolve.",
+      "path": "/p/usde/research/2026-10-02-actual-accounts-and-cash-access/"
+    },
+    {
       "change_id": "editor-a21-20261001",
       "changed_at": "2026-10-01T17:50:09.498954+00:00",
       "summary": "Paying the first creditor can release collateral without paying the last one. Follow the final asset, the sellable quantity and the amount that actually reaches the holder.",

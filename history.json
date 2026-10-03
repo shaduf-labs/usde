@@ -2,6 +2,20 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "pro-v02-actual-accounts-20261002",
+      "status": "completed",
+      "started_at": "2026-10-02",
+      "completed_at": "2026-10-02",
+      "report_path": "/p/usde/research/2026-10-02-actual-accounts-and-cash-access/",
+      "entrypoint": "research/2026-10-02-actual-accounts-and-cash-access/index.html",
+      "title": "Actual accounts change the exit question",
+      "summary": "An Aave borrower has measured USDe outside its pledged position. A vault shareholder’s claim fits ordinary screened cash before costs and competition. Those advances still leave larger conversions, costs and the last creditor’s deadline to resolve.",
+      "answer_change": "meaningful_change",
+      "research_scope_status": "partial",
+      "analysis_date": "2026-10-02",
+      "new_on_chain_observations": true
+    },
+    {
       "run_id": "pro-v02-integration-funding-20261001",
       "status": "completed",
       "started_at": "2026-10-01",

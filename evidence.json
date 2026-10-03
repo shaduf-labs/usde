@@ -528,6 +528,158 @@
       "accessed_at": "2026-10-01",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a23-paragraph-8-0",
+      "source_url": "https://etherscan.io/address/0xea1776733cc969df4ff004a9e1a2d87f5b60add4",
+      "claim": "The selected Ethereum account is 0xea1776733cc969df4ff004a9e1a2d87f5b60add4. A bounded window of natural sUSDe-supply activity identified it; subsequent account and token views established the position. It is not a representative sample, the largest borrower or an identified beneficial owner. Discovery logs are not a reconstruction of financing history or independently confirmed execution receipts.",
+      "accessed_at": "2026-10-02",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a23-paragraph-20-0",
+      "source_url": "https://basescan.org/address/0xe5a8476199a4e213fe594d1a2f5702f06f26a776",
+      "claim": "The selected Base shareholder is 0xe5a8476199a4e213fe594d1a2f5702f06f26a776, holding shares in the previously examined vault 0xbeeff2490feffa212fac2f6553682c219e6a8845. A natural Transfer-log window supplied a discovery lead, not an identity or a claim based on the amount minted. The subsequent share balance and exact-share preview supply the financial entitlement comparison.",
+      "accessed_at": "2026-10-02",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a23-paragraph-31-0",
+      "source_url": "https://basescan.org/address/0x5afe2414f865cbc5ff4e25979996c5b1252e0002",
+      "claim": "The selected Base borrower remains 0x5afe2414f865cbc5ff4e25979996c5b1252e0002. Its loan is Base USDC against Base USDe in the same previously identified Morpho market. At the final in-batch clock—52,072,501, 09:45:49 UTC on 2 October—posted collateral is 3,040,902.468187154771094043 USDe, and Research’s upward-rounded stored-state debt is 2,706,160.339105 USDC.",
+      "accessed_at": "2026-10-02",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a23-paragraph-59-0",
+      "source_url": "https://etherscan.io/address/0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+      "claim": "Ethereum: Aave Pool; selected Aave account; sUSDe 0x9d39a5de30e57443bff2a8307a4256c8797a3497; USDe 0x4c9edd5852cd905f086c759e8383e09bff1e68b3; USDT 0xdac17f958d2ee523a2206206994597c13d831ec7; USDC 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.",
+      "accessed_at": "2026-10-02",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a23-paragraph-59-1",
+      "source_url": "https://etherscan.io/address/0xea1776733cc969df4ff004a9e1a2d87f5b60add4",
+      "claim": "Ethereum: Aave Pool; selected Aave account; sUSDe 0x9d39a5de30e57443bff2a8307a4256c8797a3497; USDe 0x4c9edd5852cd905f086c759e8383e09bff1e68b3; USDT 0xdac17f958d2ee523a2206206994597c13d831ec7; USDC 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.",
+      "accessed_at": "2026-10-02",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a23-paragraph-60-0",
+      "source_url": "https://etherscan.io/address/0xb195b618ea52b77cb2a58846f452f59f8dfa9390",
+      "claim": "PT: PT-sUSDE-26NOV2026; AMM 0x47ad2cd1dd15739a7a035b9d3b7828d916fef77e; SY 0xbf98480425a29197e5d99d003017f63a1e595d02; YT 0x89e6e5f7c3a60e7d6347f054051a29a272f4ce44. The separate USDC lending market is 0x5613b170ded221c588b6e9637b910f49e5508680ceede207f44aa72e5c46cb05.",
+      "accessed_at": "2026-10-02",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a23-paragraph-61-0",
+      "source_url": "https://basescan.org/address/0xbeeff2490feffa212fac2f6553682c219e6a8845",
+      "claim": "Base: selected vault; adapter 0x4a70dc70cef79f51cc7f79c08f863b2841311165; sampled holder; sampled borrower; USDC 0x833589fcd6edb6e08f4c7c32d4f71b54bda02913; USDe 0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34.",
+      "accessed_at": "2026-10-02",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a23-paragraph-61-1",
+      "source_url": "https://basescan.org/address/0xe5a8476199a4e213fe594d1a2f5702f06f26a776",
+      "claim": "Base: selected vault; adapter 0x4a70dc70cef79f51cc7f79c08f863b2841311165; sampled holder; sampled borrower; USDC 0x833589fcd6edb6e08f4c7c32d4f71b54bda02913; USDe 0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34.",
+      "accessed_at": "2026-10-02",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a23-paragraph-61-2",
+      "source_url": "https://basescan.org/address/0x5afe2414f865cbc5ff4e25979996c5b1252e0002",
+      "claim": "Base: selected vault; adapter 0x4a70dc70cef79f51cc7f79c08f863b2841311165; sampled holder; sampled borrower; USDC 0x833589fcd6edb6e08f4c7c32d4f71b54bda02913; USDe 0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34.",
+      "accessed_at": "2026-10-02",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a23-paragraph-64-0",
+      "source_url": "https://aave.com/docs/aave-v3/smart-contracts/pool?language=en",
+      "claim": "Aave V3 Pool reference and view-contract reference, inspected by Research on 2 October 2026. Relevant primary account, repayment, withdrawal and field-definition sections support interpretation. For the Pool reference, primary search-served excerpts—not a successfully retrieved full page—were used. Generic close-factor language is not adopted as verified configuration. Actual token, eMode and debt values come from the recorded views.",
+      "accessed_at": "2026-10-02",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a23-paragraph-64-1",
+      "source_url": "https://www.aave.com/docs/aave-v3/smart-contracts/view-contracts",
+      "claim": "Aave V3 Pool reference and view-contract reference, inspected by Research on 2 October 2026. Relevant primary account, repayment, withdrawal and field-definition sections support interpretation. For the Pool reference, primary search-served excerpts—not a successfully retrieved full page—were used. Generic close-factor language is not adopted as verified configuration. Actual token, eMode and debt values come from the recorded views.",
+      "accessed_at": "2026-10-02",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a23-paragraph-65-0",
+      "source_url": "https://docs.morpho.org/developers/contracts/morpho-vaults-v2/",
+      "claim": "Morpho Vaults V2 contract reference, primary financial excerpts inspected on 2 October. The reference distinguishes previews, conservative zero native maxima, gates and holder/approved-address exits. A zero maximum is not a cash measurement. These excerpts are not a comprehensive control review or proof of an actual payout.",
+      "accessed_at": "2026-10-02",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a23-paragraph-66-0",
+      "source_url": "https://docs.morpho.org/developers/earn/tutorials/force-deallocate/",
+      "claim": "Morpho force-deallocation tutorial, extensive primary search-served financial sections inspected on 2 October; direct full-page retrieval failed. Used for per-market capacity and share-penalty distinctions, not a universal “full exit” promise. No SDK example or transaction builder was executed. The 1 October published-route analysis retains its original version and scope.",
+      "accessed_at": "2026-10-02",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a23-paragraph-67-0",
+      "source_url": "https://docs.morpho.org/curate/tutorials-v2/liquidity-curation/",
+      "claim": "Morpho liquidity-curation reference, inspected on 2 October. Used to distinguish the single selected liquidity market from other allocations. Current claims, list length and cash screens are separately dated views; documentation recommendations are not parameter advice in this assessment.",
+      "accessed_at": "2026-10-02",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a23-paragraph-68-0",
+      "source_url": "https://docs.pendle.finance/pendle-v2-dev/Contracts/RouterStatic/ApiReference/SwapFunctions",
+      "claim": "Pendle RouterStatic swap-function reference, inspected on 2 October. Supports the read-only enquiry signature and output-field meaning. The actual PT/SY/YT binding and quantities come from the recorded views, not a similarly named maturity or a live trade.",
+      "accessed_at": "2026-10-02",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a23-paragraph-69-0",
+      "source_url": "https://docs.curve.finance/developer/amm/stableswap-ng/pools/plainpool/",
+      "claim": "Curve StableSwap-NG plain-pool reference, inspected on 2 October for predicted-output interpretation. Coin order and quantities were separately read. This does not establish a new implementation match for every pool, including the older USDT/USDC secondary pool. Independent quotations are not cumulative fills.",
+      "accessed_at": "2026-10-02",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a23-paragraph-70-0",
+      "source_url": "https://docs.ethena.fi/video-guides/how-to-stake-usde",
+      "claim": "Ethena’s staking guide, inspected as search-served explanatory text on 2 October, retains a seven-day description. That description does not override the 86,400-second normal getter. Nor does the getter certify all queue rules, exceptional changes or final payment timing. The earlier attributed escrow and timing discussion remains separately dated.",
+      "accessed_at": "2026-10-02",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a23-paragraph-71-0",
+      "source_url": "https://github.com/Uniswap/v3-periphery/blob/main/contracts/lens/QuoterV2.sol",
+      "claim": "The 28 September quote analysis inspected QuoterV2 and the minimum-price constant. The present interpretation retains that scope: returned output and price boundary do not disclose consumed input. New price enquiries do not create an October source-to-runtime security conclusion.",
+      "accessed_at": "2026-10-02",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a23-paragraph-72-0",
+      "source_url": "https://github.com/morpho-org/morpho-blue/blob/8e26ca6a8dbc5089edcd67fb576248810fd2870a/src/libraries/SharesMathLib.sol",
+      "claim": "Morpho share-conversion convention, inspected for the 27 September research. The virtual asset/share units and upward rounding remain the convention for the supplied stored-debt arithmetic, not fresh implementation certification.",
+      "accessed_at": "2026-10-02",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }
