@@ -2,6 +2,36 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "pro-v02-credit-refinancing-20261005",
+      "status": "completed",
+      "started_at": "2026-10-05",
+      "completed_at": "2026-10-05",
+      "report_path": "/p/usde/research/2026-10-05-credit-refinancing-and-route-limits/",
+      "entrypoint": "research/2026-10-05-credit-refinancing-and-route-limits/index.html",
+      "title": "More liquidity does not settle the last creditor",
+      "summary": "Additional borrowing, an admitted refinance and final repayment are different events. A generous comparison of two named cash routes makes the missing resource clearer—without turning a conditional ceiling into an available exit.",
+      "answer_change": "meaningful_change",
+      "research_scope_status": "partial",
+      "analysis_date": "2026-10-05",
+      "financial_observation_date": "2026-10-04",
+      "new_on_chain_observations": false
+    },
+    {
+      "run_id": "pro-v02-matched-quotes-20261004",
+      "status": "completed",
+      "started_at": "2026-10-04",
+      "completed_at": "2026-10-04",
+      "report_path": "/p/usde/research/2026-10-04-matched-quotes-and-observed-payments/",
+      "entrypoint": "research/2026-10-04-matched-quotes-and-observed-payments/index.html",
+      "title": "Matching quantities is not the same as funding an exit",
+      "summary": "Two sized principal-token paths, one full USDT borrower and a natural shareholder payment sharpen the cash question. They establish different things—and leave different creditors exposed.",
+      "answer_change": "meaningful_change",
+      "research_scope_status": "partial",
+      "analysis_date": "2026-10-04",
+      "financial_observation_date": "2026-10-04",
+      "new_on_chain_observations": true
+    },
+    {
       "run_id": "pro-v02-repayment-maturity-20261003",
       "status": "completed",
       "started_at": "2026-10-03",

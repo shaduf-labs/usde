@@ -2,6 +2,18 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "a29-2026-10-05",
+      "changed_at": "2026-10-05T09:04:11.271020+00:00",
+      "summary": "Additional borrowing, an admitted refinance and final repayment are different events. A generous comparison of two named cash routes makes the missing resource clearer—without turning a conditional ceiling into an available exit.",
+      "path": "/p/usde/research/2026-10-05-credit-refinancing-and-route-limits/"
+    },
+    {
+      "change_id": "a29-2026-10-04",
+      "changed_at": "2026-10-05T09:04:11.271020+00:00",
+      "summary": "Two sized principal-token paths, one full USDT borrower and a natural shareholder payment sharpen the cash question. They establish different things—and leave different creditors exposed.",
+      "path": "/p/usde/research/2026-10-04-matched-quotes-and-observed-payments/"
+    },
+    {
       "change_id": "a25-20261003",
       "changed_at": "2026-10-03T08:40:55.266608+00:00",
       "summary": "Repaying a protocol, leaving a wrapper and paying the final creditor are different events. Follow the cash used, the time financed and the claim that remains.",

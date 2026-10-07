@@ -784,6 +784,278 @@
       "accessed_at": "2026-10-03",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a29-pro-v02-credit-refinancing-20261005-62-0",
+      "source_url": "https://docs.morpho.org/learn/concepts/public-allocator/",
+      "claim": "Publisher source · Undated served documentation. Relevant material: How It Works; Implementation. Public liquidity reallocation with curator constraints; no selected-user commitment.",
+      "accessed_at": "2026-10-05",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a29-pro-v02-credit-refinancing-20261005-63-0",
+      "source_url": "https://docs.morpho.org/developers/borrow/guides/monetize-borrow-product/",
+      "claim": "Publisher source · Undated served documentation. Relevant material: What is a borrow origination fee?; Where the fee lives; User disclosure. Net loan proceeds versus gross debt. Educational examples not executed or treated as deployed rules.",
+      "accessed_at": "2026-10-05",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a29-pro-v02-credit-refinancing-20261005-64-0",
+      "source_url": "https://aave.com/docs/aave-v3/smart-contracts/pool",
+      "claim": "Publisher source · Undated served documentation. Relevant material: borrow; withdraw; getUserAccountData. Financial admission, available borrowing and debt-token distinctions; not new deployed verification.",
+      "accessed_at": "2026-10-05",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a29-pro-v02-credit-refinancing-20261005-65-0",
+      "source_url": "https://aave.com/docs/aave-v3/guides/credit-delegation",
+      "claim": "Publisher source · Undated served documentation. Relevant material: Opening; Approving the delegation; Borrowing the credit. Approval, supplied collateral, delegated debt and separately agreed terms. No selected delegator obtained.",
+      "accessed_at": "2026-10-05",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a29-pro-v02-credit-refinancing-20261005-66-0",
+      "source_url": "https://www.coinbase.com/blog/earn-competitive-yields-by-lending-your-usdc",
+      "claim": "Publisher source · Published 2025-09-18; update 2026-06-11. Relevant material: June 11 update; How does lending onchain work?. Documented Base High Yield/Ethena distribution relationship, not address-specific funding.",
+      "accessed_at": "2026-10-05",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a29-pro-v02-credit-refinancing-20261005-67-0",
+      "source_url": "https://kitchen.steakhouse.financial/p/lend-your-usdc-on-coinbase",
+      "claim": "Publisher source · Published 2025-09-18; update June 2026. Relevant material: June update; curator role. Curator corroboration of product expansion. Marketing safety claims not adopted.",
+      "accessed_at": "2026-10-05",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a29-pro-v02-credit-refinancing-20261005-68-0",
+      "source_url": "https://www.coinbase.com/en-sg/legal/onchain-integration/terms-of-service",
+      "claim": "Publisher source · Last Updated 2025-12-11. Relevant material: Sections 1.1-1.6, 2.3-2.5, 3, 6-7, 16. Served CBTL terms; no assumed contractual applicability to anonymous sampled addresses or enforceability opinion.",
+      "accessed_at": "2026-10-05",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a29-pro-v02-credit-refinancing-20261005-69-0",
+      "source_url": "https://help.coinbase.com/en/coinbase/trading-and-funding/loan/lending-intro",
+      "claim": "Publisher source · Undated served help page. Relevant material: How USDC lending works; linked here locator; Risks. Observed help link points to a different vault, not selected beeff vault; generic risk terms only.",
+      "accessed_at": "2026-10-05",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a29-pro-v02-credit-refinancing-20261005-70-0",
+      "source_url": "https://help.coinbase.com/en/coinbase/trading-and-funding/loan/claim-lending-rewards",
+      "claim": "Publisher source · Undated served help page. Relevant material: Reward denominations; MORPHO conversion spread. One percent applies to the described reward conversion, not an observed principal withdrawal cost.",
+      "accessed_at": "2026-10-05",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a29-pro-v02-credit-refinancing-20261005-71-0",
+      "source_url": "https://docs.base.org/base-chain/network-information/network-fees",
+      "claim": "Publisher source · Undated served documentation. Relevant material: How do network fees on Base work?. Two fee components; no selected transaction fee amount or fee estimator used.",
+      "accessed_at": "2026-10-05",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a29-pro-v02-credit-refinancing-20261005-72-0",
+      "source_url": "https://help.coinbase.com/en/coinbase/trading-and-funding/loan/collateral",
+      "claim": "Publisher source · Undated served help page. Relevant material: Collateral and your balance; Loan protection. Displayed balance can include locked collateral and exclude debts; separate product, not a selected-account balance.",
+      "accessed_at": "2026-10-05",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a29-pro-v02-credit-refinancing-20261005-73-0",
+      "source_url": "https://help.coinbase.com/en/coinbase/trading-and-funding/loan/withdraw-from-morpho-vault",
+      "claim": "Publisher source · Undated served help page. Relevant material: Opening withdrawal availability qualification. Normal withdrawal description is subject to liquidity; no maximum settlement deadline established.",
+      "accessed_at": "2026-10-05",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a29-pro-v02-credit-refinancing-20261005-74-0",
+      "source_url": "https://docs.morpho.org/developers/api/morpho-vaults/",
+      "claim": "Publisher source · Undated search-served primary documentation. Relevant material: Vault v2 state and configuration endpoints. Used only to identify ordinary public financial-data requests; no returned financial state.",
+      "accessed_at": "2026-10-05",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a29-pro-v02-credit-refinancing-20261005-75-0",
+      "source_url": "https://docs.morpho.org/api/markets/user-market-position-history/",
+      "claim": "Publisher source · Undated search-served primary documentation. Relevant material: GET user market position history; lookback. An endpoint/schema is not a record of this borrower or a replayed transaction.",
+      "accessed_at": "2026-10-05",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a29-pro-v02-credit-refinancing-20261005-76-0",
+      "source_url": "https://docs.morpho.org/developers/borrow/tutorials/public-allocator/",
+      "claim": "Publisher source · Undated; representations differed on retrieval. Relevant material: Opened reallocateTo tutorial versus search-served Vault V2 description. Exact installed fee/version not inferred from conflicting representations. No example execution.",
+      "accessed_at": "2026-10-05",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a29-pro-v02-credit-refinancing-20261005-79-0",
+      "source_url": "https://docs.morpho.org/learn/concepts/public-allocator/",
+      "claim": "Publisher source · Undated served documentation. Relevant material: What is a borrow origination fee?; Where the fee lives; User disclosure. Net loan proceeds versus gross debt. Educational examples not executed or treated as deployed rules.",
+      "accessed_at": "2026-10-05",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a29-pro-v02-credit-refinancing-20261005-80-0",
+      "source_url": "https://aave.com/docs/aave-v3/smart-contracts/pool",
+      "claim": "Publisher source · Undated served documentation. Relevant material: Opening; Approving the delegation; Borrowing the credit. Approval, supplied collateral, delegated debt and separately agreed terms. No selected delegator obtained.",
+      "accessed_at": "2026-10-05",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a29-pro-v02-credit-refinancing-20261005-81-0",
+      "source_url": "https://www.coinbase.com/blog/earn-competitive-yields-by-lending-your-usdc",
+      "claim": "Publisher source · Published 2025-09-18; update June 2026. Relevant material: June update; curator role. Curator corroboration of product expansion. Marketing safety claims not adopted.",
+      "accessed_at": "2026-10-05",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a29-pro-v02-credit-refinancing-20261005-82-0",
+      "source_url": "https://www.coinbase.com/en-sg/legal/onchain-integration/terms-of-service",
+      "claim": "Publisher source · Undated served help page. Relevant material: How USDC lending works; linked here locator; Risks. Observed help link points to a different vault, not selected beeff vault; generic risk terms only.",
+      "accessed_at": "2026-10-05",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a29-pro-v02-credit-refinancing-20261005-83-0",
+      "source_url": "https://help.coinbase.com/en/coinbase/trading-and-funding/loan/claim-lending-rewards",
+      "claim": "Publisher source · Undated served documentation. Relevant material: How do network fees on Base work?. Two fee components; no selected transaction fee amount or fee estimator used.",
+      "accessed_at": "2026-10-05",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a29-pro-v02-credit-refinancing-20261005-84-0",
+      "source_url": "https://help.coinbase.com/en/coinbase/trading-and-funding/loan/collateral",
+      "claim": "Publisher source · Undated served help page. Relevant material: Opening withdrawal availability qualification. Normal withdrawal description is subject to liquidity; no maximum settlement deadline established.",
+      "accessed_at": "2026-10-05",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a29-pro-v02-credit-refinancing-20261005-85-0",
+      "source_url": "https://docs.morpho.org/developers/api/morpho-vaults/",
+      "claim": "Publisher source · Undated search-served primary documentation. Relevant material: GET user market position history; lookback. An endpoint/schema is not a record of this borrower or a replayed transaction.",
+      "accessed_at": "2026-10-05",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a29-pro-v02-matched-quotes-20261004-50-0",
+      "source_url": "https://etherscan.io/address/0xea1776733cc969df4ff004a9e1a2d87f5b60add4",
+      "claim": "The account locator is paired with Aave V3 Pool 0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2, aSUSDe 0x4579a27af00a62c0eb156349f31b345c08386419 and variable-USDT debt token 0x6df1c1e379bc5a00a7b4c6e67a203333772f45a8. The new account, token balances, accepted prices, category and configuration are all assigned to Ethereum block 26,117,487.",
+      "accessed_at": "2026-10-04",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a29-pro-v02-matched-quotes-20261004-51-0",
+      "source_url": "https://basescan.org/tx/0x8d6539190c58d53b38b42aa6a9b2c95d7411bfb966ba538ce9f8b31f8fb7ed55",
+      "claim": "Transaction 0x8d653919…7ed55 at Base block 52,154,675. The full hash is 0x8d6539190c58d53b38b42aa6a9b2c95d7411bfb966ba538ce9f8b31f8fb7ed55; the matched block hash is 0x3ac5246af3d2a03a778fbec7819f277bd693cd0ac64e2c96967910f897aadd06.",
+      "accessed_at": "2026-10-04",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a29-pro-v02-matched-quotes-20261004-69-0",
+      "source_url": "https://etherscan.io/address/0xea1776733cc969df4ff004a9e1a2d87f5b60add4",
+      "claim": "Transaction 0x8d653919…7ed55 at Base block 52,154,675. The full hash is 0x8d6539190c58d53b38b42aa6a9b2c95d7411bfb966ba538ce9f8b31f8fb7ed55; the matched block hash is 0x3ac5246af3d2a03a778fbec7819f277bd693cd0ac64e2c96967910f897aadd06.",
+      "accessed_at": "2026-10-04",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a29-pro-v02-matched-quotes-20261004-70-0",
+      "source_url": "https://github.com/curvefi/metaregistry/blob/b18e83e08bee8660a5d59f53757fae85b6d25599/README.md",
+      "claim": "Pinned primary README used for discovery and coins-versus-underlying distinctions. It is not an exhaustive market list or deployment certification.",
+      "accessed_at": "2026-10-04",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a29-pro-v02-matched-quotes-20261004-71-0",
+      "source_url": "https://docs.curve.finance/developer/amm/stableswap-ng/pools/plainpool/",
+      "claim": "Relevant search-served primary text describes predicted get_dy output, including swap fees. No complete implementation equivalence is inferred for every pool.",
+      "accessed_at": "2026-10-04",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a29-pro-v02-matched-quotes-20261004-72-0",
+      "source_url": "https://docs.pendle.finance/cn/pendle-v2-dev/Contracts/RouterStatic/RouterStaticOverview",
+      "claim": "English substantive text was served at this /cn/ path. Static quotation scope was inspected; signing or execution examples were not run.",
+      "accessed_at": "2026-10-04",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a29-pro-v02-matched-quotes-20261004-73-0",
+      "source_url": "https://docs.pendle.finance/pendle-v2-dev/Contracts/PendleRouter/PendleRouterOverview",
+      "claim": "Primary description includes other routing and off-chain limit-order liquidity. No matching orderbook or committed offer was obtained.",
+      "accessed_at": "2026-10-04",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a29-pro-v02-matched-quotes-20261004-74-0",
+      "source_url": "https://github.com/morpho-org/vault-v2/blob/30ca75f6ab7dececba31abcc58961994bc062781/src/libraries/EventsLib.sol",
+      "claim": "Complete published event interface inspected; public source blob 99522e2f18b12b8852efb95389d2add2436d2d13. Used for field/topic/value matching, not a complete source-to-production audit.",
+      "accessed_at": "2026-10-04",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a29-pro-v02-matched-quotes-20261004-75-0",
+      "source_url": "https://docs.morpho.org/developers/contracts/morpho-vaults-v2/",
+      "claim": "Relevant search-served primary sections distinguish fee shares, accrual, previews and underlying redemption. Effective fee settings and selected-holder dilution were not fully established.",
+      "accessed_at": "2026-10-04",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a29-pro-v02-matched-quotes-20261004-76-0",
+      "source_url": "https://docs.morpho.org/learn/concepts/flashloans/",
+      "claim": "Published financial description requires principal to return within the same transaction. It is not an admitted facility commitment to the selected borrower.",
+      "accessed_at": "2026-10-04",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a29-pro-v02-matched-quotes-20261004-77-0",
+      "source_url": "https://docs.ethena.fi/video-guides/how-to-stake-usde",
+      "claim": "Search-served guide carries an older update/crawl context and a seven-day description. It does not override the observed 86,400-second field or guarantee a maximum cash-arrival time.",
+      "accessed_at": "2026-10-04",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a29-pro-v02-matched-quotes-20261004-78-0",
+      "source_url": "https://api-docs.kyberswap.com/aggregator-api.html",
+      "claim": "Relevant primary text distinguishes route quotation from transaction building. The full-size Base route enquiry yielded no usable result; no transaction was built.",
+      "accessed_at": "2026-10-04",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }
