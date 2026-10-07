@@ -1056,6 +1056,174 @@
       "accessed_at": "2026-10-04",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a31-pro-v02-observed-refinancing-20261007-11-0",
+      "source_url": "https://etherscan.io/tx/0x65262caf428ff6865c63b76f6c094ee7c7a70a72a213e5df78f651e5127f012b",
+      "claim": "The matched transaction is 0x65262caf428ff6865c63b76f6c094ee7c7a70a72a213e5df78f651e5127f012b. All nine retained records agree on Ethereum block 26,138,499, its block hash, the transaction hash and the timestamp. Their log indices establish the ordering. The public explorer link is an inspection locator; the investigation did not obtain a separate full transaction receipt.",
+      "accessed_at": "2026-10-07",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a31-pro-v02-observed-refinancing-20261007-61-0",
+      "source_url": "https://etherscan.io/tx/0x65262caf428ff6865c63b76f6c094ee7c7a70a72a213e5df78f651e5127f012b",
+      "claim": "The accepted October 7 research supplies nine unique event records for the matched transaction, adjacent historical states at Ethereum blocks 26,138,498 and 26,138,499, and later state/quote evidence at 26,140,985. The actual borrower is the established Aave account. No full receipt, gas statement or complete internal conversion trace is implied by these locators.",
+      "accessed_at": "2026-10-07",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a31-pro-v02-observed-refinancing-20261007-61-1",
+      "source_url": "https://etherscan.io/block/26138498",
+      "claim": "The accepted October 7 research supplies nine unique event records for the matched transaction, adjacent historical states at Ethereum blocks 26,138,498 and 26,138,499, and later state/quote evidence at 26,140,985. The actual borrower is the established Aave account. No full receipt, gas statement or complete internal conversion trace is implied by these locators.",
+      "accessed_at": "2026-10-07",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a31-pro-v02-observed-refinancing-20261007-61-2",
+      "source_url": "https://etherscan.io/block/26138499",
+      "claim": "The accepted October 7 research supplies nine unique event records for the matched transaction, adjacent historical states at Ethereum blocks 26,138,498 and 26,138,499, and later state/quote evidence at 26,140,985. The actual borrower is the established Aave account. No full receipt, gas statement or complete internal conversion trace is implied by these locators.",
+      "accessed_at": "2026-10-07",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a31-pro-v02-observed-refinancing-20261007-61-3",
+      "source_url": "https://etherscan.io/block/26140985",
+      "claim": "The accepted October 7 research supplies nine unique event records for the matched transaction, adjacent historical states at Ethereum blocks 26,138,498 and 26,138,499, and later state/quote evidence at 26,140,985. The actual borrower is the established Aave account. No full receipt, gas statement or complete internal conversion trace is implied by these locators.",
+      "accessed_at": "2026-10-07",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a31-pro-v02-observed-refinancing-20261007-61-4",
+      "source_url": "https://etherscan.io/address/0xea1776733cc969df4ff004a9e1a2d87f5b60add4",
+      "claim": "The accepted October 7 research supplies nine unique event records for the matched transaction, adjacent historical states at Ethereum blocks 26,138,498 and 26,138,499, and later state/quote evidence at 26,140,985. The actual borrower is the established Aave account. No full receipt, gas statement or complete internal conversion trace is implied by these locators.",
+      "accessed_at": "2026-10-07",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a31-pro-v02-observed-refinancing-20261007-62-0",
+      "source_url": "https://etherscan.io/address/0x167478921b907422f8e88b43c4af2b8bea278d3a",
+      "claim": "The additional first-hop pool is sUSDe/sDAI; the savings receipt is sDAI; the final DAI/USDC view uses 3pool. The selected PT market retains its earlier instrument identity.",
+      "accessed_at": "2026-10-07",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a31-pro-v02-observed-refinancing-20261007-62-1",
+      "source_url": "https://etherscan.io/address/0x83f20f44975d03b1b09e64809b757c47f942beea",
+      "claim": "The additional first-hop pool is sUSDe/sDAI; the savings receipt is sDAI; the final DAI/USDC view uses 3pool. The selected PT market retains its earlier instrument identity.",
+      "accessed_at": "2026-10-07",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a31-pro-v02-observed-refinancing-20261007-62-2",
+      "source_url": "https://etherscan.io/address/0xbebc44782c7db0a1a60cb6fe97d0b483032ff1c7",
+      "claim": "The additional first-hop pool is sUSDe/sDAI; the savings receipt is sDAI; the final DAI/USDC view uses 3pool. The selected PT market retains its earlier instrument identity.",
+      "accessed_at": "2026-10-07",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a31-pro-v02-observed-refinancing-20261007-62-3",
+      "source_url": "https://etherscan.io/address/0x47ad2cd1dd15739a7a035b9d3b7828d916fef77e",
+      "claim": "The additional first-hop pool is sUSDe/sDAI; the savings receipt is sDAI; the final DAI/USDC view uses 3pool. The selected PT market retains its earlier instrument identity.",
+      "accessed_at": "2026-10-07",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a31-pro-v02-observed-refinancing-20261007-63-0",
+      "source_url": "https://basescan.org/block/52296246",
+      "claim": "Base observations are at 52,296,246, for the selected borrower and selected shareholder. The owner-indexed standard-withdrawal query covers 52,294,247–52,296,246 only. The separate historical denominator request at 52,154,674 was unavailable.",
+      "accessed_at": "2026-10-07",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a31-pro-v02-observed-refinancing-20261007-63-1",
+      "source_url": "https://basescan.org/address/0x5afe2414f865cbc5ff4e25979996c5b1252e0002",
+      "claim": "Base observations are at 52,296,246, for the selected borrower and selected shareholder. The owner-indexed standard-withdrawal query covers 52,294,247–52,296,246 only. The separate historical denominator request at 52,154,674 was unavailable.",
+      "accessed_at": "2026-10-07",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a31-pro-v02-observed-refinancing-20261007-63-2",
+      "source_url": "https://basescan.org/address/0xe5a8476199a4e213fe594d1a2f5702f06f26a776",
+      "claim": "Base observations are at 52,296,246, for the selected borrower and selected shareholder. The owner-indexed standard-withdrawal query covers 52,294,247–52,296,246 only. The separate historical denominator request at 52,154,674 was unavailable.",
+      "accessed_at": "2026-10-07",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a31-pro-v02-observed-refinancing-20261007-64-0",
+      "source_url": "https://docs.morpho.org/learn/concepts/flashloans/",
+      "claim": "Flash Loans, inspected by Research on 7 October 2026. The financial description supports the temporary-principal interpretation. Actual amounts come from the matched transfer records, not a documentation example. No code example or linked test was executed.",
+      "accessed_at": "2026-10-07",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a31-pro-v02-observed-refinancing-20261007-65-0",
+      "source_url": "https://github.com/aave-dao/aave-v3-origin/blob/main/src/contracts/interfaces/IPool.sol",
+      "claim": "IPool interface, inspected on 7 October. The Borrow and Repay declarations supply field meanings checked against the observed events, transfers and balances. Served main-branch source is not a pinned production-build match or an all-account service guarantee.",
+      "accessed_at": "2026-10-07",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a31-pro-v02-observed-refinancing-20261007-66-0",
+      "source_url": "https://docs.pendle.finance/pendle-v2-dev/Contracts/RouterStatic/ApiReference/SwapFunctions",
+      "claim": "RouterStatic swap functions, inspected on 7 October. Net output, intermediate SY and already-deducted fee fields are distinct. The static enquiry is a prediction, not an executed trade or admitted financing package.",
+      "accessed_at": "2026-10-07",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a31-pro-v02-observed-refinancing-20261007-67-0",
+      "source_url": "https://docs.spark.fi/dev/savings/sdai-token",
+      "claim": "sDAI Token, inspected on 7 October. The source describes the exact Ethereum receipt, asset/share units and redemption preview. A different savings product is not substituted for this sDAI address. The preview remains distinct from an actual DAI transfer.",
+      "accessed_at": "2026-10-07",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a31-pro-v02-observed-refinancing-20261007-68-0",
+      "source_url": "https://docs.curve.finance/developer/amm/stableswap-ng/pools/plainpool/",
+      "claim": "StableSwap NG plain-pool views, inspected on 7 October. Used for the narrow predicted-output and coin-index interpretation, not to certify the code or security of every queried pool. The selected addresses and quantities are separately observed.",
+      "accessed_at": "2026-10-07",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a31-pro-v02-observed-refinancing-20261007-73-0",
+      "source_url": "https://etherscan.io/tx/0x65262caf428ff6865c63b76f6c094ee7c7a70a72a213e5df78f651e5127f012b",
+      "claim": "The additional first-hop pool is sUSDe/sDAI; the savings receipt is sDAI; the final DAI/USDC view uses 3pool. The selected PT market retains its earlier instrument identity.",
+      "accessed_at": "2026-10-07",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a31-pro-v02-observed-refinancing-20261007-74-0",
+      "source_url": "https://docs.morpho.org/learn/concepts/flashloans/",
+      "claim": "IPool interface, inspected on 7 October. The Borrow and Repay declarations supply field meanings checked against the observed events, transfers and balances. Served main-branch source is not a pinned production-build match or an all-account service guarantee.",
+      "accessed_at": "2026-10-07",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a31-pro-v02-observed-refinancing-20261007-75-0",
+      "source_url": "https://docs.pendle.finance/pendle-v2-dev/Contracts/RouterStatic/ApiReference/SwapFunctions",
+      "claim": "sDAI Token, inspected on 7 October. The source describes the exact Ethereum receipt, asset/share units and redemption preview. A different savings product is not substituted for this sDAI address. The preview remains distinct from an actual DAI transfer.",
+      "accessed_at": "2026-10-07",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }

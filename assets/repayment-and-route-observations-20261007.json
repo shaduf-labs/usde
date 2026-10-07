@@ -1,0 +1,298 @@
+{
+  "title": "Observed partial refinancing and additional PT route",
+  "research_date_utc": "2026-10-07",
+  "reader_chapter": "/p/usde/research/2026-10-07-observed-refinancing-and-remaining-debt/",
+  "data_purpose": "Selected recorded quantities and supplied reconciliations for inspection. Numeric amounts are strings. This is not a live feed, additive balance sheet, trade instruction or complete receipt archive.",
+  "refinancing": {
+    "chain_id": 1,
+    "account": "0xea1776733cc969df4ff004a9e1a2d87f5b60add4",
+    "transaction_url": "https://etherscan.io/tx/0x65262caf428ff6865c63b76f6c094ee7c7a70a72a213e5df78f651e5127f012b",
+    "event_time_utc": "2026-10-07T05:44:35Z",
+    "ordered_records": [
+      {
+        "log_index": "0x3ef",
+        "emitter": "0xbbbbbbbbbb9cc5e90e3b3af64bdaf62c37eeffcb",
+        "transaction_hash": "0x65262caf428ff6865c63b76f6c094ee7c7a70a72a213e5df78f651e5127f012b",
+        "block_hash": "0x8acddde1c22cd52a4a3521cfaa05e64d7c2bc834e6456ec8e17ce1fc5a6862f1",
+        "block_number": "26138499",
+        "block_time_utc": "2026-10-07T05:44:35Z",
+        "kind": "temporary_loan_record",
+        "amount_token_units": "10000.000000",
+        "token": "Ethereum USDC",
+        "qualification": "Protocol event paired with an actual transfer; not an additional cash movement."
+      },
+      {
+        "log_index": "0x3f0",
+        "emitter": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "transaction_hash": "0x65262caf428ff6865c63b76f6c094ee7c7a70a72a213e5df78f651e5127f012b",
+        "block_hash": "0x8acddde1c22cd52a4a3521cfaa05e64d7c2bc834e6456ec8e17ce1fc5a6862f1",
+        "block_number": "26138499",
+        "block_time_utc": "2026-10-07T05:44:35Z",
+        "kind": "token_transfer",
+        "token": "Ethereum USDC",
+        "amount_raw": "10000000000",
+        "amount_token_units": "10000.000000",
+        "from": "0xbbbbbbbbbb9cc5e90e3b3af64bdaf62c37eeffcb",
+        "to": "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+      },
+      {
+        "log_index": "0x3f1",
+        "emitter": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "transaction_hash": "0x65262caf428ff6865c63b76f6c094ee7c7a70a72a213e5df78f651e5127f012b",
+        "block_hash": "0x8acddde1c22cd52a4a3521cfaa05e64d7c2bc834e6456ec8e17ce1fc5a6862f1",
+        "block_number": "26138499",
+        "block_time_utc": "2026-10-07T05:44:35Z",
+        "kind": "token_transfer",
+        "token": "Ethereum USDC",
+        "amount_raw": "10000000000",
+        "amount_token_units": "10000.000000",
+        "from": "0xea1776733cc969df4ff004a9e1a2d87f5b60add4",
+        "to": "0x9b6f014ba4df10871302cb1a781ab1c423bca9ed"
+      },
+      {
+        "log_index": "0x405",
+        "emitter": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        "transaction_hash": "0x65262caf428ff6865c63b76f6c094ee7c7a70a72a213e5df78f651e5127f012b",
+        "block_hash": "0x8acddde1c22cd52a4a3521cfaa05e64d7c2bc834e6456ec8e17ce1fc5a6862f1",
+        "block_number": "26138499",
+        "block_time_utc": "2026-10-07T05:44:35Z",
+        "kind": "token_transfer",
+        "token": "Ethereum USDT",
+        "amount_raw": "10001640594",
+        "amount_token_units": "10001.640594",
+        "from": "0x8f10b468b06c6fd214b65f87778827f7d113f996",
+        "to": "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+      },
+      {
+        "log_index": "0x40d",
+        "emitter": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        "transaction_hash": "0x65262caf428ff6865c63b76f6c094ee7c7a70a72a213e5df78f651e5127f012b",
+        "block_hash": "0x8acddde1c22cd52a4a3521cfaa05e64d7c2bc834e6456ec8e17ce1fc5a6862f1",
+        "block_number": "26138499",
+        "block_time_utc": "2026-10-07T05:44:35Z",
+        "kind": "token_transfer",
+        "token": "Ethereum USDT",
+        "amount_raw": "10006329226",
+        "amount_token_units": "10006.329226",
+        "from": "0xea1776733cc969df4ff004a9e1a2d87f5b60add4",
+        "to": "0x23878914efe38d27c4d67ab83ed1b93a74d4086a"
+      },
+      {
+        "log_index": "0x40e",
+        "emitter": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+        "transaction_hash": "0x65262caf428ff6865c63b76f6c094ee7c7a70a72a213e5df78f651e5127f012b",
+        "block_hash": "0x8acddde1c22cd52a4a3521cfaa05e64d7c2bc834e6456ec8e17ce1fc5a6862f1",
+        "block_number": "26138499",
+        "block_time_utc": "2026-10-07T05:44:35Z",
+        "kind": "repayment_record",
+        "amount_token_units": "10006.329226",
+        "token": "Ethereum USDT",
+        "qualification": "Protocol event paired with an actual transfer; not an additional cash movement.",
+        "use_atokens": false
+      },
+      {
+        "log_index": "0x413",
+        "emitter": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "transaction_hash": "0x65262caf428ff6865c63b76f6c094ee7c7a70a72a213e5df78f651e5127f012b",
+        "block_hash": "0x8acddde1c22cd52a4a3521cfaa05e64d7c2bc834e6456ec8e17ce1fc5a6862f1",
+        "block_number": "26138499",
+        "block_time_utc": "2026-10-07T05:44:35Z",
+        "kind": "token_transfer",
+        "token": "Ethereum USDC",
+        "amount_raw": "10000000000",
+        "amount_token_units": "10000.000000",
+        "from": "0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c",
+        "to": "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+      },
+      {
+        "log_index": "0x414",
+        "emitter": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+        "transaction_hash": "0x65262caf428ff6865c63b76f6c094ee7c7a70a72a213e5df78f651e5127f012b",
+        "block_hash": "0x8acddde1c22cd52a4a3521cfaa05e64d7c2bc834e6456ec8e17ce1fc5a6862f1",
+        "block_number": "26138499",
+        "block_time_utc": "2026-10-07T05:44:35Z",
+        "kind": "borrowing_record",
+        "amount_token_units": "10000.000000",
+        "token": "Ethereum USDC",
+        "qualification": "Protocol event paired with an actual transfer; not an additional cash movement.",
+        "rate_mode": "variable"
+      },
+      {
+        "log_index": "0x418",
+        "emitter": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "transaction_hash": "0x65262caf428ff6865c63b76f6c094ee7c7a70a72a213e5df78f651e5127f012b",
+        "block_hash": "0x8acddde1c22cd52a4a3521cfaa05e64d7c2bc834e6456ec8e17ce1fc5a6862f1",
+        "block_number": "26138499",
+        "block_time_utc": "2026-10-07T05:44:35Z",
+        "kind": "token_transfer",
+        "token": "Ethereum USDC",
+        "amount_raw": "10000000000",
+        "amount_token_units": "10000.000000",
+        "from": "0xea1776733cc969df4ff004a9e1a2d87f5b60add4",
+        "to": "0xbbbbbbbbbb9cc5e90e3b3af64bdaf62c37eeffcb"
+      }
+    ],
+    "reported_reconciliation": {
+      "own_usdt_contribution_to_repayment_not_fee": "4.688632",
+      "usdt_payment": "10006.329226",
+      "usdt_received": "10001.640594",
+      "pre_post_usdt_debt_reduction": "10006.047631",
+      "interval_accrual_rounding_residual_not_fee_usdt": "0.281595"
+    },
+    "states": [
+      {
+        "clock_utc": "2026-10-07T05:44:23Z",
+        "chain_id": 1,
+        "state_block": "26138498",
+        "state_kind": "historical end-of-block",
+        "collateral_susde": "5359416.826188716790252832",
+        "debt_usdt": "5876173.695981",
+        "debt_usdc": "0.000000",
+        "idle_usdt": "9.689386",
+        "idle_usdc": "0.000000",
+        "free_usde": "23908.467042095491407286",
+        "cooldown_end_and_underlying_raw": [
+          "0",
+          "0"
+        ],
+        "reported_health_factor": "1.050383103825264343"
+      },
+      {
+        "clock_utc": "2026-10-07T05:44:35Z",
+        "chain_id": 1,
+        "state_block": "26138499",
+        "state_kind": "historical end-of-block",
+        "collateral_susde": "5359416.826188716790252832",
+        "debt_usdt": "5866167.648350",
+        "debt_usdc": "10000.000002",
+        "idle_usdt": "5.000754",
+        "idle_usdc": "0.000000",
+        "free_usde": "23908.467042095491407286",
+        "cooldown_end_and_underlying_raw": [
+          "0",
+          "0"
+        ],
+        "reported_health_factor": "1.050384082608568726"
+      },
+      {
+        "clock_utc": "2026-10-07T14:04:11Z",
+        "chain_id": 1,
+        "state_block": "26140985",
+        "account_batch_outer_head": "26140986",
+        "state_kind": "later fixed-block state",
+        "collateral_susde": "5359416.826188716790252832",
+        "debt_usdt": "5866650.101604",
+        "debt_usdc": "10000.460197",
+        "reported_health_factor": "1.050346321491985487",
+        "reported_accepted_debt_usd": "5875672.29518107",
+        "cooldown_end_and_underlying_raw": [
+          "0",
+          "0"
+        ],
+        "qualification": "Not the immediate post-transaction state. No complete intervening history attributes all changes solely to interest."
+      }
+    ],
+    "limitations": [
+      "Observed funded partial refinancing, not full recovery or scalable capacity.",
+      "Temporary principal return does not repay persistent Aave USDC debt.",
+      "No separate full receipt, complete intermediary trace, gas/sponsorship or all-in expenses.",
+      "Adjacent end-of-block observations are not internal transaction states."
+    ]
+  },
+  "additional_pt_route": {
+    "chain_id": 1,
+    "state_block": "26140985",
+    "clock_utc": "2026-10-07T14:04:11Z",
+    "pt_address": "0xb195b618ea52b77cb2a58846f452f59f8dfa9390",
+    "market_address": "0x47ad2cd1dd15739a7a035b9d3b7828d916fef77e",
+    "input_pt": "1000000",
+    "native_output_susde": "791280.184140667115346965",
+    "first_hop_pool": "0x167478921b907422f8e88b43c4af2b8bea278d3a",
+    "first_hop_output_sdai": "290094.735978077632862708",
+    "sdai_address": "0x83f20f44975d03b1b09e64809b757c47f942beea",
+    "redemption_preview_dai": "342730.930787028554113413",
+    "final_pool": "0xbebc44782c7db0a1a60cb6fe97d0b483032ff1c7",
+    "quoted_final_ethereum_usdc": "342677.470045",
+    "first_hop_sdai_inventory": "290286.893683513943564680",
+    "final_pool_usdc_inventory": "45789752.349654",
+    "hypothetical_principal_usdc": "900000",
+    "reported_before_extra_cost_gap_usdc": "557322.529955",
+    "limits": [
+      "Exact successive quantities at one explicit state block; not executed or funded.",
+      "Redemption preview is not a DAI receipt.",
+      "Hypothetical principal is not an observed PT debt.",
+      "Additional route cannot be added to earlier whole-input alternatives or the October4 restricted two-corridor envelope.",
+      "No actual owner, funded interval, optimized split or final receipt."
+    ]
+  },
+  "base_and_shareholder": {
+    "chain_id": 8453,
+    "state_block": "52296246",
+    "clock_utc": "2026-10-07T14:03:59Z",
+    "borrower": "0x5afe2414f865cbc5ff4e25979996c5b1252e0002",
+    "borrower_collateral_usde": "3042881.283763481768838477",
+    "reported_upward_rounded_stored_share_debt_usdc": "2707724.528483",
+    "stored_accrual_age_seconds": "34",
+    "direct_borrower_usdc": "0.000000",
+    "free_borrower_usde": "0.000000000000000000",
+    "same_market_supplied_shares_raw": "0",
+    "nominal_market_supply_minus_borrow_usdc": "38816025.713668",
+    "holder": "0xe5a8476199a4e213fe594d1a2f5702f06f26a776",
+    "holder_shares_raw": "2963919352231113055472892",
+    "holder_preview_usdc": "3001245.554234",
+    "reported_preview_change_since_oct4_usdc": "778.879531",
+    "holder_native_eth_raw": "0",
+    "withdrawal_screen": {
+      "event": "owner-indexed standard Withdraw",
+      "from_block": "52294247",
+      "to_block": "52296246",
+      "inclusive_window_blocks": "2000",
+      "query_succeeded": true,
+      "matching_count": 0,
+      "limitation": "Not a failed withdrawal, lifetime history, or complete receipt/cost result."
+    },
+    "historical_fee_denominator": {
+      "requested_block": "52154674",
+      "result": "HTTP 403; no observation",
+      "attributable_fee_result": null
+    },
+    "limits": [
+      "Scoped direct zeros do not establish complete wealth or exclude outside facilities.",
+      "Stored-share debt is not a future payoff invoice.",
+      "Positive October2 ordinary admission remains original dated evidence, not a refreshed permission reading.",
+      "Preview change is not cash received; no attributable full net expense or complete competition ledger."
+    ]
+  },
+  "public_document_sources": [
+    {
+      "title": "Morpho — Flash Loans",
+      "url": "https://docs.morpho.org/learn/concepts/flashloans/",
+      "research_access_date_utc": "2026-10-07",
+      "use_and_limit": "Interpret temporary funding and same-transaction principal return. Implementation examples not executed."
+    },
+    {
+      "title": "Aave v3 origin — IPool interface",
+      "url": "https://github.com/aave-dao/aave-v3-origin/blob/main/src/contracts/interfaces/IPool.sol",
+      "research_access_date_utc": "2026-10-07",
+      "use_and_limit": "Reserve, beneficiary, repayment amount, useATokens and variable-mode interpretation; tested against the saved natural event fields and balances."
+    },
+    {
+      "title": "Pendle — RouterStatic swap functions",
+      "url": "https://docs.pendle.finance/pendle-v2-dev/Contracts/RouterStatic/ApiReference/SwapFunctions",
+      "research_access_date_utc": "2026-10-07",
+      "use_and_limit": "Net token output, intermediate SY and already-deducted fee are distinct, not additive outputs. No transaction examples executed."
+    },
+    {
+      "title": "Spark — sDAI Token",
+      "url": "https://docs.spark.fi/dev/savings/sdai-token",
+      "research_access_date_utc": "2026-10-07",
+      "use_and_limit": "sDAI is a DAI savings receipt offered by Sky, not an Ethena payment or a Spark corporate guarantee; previewRedeem is not a receipt."
+    },
+    {
+      "title": "Curve — StableSwap NG plain pool financial view",
+      "url": "https://docs.curve.finance/developer/amm/stableswap-ng/pools/plainpool/",
+      "research_access_date_utc": "2026-10-07",
+      "use_and_limit": "Interpret indexed amount-out enquiry; actual pool identities/coins and output values are in the new readbacks."
+    }
+  ]
+}

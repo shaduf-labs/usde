@@ -2,6 +2,21 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "pro-v02-observed-refinancing-20261007",
+      "status": "completed",
+      "started_at": "2026-10-07",
+      "completed_at": "2026-10-07",
+      "report_path": "/p/usde/research/2026-10-07-observed-refinancing-and-remaining-debt/",
+      "entrypoint": "research/2026-10-07-observed-refinancing-and-remaining-debt/index.html",
+      "title": "A creditor was paid. The debt did not disappear.",
+      "summary": "A matched refinancing shows how cash can reach an original lender without completing the borrower’s exit. Follow the payment, the new debt and the creditor still waiting.",
+      "answer_change": "meaningful_change",
+      "research_scope_status": "partial",
+      "analysis_date": "2026-10-07",
+      "financial_observation_date": "2026-10-07",
+      "new_on_chain_observations": true
+    },
+    {
       "run_id": "pro-v02-credit-refinancing-20261005",
       "status": "completed",
       "started_at": "2026-10-05",

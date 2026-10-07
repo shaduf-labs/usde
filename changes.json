@@ -2,6 +2,12 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "a31-2026-10-07",
+      "changed_at": "2026-10-07T16:10:38.025165+00:00",
+      "summary": "A matched refinancing shows how cash can reach an original lender without completing the borrower’s exit. Follow the payment, the new debt and the creditor still waiting.",
+      "path": "/p/usde/research/2026-10-07-observed-refinancing-and-remaining-debt/"
+    },
+    {
       "change_id": "a29-2026-10-05",
       "changed_at": "2026-10-05T09:04:11.271020+00:00",
       "summary": "Additional borrowing, an admitted refinance and final repayment are different events. A generous comparison of two named cash routes makes the missing resource clearer—without turning a conditional ceiling into an available exit.",
