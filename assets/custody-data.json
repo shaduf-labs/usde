@@ -18,7 +18,7 @@
       "asset_or_claim": "Holder owns the token or product claim, not automatically a specific custodian wallet.",
       "release_conditions": "Transfer, sale, staking claim and issuer redemption use different actors and conditions.",
       "clock": "Holder route and product-specific clock; prior queue setting remains dated.",
-      "evidence_limit": "Inherited accepted runs 3\u20134; no refreshed eligibility, price or loan state.",
+      "evidence_limit": "Inherited dated evidence; no refreshed eligibility, price or loan state.",
       "source_ids": [
         "r5s:oes"
       ]
