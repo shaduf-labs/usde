@@ -3,7 +3,7 @@
   "items": [
     {
       "change_id": "2026-10-15-debt-growth-and-reserve-cash",
-      "changed_at": "2026-10-15T08:21:00Z",
+      "changed_at": "2026-10-15T08:29:35.877171+00:00",
       "summary": "Two token debts have grown. The collateral still has positive accepted-value headroom, and the lending reserves hold substantial cash. None of those observations settles the borrower’s remaining obligations.",
       "path": "/p/usde/research/2026-10-15-debt-growth-and-reserve-cash/"
     },
