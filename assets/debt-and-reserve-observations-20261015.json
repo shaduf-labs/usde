@@ -1,0 +1,397 @@
+{
+  "title": "Selected debt and reserve observations: 7 and 15 October 2026",
+  "scope": "Selected dated financial observations and stated accounting comparisons. Not a live feed, full transaction ledger, security test, complete balance sheet or financing commitment.",
+  "precision": "Amounts and integers are strings. Null denotes unestablished evidence, not zero.",
+  "account_endpoints": [
+    {
+      "chain": "Ethereum mainnet",
+      "chain_id": 1,
+      "block": 26141669,
+      "time_utc": "2026-10-07T16:21:23+00:00",
+      "block_hash": null,
+      "account": "0xea1776733cc969df4ff004a9e1a2d87f5b60add4",
+      "pool": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+      "values": {
+        "collateral_susde": {
+          "amount": "5359416.826188716790252832",
+          "raw": "5359416826188716790252832",
+          "decimals": 18,
+          "contract": "0x4579a27af00a62c0eb156349f31b345c08386419",
+          "function": "balanceOf(address)",
+          "arguments": [
+            "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+          ]
+        },
+        "owed_usdt": {
+          "amount": "5866744.553593",
+          "raw": "5866744553593",
+          "decimals": 6,
+          "contract": "0x6df1c1e379bc5a00a7b4c6e67a203333772f45a8",
+          "function": "balanceOf(address)",
+          "arguments": [
+            "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+          ]
+        },
+        "owed_usdc": {
+          "amount": "10000.583047",
+          "raw": "10000583047",
+          "decimals": 6,
+          "contract": "0x72e95b8931767c79ba4eee721354d6e99a61d004",
+          "function": "balanceOf(address)",
+          "arguments": [
+            "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+          ]
+        },
+        "direct_usdt": {
+          "amount": "5.000754",
+          "raw": "5000754",
+          "decimals": 6,
+          "contract": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "function": "balanceOf(address)",
+          "arguments": [
+            "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+          ]
+        },
+        "direct_usdc": {
+          "amount": "0.000000",
+          "raw": "0",
+          "decimals": 6,
+          "contract": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "function": "balanceOf(address)",
+          "arguments": [
+            "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+          ]
+        },
+        "free_usde": {
+          "amount": "23908.467042095491407286",
+          "raw": "23908467042095491407286",
+          "decimals": 18,
+          "contract": "0x4c9edd5852cd905f086c759e8383e09bff1e68b3",
+          "function": "balanceOf(address)",
+          "arguments": [
+            "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+          ]
+        },
+        "direct_susde": {
+          "amount": "0.000000000000000000",
+          "raw": "0",
+          "decimals": 18,
+          "contract": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+          "function": "balanceOf(address)",
+          "arguments": [
+            "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+          ]
+        },
+        "accepted_susde_usd": {
+          "amount": "1.25139149",
+          "raw": "125139149",
+          "decimals": 8,
+          "contract": "0x54586be62e3c3580375ae3723c145253060ca0c2",
+          "function": "getAssetPrice(address)",
+          "arguments": [
+            "0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+          ]
+        },
+        "accepted_usdt_usd": {
+          "amount": "0.99961000",
+          "raw": "99961000",
+          "decimals": 8,
+          "contract": "0x54586be62e3c3580375ae3723c145253060ca0c2",
+          "function": "getAssetPrice(address)",
+          "arguments": [
+            "0xdac17f958d2ee523a2206206994597c13d831ec7"
+          ]
+        },
+        "accepted_usdc_usd": {
+          "amount": "0.99984216",
+          "raw": "99984216",
+          "decimals": 8,
+          "contract": "0x54586be62e3c3580375ae3723c145253060ca0c2",
+          "function": "getAssetPrice(address)",
+          "arguments": [
+            "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+          ]
+        }
+      },
+      "account_summary": {
+        "accepted_collateral_usd": "6706728.60765536",
+        "accepted_debt_usd": "5874455.52777208",
+        "health_factor": "1.050342502360045998",
+        "ltv_percent": "90",
+        "liquidation_threshold_percent": "92",
+        "emode": "31",
+        "cooldown_fields": [
+          "0",
+          "0"
+        ],
+        "cooldown_setting_seconds": "86400"
+      },
+      "scaled_debt_raw": {
+        "USDT": "4701403907529",
+        "USDC": "7984051682"
+      }
+    },
+    {
+      "chain": "Ethereum mainnet",
+      "chain_id": 1,
+      "block": 26196047,
+      "time_utc": "2026-10-15T06:13:35+00:00",
+      "block_hash": "0xe35cccb5cae09b8a63f9d0b603870170513cf533aa2a58e68dd598894ff30e1e",
+      "account": "0xea1776733cc969df4ff004a9e1a2d87f5b60add4",
+      "pool": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+      "values": {
+        "collateral_susde": {
+          "amount": "5359416.826188716790252832",
+          "raw": "5359416826188716790252832",
+          "decimals": 18,
+          "contract": "0x4579a27af00a62c0eb156349f31b345c08386419",
+          "function": "balanceOf(address)",
+          "arguments": [
+            "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+          ]
+        },
+        "owed_usdt": {
+          "amount": "5871988.139231",
+          "raw": "5871988139231",
+          "decimals": 6,
+          "contract": "0x6df1c1e379bc5a00a7b4c6e67a203333772f45a8",
+          "function": "balanceOf(address)",
+          "arguments": [
+            "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+          ]
+        },
+        "owed_usdc": {
+          "amount": "10011.072984",
+          "raw": "10011072984",
+          "decimals": 6,
+          "contract": "0x72e95b8931767c79ba4eee721354d6e99a61d004",
+          "function": "balanceOf(address)",
+          "arguments": [
+            "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+          ]
+        },
+        "direct_usdt": {
+          "amount": "5.000754",
+          "raw": "5000754",
+          "decimals": 6,
+          "contract": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "function": "balanceOf(address)",
+          "arguments": [
+            "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+          ]
+        },
+        "direct_usdc": {
+          "amount": "0.000000",
+          "raw": "0",
+          "decimals": 6,
+          "contract": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "function": "balanceOf(address)",
+          "arguments": [
+            "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+          ]
+        },
+        "free_usde": {
+          "amount": "23908.467042095491407286",
+          "raw": "23908467042095491407286",
+          "decimals": 18,
+          "contract": "0x4c9edd5852cd905f086c759e8383e09bff1e68b3",
+          "function": "balanceOf(address)",
+          "arguments": [
+            "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+          ]
+        },
+        "direct_susde": {
+          "amount": "0.000000000000000000",
+          "raw": "0",
+          "decimals": 18,
+          "contract": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+          "function": "balanceOf(address)",
+          "arguments": [
+            "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+          ]
+        },
+        "accepted_susde_usd": {
+          "amount": "1.25175527",
+          "raw": "125175527",
+          "decimals": 8,
+          "contract": "0x54586be62e3c3580375ae3723c145253060ca0c2",
+          "function": "getAssetPrice(address)",
+          "arguments": [
+            "0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+          ]
+        },
+        "accepted_usdt_usd": {
+          "amount": "0.99891000",
+          "raw": "99891000",
+          "decimals": 8,
+          "contract": "0x54586be62e3c3580375ae3723c145253060ca0c2",
+          "function": "getAssetPrice(address)",
+          "arguments": [
+            "0xdac17f958d2ee523a2206206994597c13d831ec7"
+          ]
+        },
+        "accepted_usdc_usd": {
+          "amount": "0.99987936",
+          "raw": "99987936",
+          "decimals": 8,
+          "contract": "0x54586be62e3c3580375ae3723c145253060ca0c2",
+          "function": "getAssetPrice(address)",
+          "arguments": [
+            "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+          ]
+        }
+      },
+      "account_summary": {
+        "accepted_collateral_usd": "6708678.25630840",
+        "accepted_debt_usd": "5875597.53740740",
+        "health_factor": "1.050443628330457118",
+        "ltv_percent": "90",
+        "liquidation_threshold_percent": "92",
+        "emode": "31",
+        "cooldown_fields": [
+          "0",
+          "0"
+        ],
+        "cooldown_setting_seconds": "86400"
+      },
+      "scaled_debt_raw": {
+        "USDT": "4701403907529",
+        "USDC": "7984051682"
+      }
+    }
+  ],
+  "endpoint_limits": [
+    "Matching collateral, direct cash or scaled debt endpoints do not prove zero gross intervening movements.",
+    "No successfully covered account-event history after the 7 October 16:21:23 UTC cutoff through the 15 October endpoint.",
+    "Both positive debt quantities establish an open measured position, not default or a missed ordinary maturity."
+  ],
+  "historical_payment": {
+    "date_utc": "2026-10-07T05:44:35+00:00",
+    "block": 26138499,
+    "transaction_hash": "0x65262caf428ff6865c63b76f6c094ee7c7a70a72a213e5df78f651e5127f012b",
+    "temporary_usdc_arrived": "10000",
+    "temporary_usdc_principal_returned": "10000",
+    "original_reserve_usdt_paid": "10006.329226",
+    "persistent_usdc_draw": "10000",
+    "own_cash_usdt": "4.688632",
+    "own_cash_classification": "Debt service; allocation between principal and accrued interest unestablished. Not a fee.",
+    "limit": "Historical matched records; no newly obtained complete receipt or scalable financing commitment."
+  },
+  "accounting_comparisons": [
+    {
+      "start_utc": "2026-10-07T05:44:35+00:00",
+      "end_utc": "2026-10-07T16:21:23+00:00",
+      "usdt_debt_change": "576.905243",
+      "usdc_debt_change": "0.583045",
+      "quantity_effect_old_prices_usd": "577.39212882012106",
+      "price_effect_later_quantities_usd": "-1311.32650188718654",
+      "reported_debt_change_usd": "-733.93437306",
+      "reported_collateral_change_usd": "-1103.45033035",
+      "gross_marked_equity_change_usd": "-369.51595729"
+    },
+    {
+      "start_utc": "2026-10-07T16:21:23+00:00",
+      "end_utc": "2026-10-15T06:13:35+00:00",
+      "usdt_debt_change": "5243.585638",
+      "usdc_debt_change": "10.489937",
+      "quantity_effect_old_prices_usd": "5252.02892086952392",
+      "price_effect_later_quantities_usd": "-4110.01928554669520",
+      "reported_debt_change_usd": "1142.00963532",
+      "reported_collateral_change_usd": "1949.64865304",
+      "gross_marked_equity_change_usd": "807.63901772"
+    }
+  ],
+  "accounting_limit": "These are endpoint quantities and accepted-price decompositions, not cash repayment, realized return or full interest/fee attribution.",
+  "current_indices": {
+    "unit": "ray, scale 10^27",
+    "USDT": "1248986101752954402502066583",
+    "USDC": "1253883790110832996136536181",
+    "relationship": "Upward-rounded scaled raw units multiplied by normalized index / 10^27 reproduce current accumulated raw balances at this point.",
+    "limit": "Pointwise consistency, not all-path rounding certification or no-payment history."
+  },
+  "reserves": [
+    {
+      "token": "USDT",
+      "chain_id": 1,
+      "block": 26196047,
+      "time_utc": "2026-10-15T06:13:35+00:00",
+      "cash_endpoint": "0x23878914efe38d27c4d67ab83ed1b93a74d4086a",
+      "underlying_token": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "cash": "356948571.874891",
+      "nominal_atoken_claims": "2820750527.779874",
+      "variable_debt_total": "2463913169.541088",
+      "cash_to_claims_percent": "12.6543828800",
+      "cash_plus_debt_minus_claims": "111213.636105",
+      "selected_debt_fraction_percent": "0.2383196052",
+      "limits": [
+        "Remainder is unreconciled, not assigned to equity, fees or surplus.",
+        "Not borrower-owned funds, complete reserve accounting or all-holder withdrawal entitlement."
+      ]
+    },
+    {
+      "token": "USDC",
+      "chain_id": 1,
+      "block": 26196047,
+      "time_utc": "2026-10-15T06:13:35+00:00",
+      "cash_endpoint": "0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c",
+      "underlying_token": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "cash": "138399681.708339",
+      "nominal_atoken_claims": "2379612178.095765",
+      "variable_debt_total": "2241362700.729523",
+      "cash_to_claims_percent": "5.8160604061",
+      "cash_plus_debt_minus_claims": "150204.342097",
+      "selected_debt_fraction_percent": "0.0004466512",
+      "limits": [
+        "Remainder is unreconciled, not assigned to equity, fees or surplus.",
+        "Not borrower-owned funds, complete reserve accounting or all-holder withdrawal entitlement."
+      ]
+    }
+  ],
+  "coverage": {
+    "successful_ordinary_pool_windows_on_october7": [
+      {
+        "from_block": 26138500,
+        "to_block": 26140499,
+        "matching_events": 0
+      },
+      {
+        "from_block": 26140500,
+        "to_block": 26141669,
+        "matching_events": 0
+      }
+    ],
+    "filter": "Selected account at topic position 2 in the named Aave Pool; not all events or contracts.",
+    "later_interval": {
+      "from_block": 26141670,
+      "to_block": 26196047,
+      "successfully_covered": false,
+      "matching_events": null
+    },
+    "complete_gross_payments": null,
+    "attributable_net_expenses": null
+  },
+  "full_payment_first": {
+    "block": 26196047,
+    "additional_usdt_before_costs": "5871983.138477",
+    "additional_usdc_before_costs": "10011.072984",
+    "conditions": [
+      "Repay both measured reserves before full collateral release.",
+      "Credit only direct cash in the same owed token.",
+      "Exclude subsequent accrual and external expenses; no new free-USDe conversion is credited."
+    ],
+    "limit": "Sequence-specific requirements, not universal minimum advances or commitments."
+  },
+  "source_links": [
+    "https://aave.com/docs/aave-v3/smart-contracts/tokenization",
+    "https://aave.com/docs/aave-v3/smart-contracts/pool",
+    "https://aave.com/docs/aave-v3/concepts/reserve",
+    "https://aave.com/docs/aave-v3/smart-contracts/view-contracts",
+    "https://ethereum.org/developers/docs/apis/json-rpc/"
+  ],
+  "underlying_collateral": {
+    "block": 26196047,
+    "endpoint": "0x4579a27af00a62c0eb156349f31b345c08386419",
+    "amount_susde": "104623942.252397797865297811",
+    "limit": "More underlying than the selected claim, not unconditional full release or sufficient owed-token conversion."
+  }
+}

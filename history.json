@@ -2,6 +2,21 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "2026-10-15-debt-growth-and-reserve-cash",
+      "status": "completed",
+      "started_at": "2026-10-15",
+      "completed_at": "2026-10-15",
+      "report_path": "/p/usde/research/2026-10-15-debt-growth-and-reserve-cash/",
+      "entrypoint": "research/2026-10-15-debt-growth-and-reserve-cash/index.html",
+      "title": "More owed, not demonstrated paid",
+      "summary": "Two token debts have grown. The collateral still has positive accepted-value headroom, and the lending reserves hold substantial cash. None of those observations settles the borrower’s remaining obligations.",
+      "answer_change": "meaningful_change",
+      "research_scope_status": "partial",
+      "analysis_date": "2026-10-15",
+      "financial_observation_date": "2026-10-15",
+      "new_on_chain_observations": true
+    },
+    {
       "run_id": "pro-v02-observed-refinancing-20261007",
       "status": "completed",
       "started_at": "2026-10-07",

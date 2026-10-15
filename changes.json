@@ -2,6 +2,12 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "2026-10-15-debt-growth-and-reserve-cash",
+      "changed_at": "2026-10-15T08:21:00Z",
+      "summary": "Two token debts have grown. The collateral still has positive accepted-value headroom, and the lending reserves hold substantial cash. None of those observations settles the borrower’s remaining obligations.",
+      "path": "/p/usde/research/2026-10-15-debt-growth-and-reserve-cash/"
+    },
+    {
       "change_id": "a31-2026-10-07",
       "changed_at": "2026-10-07T16:10:38.025165+00:00",
       "summary": "A matched refinancing shows how cash can reach an original lender without completing the borrower’s exit. Follow the payment, the new debt and the creditor still waiting.",
