@@ -2,6 +2,21 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "2026-10-16-payment-window-and-claim-settlement",
+      "status": "completed",
+      "started_at": "2026-10-16",
+      "completed_at": "2026-10-16",
+      "report_path": "/p/usde/research/2026-10-16-payment-window-and-claim-settlement/",
+      "entrypoint": "research/2026-10-16-payment-window-and-claim-settlement/index.html",
+      "title": "Settling a debt need not add cash",
+      "summary": "A covered payment window narrows the account history. A second question remains: would settlement deliver the owed token—or cancel an existing claim?",
+      "answer_change": "meaningful_change",
+      "research_scope_status": "partial",
+      "analysis_date": "2026-10-16",
+      "financial_observation_date": "2026-10-16",
+      "new_on_chain_observations": true
+    },
+    {
       "run_id": "2026-10-15-debt-growth-and-reserve-cash",
       "status": "completed",
       "started_at": "2026-10-15",

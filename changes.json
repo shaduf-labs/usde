@@ -2,6 +2,12 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "2026-10-16-payment-window-and-claim-settlement",
+      "changed_at": "2026-10-16T05:07:26.853203+00:00",
+      "summary": "A covered payment window narrows the account history. A second question remains: would settlement deliver the owed token—or cancel an existing claim?",
+      "path": "/p/usde/research/2026-10-16-payment-window-and-claim-settlement/"
+    },
+    {
       "change_id": "2026-10-15-debt-growth-and-reserve-cash",
       "changed_at": "2026-10-15T08:29:35.877171+00:00",
       "summary": "Two token debts have grown. The collateral still has positive accepted-value headroom, and the lending reserves hold substantial cash. None of those observations settles the borrower’s remaining obligations.",

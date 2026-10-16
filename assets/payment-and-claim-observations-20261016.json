@@ -1,0 +1,865 @@
+{
+  "title": "Payment-window and matching-claim observations",
+  "research_date_utc": "2026-10-16",
+  "description": "Reader-selected numerical support for the dated cash-settlement and claim-cancellation chapter. Provider-mediated observations, historical comparisons and conditional ledgers remain distinct. Not a live feed, executed recovery, complete gross-flow history or security assurance.",
+  "amount_encoding": "Token amounts and large integers are decimal strings. Null means unestablished, not zero. USD marks do not change debt denominations.",
+  "endpoints": [
+    {
+      "date_utc": "2026-10-15",
+      "time_utc": "06:13:35",
+      "chain_id": 1,
+      "block": "26196047",
+      "account": "0xea1776733cc969df4ff004a9e1a2d87f5b60add4",
+      "fields": {
+        "collateral_claim": {
+          "value": "5359416.826188716790252832",
+          "unit": "sUSDe",
+          "raw_integer": "5359416826188716790252832",
+          "decimals": 18,
+          "source": {
+            "address": "0x4579a27af00a62c0eb156349f31b345c08386419",
+            "view": "balanceOf(address)",
+            "arguments": [
+              "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+            ]
+          }
+        },
+        "accumulated_usdt_debt": {
+          "value": "5871988.139231",
+          "unit": "USDT",
+          "raw_integer": "5871988139231",
+          "decimals": 6,
+          "source": {
+            "address": "0x6df1c1e379bc5a00a7b4c6e67a203333772f45a8",
+            "view": "balanceOf(address)",
+            "arguments": [
+              "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+            ]
+          }
+        },
+        "accumulated_usdc_debt": {
+          "value": "10011.072984",
+          "unit": "USDC",
+          "raw_integer": "10011072984",
+          "decimals": 6,
+          "source": {
+            "address": "0x72e95b8931767c79ba4eee721354d6e99a61d004",
+            "view": "balanceOf(address)",
+            "arguments": [
+              "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+            ]
+          }
+        },
+        "direct_usdt": {
+          "value": "5.000754",
+          "unit": "USDT",
+          "raw_integer": "5000754",
+          "decimals": 6,
+          "source": {
+            "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "view": "balanceOf(address)",
+            "arguments": [
+              "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+            ]
+          }
+        },
+        "direct_usdc": {
+          "value": "0.000000",
+          "unit": "USDC",
+          "raw_integer": "0",
+          "decimals": 6,
+          "source": {
+            "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "view": "balanceOf(address)",
+            "arguments": [
+              "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+            ]
+          }
+        },
+        "direct_usde": {
+          "value": "23908.467042095491407286",
+          "unit": "USDe",
+          "raw_integer": "23908467042095491407286",
+          "decimals": 18,
+          "source": {
+            "address": "0x4c9edd5852cd905f086c759e8383e09bff1e68b3",
+            "view": "balanceOf(address)",
+            "arguments": [
+              "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+            ]
+          }
+        },
+        "direct_susde": {
+          "value": "0.000000000000000000",
+          "unit": "sUSDe",
+          "raw_integer": "0",
+          "decimals": 18,
+          "source": {
+            "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+            "view": "balanceOf(address)",
+            "arguments": [
+              "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+            ]
+          }
+        },
+        "accepted_susde_price": {
+          "value": "1.25175527",
+          "unit": "USD per sUSDe",
+          "raw_integer": "125175527",
+          "decimals": 8,
+          "source": {
+            "address": "0x54586be62e3c3580375ae3723c145253060ca0c2",
+            "view": "getAssetPrice(address)",
+            "arguments": [
+              "0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+            ]
+          }
+        },
+        "accepted_usdt_price": {
+          "value": "0.99891000",
+          "unit": "USD per USDT",
+          "raw_integer": "99891000",
+          "decimals": 8,
+          "source": {
+            "address": "0x54586be62e3c3580375ae3723c145253060ca0c2",
+            "view": "getAssetPrice(address)",
+            "arguments": [
+              "0xdac17f958d2ee523a2206206994597c13d831ec7"
+            ]
+          }
+        },
+        "accepted_usdc_price": {
+          "value": "0.99987936",
+          "unit": "USD per USDC",
+          "raw_integer": "99987936",
+          "decimals": 8,
+          "source": {
+            "address": "0x54586be62e3c3580375ae3723c145253060ca0c2",
+            "view": "getAssetPrice(address)",
+            "arguments": [
+              "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+            ]
+          }
+        },
+        "cooldown_setting": {
+          "value": "86400",
+          "unit": "seconds",
+          "raw_integer": "86400",
+          "decimals": 0,
+          "source": {
+            "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+            "view": "cooldownDuration()",
+            "arguments": []
+          }
+        },
+        "usdt_scaled_debt_raw": {
+          "value": "4701403907529",
+          "unit": "raw scaled units",
+          "raw_integer": "4701403907529",
+          "decimals": 0,
+          "source": {
+            "address": "0x6df1c1e379bc5a00a7b4c6e67a203333772f45a8",
+            "view": "scaledBalanceOf(address)",
+            "arguments": [
+              "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+            ]
+          }
+        },
+        "usdc_scaled_debt_raw": {
+          "value": "7984051682",
+          "unit": "raw scaled units",
+          "raw_integer": "7984051682",
+          "decimals": 0,
+          "source": {
+            "address": "0x72e95b8931767c79ba4eee721354d6e99a61d004",
+            "view": "scaledBalanceOf(address)",
+            "arguments": [
+              "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+            ]
+          }
+        },
+        "usdt_normalized_index_ray": {
+          "value": "1248986101752954402502066583",
+          "unit": "ray",
+          "raw_integer": "1248986101752954402502066583",
+          "decimals": 0,
+          "source": {
+            "address": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+            "view": "getReserveNormalizedVariableDebt(address)",
+            "arguments": [
+              "0xdac17f958d2ee523a2206206994597c13d831ec7"
+            ]
+          }
+        },
+        "usdc_normalized_index_ray": {
+          "value": "1253883790110832996136536181",
+          "unit": "ray",
+          "raw_integer": "1253883790110832996136536181",
+          "decimals": 0,
+          "source": {
+            "address": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+            "view": "getReserveNormalizedVariableDebt(address)",
+            "arguments": [
+              "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+            ]
+          }
+        },
+        "accepted_collateral": {
+          "value": "6708678.25630840",
+          "unit": "USD",
+          "raw_integer": "670867825630840",
+          "source": {
+            "address": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+            "view": "getUserAccountData(address)",
+            "arguments": [
+              "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+            ],
+            "tuple_index": 0
+          }
+        },
+        "accepted_debt": {
+          "value": "5875597.53740740",
+          "unit": "USD",
+          "raw_integer": "587559753740740",
+          "source": {
+            "address": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+            "view": "getUserAccountData(address)",
+            "arguments": [
+              "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+            ],
+            "tuple_index": 1
+          }
+        },
+        "reported_borrow_headroom": {
+          "value": "162212.89327016",
+          "unit": "USD",
+          "raw_integer": "16221289327016",
+          "source": {
+            "address": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+            "view": "getUserAccountData(address)",
+            "arguments": [
+              "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+            ],
+            "tuple_index": 2
+          }
+        },
+        "liquidation_threshold": {
+          "value": "0.9200",
+          "unit": "fraction",
+          "raw_integer": "9200",
+          "source": {
+            "address": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+            "view": "getUserAccountData(address)",
+            "arguments": [
+              "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+            ],
+            "tuple_index": 3
+          }
+        },
+        "borrowing_limit": {
+          "value": "0.9000",
+          "unit": "fraction",
+          "raw_integer": "9000",
+          "source": {
+            "address": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+            "view": "getUserAccountData(address)",
+            "arguments": [
+              "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+            ],
+            "tuple_index": 4
+          }
+        },
+        "health_factor": {
+          "value": "1.050443628330457118",
+          "unit": "ratio",
+          "raw_integer": "1050443628330457118",
+          "source": {
+            "address": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+            "view": "getUserAccountData(address)",
+            "arguments": [
+              "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+            ],
+            "tuple_index": 5
+          }
+        },
+        "cooldown_request": {
+          "end_timestamp": "0",
+          "underlying_amount_raw": "0",
+          "meaning": "No running request is identified by these fields; the duration setting does not establish funded waiting."
+        }
+      },
+      "limit": "Endpoint evidence only. Same units at two endpoints do not by themselves prove zero gross flows. Accepted prices are not executable quotes."
+    },
+    {
+      "date_utc": "2026-10-16",
+      "time_utc": "02:58:59",
+      "chain_id": 1,
+      "block": "26202255",
+      "account": "0xea1776733cc969df4ff004a9e1a2d87f5b60add4",
+      "fields": {
+        "collateral_claim": {
+          "value": "5359416.826188716790252832",
+          "unit": "sUSDe",
+          "raw_integer": "5359416826188716790252832",
+          "decimals": 18,
+          "source": {
+            "address": "0x4579a27af00a62c0eb156349f31b345c08386419",
+            "view": "balanceOf(address)",
+            "arguments": [
+              "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+            ]
+          }
+        },
+        "accumulated_usdt_debt": {
+          "value": "5872570.456250",
+          "unit": "USDT",
+          "raw_integer": "5872570456250",
+          "decimals": 6,
+          "source": {
+            "address": "0x6df1c1e379bc5a00a7b4c6e67a203333772f45a8",
+            "view": "balanceOf(address)",
+            "arguments": [
+              "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+            ]
+          }
+        },
+        "accumulated_usdc_debt": {
+          "value": "10012.220363",
+          "unit": "USDC",
+          "raw_integer": "10012220363",
+          "decimals": 6,
+          "source": {
+            "address": "0x72e95b8931767c79ba4eee721354d6e99a61d004",
+            "view": "balanceOf(address)",
+            "arguments": [
+              "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+            ]
+          }
+        },
+        "direct_usdt": {
+          "value": "5.000754",
+          "unit": "USDT",
+          "raw_integer": "5000754",
+          "decimals": 6,
+          "source": {
+            "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "view": "balanceOf(address)",
+            "arguments": [
+              "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+            ]
+          }
+        },
+        "direct_usdc": {
+          "value": "0.000000",
+          "unit": "USDC",
+          "raw_integer": "0",
+          "decimals": 6,
+          "source": {
+            "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "view": "balanceOf(address)",
+            "arguments": [
+              "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+            ]
+          }
+        },
+        "direct_usde": {
+          "value": "23908.467042095491407286",
+          "unit": "USDe",
+          "raw_integer": "23908467042095491407286",
+          "decimals": 18,
+          "source": {
+            "address": "0x4c9edd5852cd905f086c759e8383e09bff1e68b3",
+            "view": "balanceOf(address)",
+            "arguments": [
+              "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+            ]
+          }
+        },
+        "direct_susde": {
+          "value": "0.000000000000000000",
+          "unit": "sUSDe",
+          "raw_integer": "0",
+          "decimals": 18,
+          "source": {
+            "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+            "view": "balanceOf(address)",
+            "arguments": [
+              "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+            ]
+          }
+        },
+        "accepted_susde_price": {
+          "value": "1.25176215",
+          "unit": "USD per sUSDe",
+          "raw_integer": "125176215",
+          "decimals": 8,
+          "source": {
+            "address": "0x54586be62e3c3580375ae3723c145253060ca0c2",
+            "view": "getAssetPrice(address)",
+            "arguments": [
+              "0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+            ]
+          }
+        },
+        "accepted_usdt_price": {
+          "value": "0.99880215",
+          "unit": "USD per USDT",
+          "raw_integer": "99880215",
+          "decimals": 8,
+          "source": {
+            "address": "0x54586be62e3c3580375ae3723c145253060ca0c2",
+            "view": "getAssetPrice(address)",
+            "arguments": [
+              "0xdac17f958d2ee523a2206206994597c13d831ec7"
+            ]
+          }
+        },
+        "accepted_usdc_price": {
+          "value": "0.99985532",
+          "unit": "USD per USDC",
+          "raw_integer": "99985532",
+          "decimals": 8,
+          "source": {
+            "address": "0x54586be62e3c3580375ae3723c145253060ca0c2",
+            "view": "getAssetPrice(address)",
+            "arguments": [
+              "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+            ]
+          }
+        },
+        "cooldown_setting": {
+          "value": "86400",
+          "unit": "seconds",
+          "raw_integer": "86400",
+          "decimals": 0,
+          "source": {
+            "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+            "view": "cooldownDuration()",
+            "arguments": []
+          }
+        },
+        "direct_matching_ausdt": {
+          "value": "0.000000",
+          "unit": "USDT-equivalent supplier claim",
+          "raw_integer": "0",
+          "decimals": 6,
+          "source": {
+            "address": "0x23878914efe38d27c4d67ab83ed1b93a74d4086a",
+            "view": "balanceOf(address)",
+            "arguments": [
+              "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+            ]
+          }
+        },
+        "direct_matching_ausdc": {
+          "value": "0.000000",
+          "unit": "USDC-equivalent supplier claim",
+          "raw_integer": "0",
+          "decimals": 6,
+          "source": {
+            "address": "0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c",
+            "view": "balanceOf(address)",
+            "arguments": [
+              "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+            ]
+          }
+        },
+        "usdt_scaled_debt_raw": {
+          "value": "4701403907529",
+          "unit": "raw scaled units",
+          "raw_integer": "4701403907529",
+          "decimals": 0,
+          "source": {
+            "address": "0x6df1c1e379bc5a00a7b4c6e67a203333772f45a8",
+            "view": "scaledBalanceOf(address)",
+            "arguments": [
+              "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+            ]
+          }
+        },
+        "usdc_scaled_debt_raw": {
+          "value": "7984051682",
+          "unit": "raw scaled units",
+          "raw_integer": "7984051682",
+          "decimals": 0,
+          "source": {
+            "address": "0x72e95b8931767c79ba4eee721354d6e99a61d004",
+            "view": "scaledBalanceOf(address)",
+            "arguments": [
+              "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+            ]
+          }
+        },
+        "usdt_normalized_index_ray": {
+          "value": "1249109961993368297722769713",
+          "unit": "ray",
+          "raw_integer": "1249109961993368297722769713",
+          "decimals": 0,
+          "source": {
+            "address": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+            "view": "getReserveNormalizedVariableDebt(address)",
+            "arguments": [
+              "0xdac17f958d2ee523a2206206994597c13d831ec7"
+            ]
+          }
+        },
+        "usdc_normalized_index_ray": {
+          "value": "1254027499008551680904103883",
+          "unit": "ray",
+          "raw_integer": "1254027499008551680904103883",
+          "decimals": 0,
+          "source": {
+            "address": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+            "view": "getReserveNormalizedVariableDebt(address)",
+            "arguments": [
+              "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+            ]
+          }
+        },
+        "accepted_collateral": {
+          "value": "6708715.12909616",
+          "unit": "USD",
+          "raw_integer": "670871512909616",
+          "source": {
+            "address": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+            "view": "getUserAccountData(address)",
+            "arguments": [
+              "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+            ],
+            "tuple_index": 0
+          }
+        },
+        "accepted_debt": {
+          "value": "5875546.76952395",
+          "unit": "USD",
+          "raw_integer": "587554676952395",
+          "source": {
+            "address": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+            "view": "getUserAccountData(address)",
+            "arguments": [
+              "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+            ],
+            "tuple_index": 1
+          }
+        },
+        "reported_borrow_headroom": {
+          "value": "162296.84666259",
+          "unit": "USD",
+          "raw_integer": "16229684666259",
+          "source": {
+            "address": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+            "view": "getUserAccountData(address)",
+            "arguments": [
+              "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+            ],
+            "tuple_index": 2
+          }
+        },
+        "liquidation_threshold": {
+          "value": "0.9200",
+          "unit": "fraction",
+          "raw_integer": "9200",
+          "source": {
+            "address": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+            "view": "getUserAccountData(address)",
+            "arguments": [
+              "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+            ],
+            "tuple_index": 3
+          }
+        },
+        "borrowing_limit": {
+          "value": "0.9000",
+          "unit": "fraction",
+          "raw_integer": "9000",
+          "source": {
+            "address": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+            "view": "getUserAccountData(address)",
+            "arguments": [
+              "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+            ],
+            "tuple_index": 4
+          }
+        },
+        "health_factor": {
+          "value": "1.050458478312570382",
+          "unit": "ratio",
+          "raw_integer": "1050458478312570382",
+          "source": {
+            "address": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+            "view": "getUserAccountData(address)",
+            "arguments": [
+              "0xea1776733cc969df4ff004a9e1a2d87f5b60add4"
+            ],
+            "tuple_index": 5
+          }
+        },
+        "cooldown_request": {
+          "end_timestamp": "0",
+          "underlying_amount_raw": "0",
+          "meaning": "No running request is identified by these fields; the duration setting does not establish funded waiting."
+        }
+      },
+      "limit": "Endpoint evidence only. Same units at two endpoints do not by themselves prove zero gross flows. Accepted prices are not executable quotes."
+    }
+  ],
+  "history": {
+    "covered_blocks_counted_once": 6208,
+    "endpoint_elapsed_seconds": 74724,
+    "results": [
+      {
+        "category": "Pool beneficiary/owner field, topic 2",
+        "chain_id": 1,
+        "contract": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+        "from_block": "26196048",
+        "to_block": "26202255",
+        "topics": [
+          null,
+          null,
+          "0x000000000000000000000000ea1776733cc969df4ff004a9e1a2d87f5b60add4"
+        ],
+        "status": "successful_empty_matched_set",
+        "matched_record_count": 0,
+        "limit": "Account at indexed topic 2 only; not liquidation user at topic 3."
+      },
+      {
+        "category": "Additional Pool user roles, topic 1",
+        "chain_id": 1,
+        "contract": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+        "from_block": "26196048",
+        "to_block": "26202255",
+        "topics": [
+          null,
+          "0x000000000000000000000000ea1776733cc969df4ff004a9e1a2d87f5b60add4"
+        ],
+        "status": "successful_empty_matched_set",
+        "matched_record_count": 0,
+        "limit": "Account at Pool indexed topic 1, including UserEModeSet and documented DeficitCreated; not a substitute for topic-3 coverage."
+      },
+      {
+        "category": "Liquidation-user history",
+        "chain_id": 1,
+        "contract": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+        "account_topic_position": 3,
+        "from_block": "26196048",
+        "to_block": "26202255",
+        "status": "history_not_obtained",
+        "matched_record_count": null,
+        "economic_flow": null,
+        "limit": "Unsuccessful acquisition supplies no numeric flow or empty-history conclusion."
+      },
+      {
+        "category": "USDT variable-debt-token history",
+        "chain_id": 1,
+        "contract": "0x6df1c1e379bc5a00a7b4c6e67a203333772f45a8",
+        "account_topic_position": 1,
+        "from_block": "26196048",
+        "to_block": "26202255",
+        "status": "history_not_obtained",
+        "matched_record_count": null,
+        "economic_flow": null,
+        "limit": "Unsuccessful acquisition supplies no numeric flow or empty-history conclusion."
+      },
+      {
+        "category": "Direct USDT sender transfers",
+        "chain_id": 1,
+        "contract": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        "account_topic_position": 1,
+        "from_block": "26196048",
+        "to_block": "26202255",
+        "status": "history_not_obtained",
+        "matched_record_count": null,
+        "economic_flow": null,
+        "limit": "Unsuccessful acquisition supplies no numeric flow or empty-history conclusion."
+      }
+    ],
+    "earlier_unestablished_interval": {
+      "from_block": "26141670",
+      "to_block": "26196047",
+      "block_count": 54378,
+      "last_prior_cutoff_utc": "2026-10-07T16:21:23+00:00",
+      "later_cutoff_utc": "2026-10-15T06:13:35+00:00",
+      "limit": "New coverage is not extended backward over this gap."
+    },
+    "complete_gross_activity": null
+  },
+  "historical_partial_refinancing": {
+    "event_time_utc": "2026-10-07T05:44:35+00:00",
+    "temporary_advance_usdc": "10000",
+    "temporary_principal_return_usdc": "10000",
+    "original_reserve_service_usdt": "10006.329226",
+    "new_persistent_borrowing_usdc": "10000",
+    "own_debt_service_usdt": "4.688632",
+    "own_service_principal_interest_allocation": null,
+    "own_service_is_fee": false,
+    "limit": "Inherited partial funding sequence, not a newly observed October 16 payment. Temporary return did not discharge the persistent replacement loan."
+  },
+  "conditional_settlement_ledgers": [
+    {
+      "asset": "USDT",
+      "amount_equal_to_observed_accumulated_debt": "5872570.456250",
+      "cash_repayment": {
+        "observed": false,
+        "reserve_cash_delta": "5872570.456250",
+        "loan_receivable_delta": "-5872570.456250",
+        "supplier_claim_delta": "0",
+        "required_resource": "Independent admitted underlying-token cash"
+      },
+      "matching_claim_cancellation": {
+        "observed": false,
+        "reserve_cash_delta": "0",
+        "loan_receivable_delta": "-5872570.456250",
+        "supplier_claim_delta": "-5872570.456250",
+        "required_resource": "Eligible owned or acquired same-reserve supplier claim"
+      },
+      "repay_all_first": {
+        "observed": false,
+        "direct_same_token_cash": "5.000754",
+        "direct_matching_claim": "0",
+        "additional_same_token_cash_before_costs": "5872565.455496",
+        "limit": "Specified full repayment before collateral release. Not a universal minimum loan, future payoff invoice or default deficit. Free USDe is neither valued at zero nor netted at par."
+      }
+    },
+    {
+      "asset": "USDC",
+      "amount_equal_to_observed_accumulated_debt": "10012.220363",
+      "cash_repayment": {
+        "observed": false,
+        "reserve_cash_delta": "10012.220363",
+        "loan_receivable_delta": "-10012.220363",
+        "supplier_claim_delta": "0",
+        "required_resource": "Independent admitted underlying-token cash"
+      },
+      "matching_claim_cancellation": {
+        "observed": false,
+        "reserve_cash_delta": "0",
+        "loan_receivable_delta": "-10012.220363",
+        "supplier_claim_delta": "-10012.220363",
+        "required_resource": "Eligible owned or acquired same-reserve supplier claim"
+      },
+      "repay_all_first": {
+        "observed": false,
+        "direct_same_token_cash": "0.000000",
+        "direct_matching_claim": "0",
+        "additional_same_token_cash_before_costs": "10012.220363",
+        "limit": "Specified full repayment before collateral release. Not a universal minimum loan, future payoff invoice or default deficit. Free USDe is neither valued at zero nor netted at par."
+      }
+    }
+  ],
+  "ledger_assumptions": {
+    "observed": false,
+    "denomination_specific": true,
+    "symbolic_conservation": "delta(cash + loan_receivables - supplier_claims) = 0",
+    "excluded_only_to_isolate_mechanism": [
+      "contemporaneous accrual",
+      "rounding",
+      "external charges"
+    ],
+    "ratio_comparison": {
+      "condition": "C > 0 and 0 < p < S",
+      "before": "C/S",
+      "after_claim_cancellation": "C/(S-p)",
+      "cash_change": "0",
+      "observed_current_ratio_change": null
+    },
+    "claim_purchase": {
+      "observed": false,
+      "face_symbol": "p",
+      "consideration_symbol": "c",
+      "price": null,
+      "funder": null,
+      "limit": "Borrowing to acquire a claim leaves a replacement creditor. No offer, acquisition or admission is established."
+    }
+  },
+  "reported_quantity_price_effects": {
+    "period": "2026-10-15T06:13:35+00:00 to 2026-10-16T02:58:59+00:00",
+    "debt_quantity_change_usdt": "582.317019",
+    "debt_quantity_change_usdc": "1.147379",
+    "quantity_effect_usd": "582.82953403",
+    "price_effect_usd": "-633.59741748",
+    "marked_debt_change_usd": "-50.76788345",
+    "marked_collateral_change_usd": "36.87278776",
+    "gross_marked_equity_change_usd": "87.64067121",
+    "limit": "Published display precision from the supplied decomposition; detailed rounding residual retained in the original calculation. Not realized return."
+  },
+  "observation_clock": {
+    "state_block": "26202255",
+    "state_time_utc": "2026-10-16T02:58:59+00:00",
+    "batch_outer_head": "26202270",
+    "block_hash_witness": "0xe4f6fef0e205b3e61cad63c04ab7ab440c5613e8bb84fd1222614df5e5999976",
+    "hash_witness_outer_head": "26202287",
+    "acquisition_date_utc": "2026-10-16",
+    "acquisition_time_precision": "date only; exact chain clock is separate",
+    "limit": "The later head and hash witness do not replace the state pin or independently establish log completeness or finality."
+  },
+  "unestablished": {
+    "whole_position_final_settlement": null,
+    "sufficient_new_funding_commitment": null,
+    "matching_claim_acquisition": null,
+    "all_in_expenses": null,
+    "full_receipt": null,
+    "realized_return": null
+  },
+  "historical_case_limits": [
+    "October 15 reserve stocks are not refreshed by this chapter.",
+    "Earlier Base, PT and shareholder findings retain their own clocks.",
+    "Positive October 2 ordinary shareholder admission remains historical evidence.",
+    "Exceptional oracle, authority, bridge and local backstop protections remain conditional."
+  ],
+  "sources": [
+    {
+      "publisher": "Aave",
+      "title": "Pool",
+      "url": "https://aave.com/docs/aave-v3/smart-contracts/pool",
+      "retrieved_date_utc": "2026-10-16",
+      "locator": "repay, repayWithATokens, withdraw, borrow; current financial read descriptions",
+      "limit": "General documentation, not installed implementation matching. Generic close-factor statements are not used.",
+      "publication_or_revision_time": "Not established; inspection date is not a document revision date."
+    },
+    {
+      "publisher": "Aave DAO source repository",
+      "title": "IPool.sol",
+      "url": "https://raw.githubusercontent.com/aave-dao/aave-v3-origin/main/src/contracts/interfaces/IPool.sol",
+      "retrieved_date_utc": "2026-10-16",
+      "locator": "Supply/Borrow/Repay/Withdraw events lines 19–68; LiquidationCall 118–126; DeficitCreated 158–163",
+      "limit": "Mutable main as served; no commit pin or source-to-deployment equivalence. No deficit event was returned for the specified topic-1 filter, not a whole-system zero-deficit finding.",
+      "publication_or_revision_time": "Not established; inspection date is not a document revision date."
+    },
+    {
+      "publisher": "Aave DAO source repository",
+      "title": "BorrowLogic.sol",
+      "url": "https://raw.githubusercontent.com/aave-dao/aave-v3-origin/main/src/contracts/protocol/libraries/logic/BorrowLogic.sol",
+      "retrieved_date_utc": "2026-10-16",
+      "locator": "executeRepay lines 117–206, especially 158–203",
+      "limit": "Read passively for financial accounting only; no contract test, runtime/source certification or security claim.",
+      "publication_or_revision_time": "Not established; inspection date is not a document revision date."
+    },
+    {
+      "publisher": "Aave",
+      "title": "Tokenization",
+      "url": "https://aave.com/docs/aave-v3/smart-contracts/tokenization",
+      "retrieved_date_utc": "2026-10-16",
+      "locator": "Variable debt burn/balanceOf and nontransferability; aToken burn and transferOnLiquidation",
+      "limit": "Field interpretation only; no new token history was acquired.",
+      "publication_or_revision_time": "Not established; inspection date is not a document revision date."
+    },
+    {
+      "publisher": "Ethereum.org",
+      "title": "JSON-RPC API",
+      "url": "https://ethereum.org/developers/docs/apis/json-rpc/",
+      "retrieved_date_utc": "2026-10-16",
+      "locator": "eth_getLogs/topic filtering and eth_getTransactionReceipt fields",
+      "limit": "Examples are not observations of the selected account.",
+      "publication_or_revision_time": "Not established; inspection date is not a document revision date."
+    },
+    {
+      "publisher": "Aave DAO source repository",
+      "title": "AToken.sol",
+      "url": "https://raw.githubusercontent.com/aave-dao/aave-v3-origin/main/src/contracts/protocol/tokenization/AToken.sol",
+      "retrieved_date_utc": "2026-10-16",
+      "locator": "burn receiver-of-underlying branch",
+      "limit": "As-served source, not deployment-matched assurance.",
+      "publication_or_revision_time": "Not established; inspection date is not a document revision date."
+    }
+  ]
+}
