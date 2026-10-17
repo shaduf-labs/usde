@@ -2,6 +2,12 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "2026-10-17-historical-conversion-and-payment-attribution",
+      "changed_at": "2026-10-17T10:12:07.596916+00:00",
+      "summary": "Historical DAI and USDS records now explain more of the USDT that reached a borrower and its lender. They do not identify every payer, settle the last creditor or establish the complete cost.",
+      "path": "/p/usde/research/2026-10-17-historical-conversion-and-payment-attribution/"
+    },
+    {
       "change_id": "2026-10-16-payment-window-and-claim-settlement",
       "changed_at": "2026-10-16T05:07:26.853203+00:00",
       "summary": "A covered payment window narrows the account history. A second question remains: would settlement deliver the owed token—or cancel an existing claim?",

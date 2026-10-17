@@ -1,0 +1,434 @@
+{
+  "title": "Historical conversion and payment attribution — selected observation data",
+  "research_date": "2026-10-17",
+  "purpose": "Reader-safe selection from the paired research, not a complete transaction receipt, trace, current-state feed or all-in cost ledger.",
+  "event": {
+    "chain_id": 1,
+    "state_block": 26138499,
+    "block_hash": "0x8acddde1c22cd52a4a3521cfaa05e64d7c2bc834e6456ec8e17ce1fc5a6862f1",
+    "block_timestamp": 1791351875,
+    "event_time_utc": "2026-10-07T05:44:35+00:00",
+    "transaction_hash": "0x65262caf428ff6865c63b76f6c094ee7c7a70a72a213e5df78f651e5127f012b",
+    "transaction_index": 162
+  },
+  "addresses": {
+    "account": "0xea1776733cc969df4ff004a9e1a2d87f5b60add4",
+    "routing_address": "0x8f10b468b06c6fd214b65f87778827f7d113f996",
+    "first_recipient": "0x9b6f014ba4df10871302cb1a781ab1c423bca9ed",
+    "psm": "0xf6e72db5454dd049d0788e411b06cfaf16853042",
+    "converter": "0x3225737a9bbb6473cb4a45b7244aca2befdb276a",
+    "pool_manager": "0x000000000004444c5dc75cb358380d2e3de08a90",
+    "dai": "0x6b175474e89094c44da98b954eedeac495271d0f",
+    "usds": "0xdc035d45d973e3ec169d2276ddab16f1e407384f",
+    "usdt": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "usdc": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+  },
+  "amounts": {
+    "temporary_principal_usdc": "10000",
+    "psm_gem_units_usdc": "10000",
+    "psm_dai_delivered": "10000",
+    "converter_dai_input": "10000.000000180475496719",
+    "converter_usds_output": "10000.000000180475496719",
+    "usds_settlement_input": "10000.000000180475496719",
+    "extra_dai_source_unattributed": "0.000000180475496719",
+    "extra_dai_base_units": "180475496719",
+    "pool_manager_usdt_output": "10001.640594",
+    "borrower_usdt_receipt": "10001.640594",
+    "borrower_own_usdt_debt_service": "4.688632",
+    "original_reserve_usdt_payment": "10006.329226",
+    "new_persistent_usdc_principal": "10000",
+    "temporary_usdc_principal_returned": "10000"
+  },
+  "expense_fields": {
+    "psm_event_fee_dai": "0",
+    "swap_event_rate_field": "6",
+    "swap_rate_unit": "hundredths of a basis point",
+    "swap_rate_parts_per_million": "6",
+    "swap_rate_percent": "0.0006",
+    "swap_rate_basis_points": "0.06",
+    "separately_itemized_swap_fee": null,
+    "gas_paid": null,
+    "gas_payer": null,
+    "sponsor": null,
+    "reimbursement": null,
+    "complete_net_cost": null,
+    "own_usdt_is_fee": false,
+    "own_debt_service_principal_interest_allocation": null
+  },
+  "historical_asset_identities": [
+    {
+      "target": "0xf6e72db5454dd049d0788e411b06cfaf16853042",
+      "function": "function gem() view returns (address)",
+      "requested_state_block": 26138499,
+      "outer_head_at_acquisition": 26211082,
+      "observed_asset": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "returned_hex": "0x000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "examination_date": "2026-10-17"
+    },
+    {
+      "target": "0xf6e72db5454dd049d0788e411b06cfaf16853042",
+      "function": "function dai() view returns (address)",
+      "requested_state_block": 26138499,
+      "outer_head_at_acquisition": 26211083,
+      "observed_asset": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "returned_hex": "0x0000000000000000000000006b175474e89094c44da98b954eedeac495271d0f",
+      "examination_date": "2026-10-17"
+    },
+    {
+      "target": "0x3225737a9bbb6473cb4a45b7244aca2befdb276a",
+      "function": "function usds() view returns (address)",
+      "requested_state_block": 26138499,
+      "outer_head_at_acquisition": 26211084,
+      "observed_asset": "0xdc035d45d973e3ec169d2276ddab16f1e407384f",
+      "returned_hex": "0x000000000000000000000000dc035d45d973e3ec169d2276ddab16f1e407384f",
+      "examination_date": "2026-10-17"
+    },
+    {
+      "target": "0x3225737a9bbb6473cb4a45b7244aca2befdb276a",
+      "function": "function dai() view returns (address)",
+      "requested_state_block": 26138499,
+      "outer_head_at_acquisition": 26211087,
+      "observed_asset": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "returned_hex": "0x0000000000000000000000006b175474e89094c44da98b954eedeac495271d0f",
+      "examination_date": "2026-10-17"
+    }
+  ],
+  "selected_logs": [
+    {
+      "meaning": "Temporary loan event; not an additional transfer",
+      "evidence_layer": "previously retained",
+      "log_index": 1007,
+      "emitter": "0xbbbbbbbbbb9cc5e90e3b3af64bdaf62c37eeffcb",
+      "topics": [
+        "0xc76f1b4fe4396ac07a9fa55a415d4ca430e72651d37d3401f3bed7cb13fc4f12",
+        "0x000000000000000000000000ea1776733cc969df4ff004a9e1a2d87f5b60add4",
+        "0x000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "data_hex": "0x00000000000000000000000000000000000000000000000000000002540be400",
+      "abi_scope": "Fields interpreted in the paired chapter"
+    },
+    {
+      "meaning": "Temporary USDC principal arrival",
+      "evidence_layer": "previously retained",
+      "log_index": 1008,
+      "emitter": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "topics": [
+        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+        "0x000000000000000000000000bbbbbbbbbb9cc5e90e3b3af64bdaf62c37eeffcb",
+        "0x000000000000000000000000ea1776733cc969df4ff004a9e1a2d87f5b60add4"
+      ],
+      "data_hex": "0x00000000000000000000000000000000000000000000000000000002540be400",
+      "abi_scope": "Fields interpreted in the paired chapter"
+    },
+    {
+      "meaning": "USDC sent to first recipient",
+      "evidence_layer": "previously retained",
+      "log_index": 1009,
+      "emitter": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "topics": [
+        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+        "0x000000000000000000000000ea1776733cc969df4ff004a9e1a2d87f5b60add4",
+        "0x0000000000000000000000009b6f014ba4df10871302cb1a781ab1c423bca9ed"
+      ],
+      "data_hex": "0x00000000000000000000000000000000000000000000000000000002540be400",
+      "abi_scope": "Fields interpreted in the paired chapter"
+    },
+    {
+      "meaning": "DAI delivery from PSM to routing address",
+      "evidence_layer": "examined 17 October 2026",
+      "log_index": 1013,
+      "emitter": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "topics": [
+        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+        "0x000000000000000000000000f6e72db5454dd049d0788e411b06cfaf16853042",
+        "0x0000000000000000000000008f10b468b06c6fd214b65f87778827f7d113f996"
+      ],
+      "data_hex": "0x00000000000000000000000000000000000000000000021e19e0c9bab2400000",
+      "abi_scope": "Fields interpreted in the paired chapter"
+    },
+    {
+      "meaning": "PSM SellGem amount and event-specific DAI fee",
+      "evidence_layer": "examined 17 October 2026",
+      "log_index": 1014,
+      "emitter": "0xf6e72db5454dd049d0788e411b06cfaf16853042",
+      "topics": [
+        "0xef75f5a47cc9a929968796ceb84f19e7541617b4577f2c228ea95200e1572081",
+        "0x0000000000000000000000008f10b468b06c6fd214b65f87778827f7d113f996"
+      ],
+      "data_hex": "0x00000000000000000000000000000000000000000000000000000002540be4000000000000000000000000000000000000000000000000000000000000000000",
+      "abi_scope": "Fields interpreted in the paired chapter"
+    },
+    {
+      "meaning": "Unverified routing-event word correspondence: PSM leg",
+      "evidence_layer": "examined 17 October 2026",
+      "log_index": 1015,
+      "emitter": "0x8f10b468b06c6fd214b65f87778827f7d113f996",
+      "topics": [
+        "0xa6fee24309b1d83d9ec7b9e4dbb73c6f882746efbfb26db7b7d9e9f2fb6dc95a"
+      ],
+      "data_hex": "0x000000000000000000000000f6e72db5454dd049d0788e411b06cfaf16853042000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb480000000000000000000000006b175474e89094c44da98b954eedeac495271d0f00000000000000000000000000000000000000000000000000000002540be40000000000000000000000000000000000000000000000021e19e0c9bab2400000",
+      "abi_scope": "Unnamed routing event; only word correspondence used"
+    },
+    {
+      "meaning": "DAI input to converter",
+      "evidence_layer": "examined 17 October 2026",
+      "log_index": 1016,
+      "emitter": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "topics": [
+        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+        "0x0000000000000000000000008f10b468b06c6fd214b65f87778827f7d113f996",
+        "0x0000000000000000000000003225737a9bbb6473cb4a45b7244aca2befdb276a"
+      ],
+      "data_hex": "0x00000000000000000000000000000000000000000000021e19e0c9e4b76d890f",
+      "abi_scope": "Fields interpreted in the paired chapter"
+    },
+    {
+      "meaning": "USDS creation to routing address",
+      "evidence_layer": "examined 17 October 2026",
+      "log_index": 1021,
+      "emitter": "0xdc035d45d973e3ec169d2276ddab16f1e407384f",
+      "topics": [
+        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+        "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "0x0000000000000000000000008f10b468b06c6fd214b65f87778827f7d113f996"
+      ],
+      "data_hex": "0x00000000000000000000000000000000000000000000021e19e0c9e4b76d890f",
+      "abi_scope": "Fields interpreted in the paired chapter"
+    },
+    {
+      "meaning": "DaiToUsds equal-quantity conversion",
+      "evidence_layer": "examined 17 October 2026",
+      "log_index": 1023,
+      "emitter": "0x3225737a9bbb6473cb4a45b7244aca2befdb276a",
+      "topics": [
+        "0x23889db6b244d239344deac88ec7781d810b3873fe323939d1ce0e8ac9564235",
+        "0x0000000000000000000000008f10b468b06c6fd214b65f87778827f7d113f996",
+        "0x0000000000000000000000008f10b468b06c6fd214b65f87778827f7d113f996"
+      ],
+      "data_hex": "0x00000000000000000000000000000000000000000000021e19e0c9e4b76d890f",
+      "abi_scope": "Fields interpreted in the paired chapter"
+    },
+    {
+      "meaning": "Unverified routing-event word correspondence: converter leg",
+      "evidence_layer": "examined 17 October 2026",
+      "log_index": 1024,
+      "emitter": "0x8f10b468b06c6fd214b65f87778827f7d113f996",
+      "topics": [
+        "0xa6fee24309b1d83d9ec7b9e4dbb73c6f882746efbfb26db7b7d9e9f2fb6dc95a"
+      ],
+      "data_hex": "0x0000000000000000000000003225737a9bbb6473cb4a45b7244aca2befdb276a0000000000000000000000006b175474e89094c44da98b954eedeac495271d0f000000000000000000000000dc035d45d973e3ec169d2276ddab16f1e407384f00000000000000000000000000000000000000000000021e19e0c9e4b76d890f00000000000000000000000000000000000000000000021e19e0c9e4b76d890f",
+      "abi_scope": "Unnamed routing event; only word correspondence used"
+    },
+    {
+      "meaning": "USDS settlement input to pool manager",
+      "evidence_layer": "examined 17 October 2026",
+      "log_index": 1025,
+      "emitter": "0xdc035d45d973e3ec169d2276ddab16f1e407384f",
+      "topics": [
+        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+        "0x0000000000000000000000008f10b468b06c6fd214b65f87778827f7d113f996",
+        "0x000000000000000000000000000000000004444c5dc75cb358380d2e3de08a90"
+      ],
+      "data_hex": "0x00000000000000000000000000000000000000000000021e19e0c9e4b76d890f",
+      "abi_scope": "Fields interpreted in the paired chapter"
+    },
+    {
+      "meaning": "Swap signed quantities and rate field",
+      "evidence_layer": "examined 17 October 2026",
+      "log_index": 1026,
+      "emitter": "0x000000000004444c5dc75cb358380d2e3de08a90",
+      "topics": [
+        "0x40e9cecb9f5f1f1c5b9c97dec2917b7ee92e57ba5563708daca94dd84ad7112f",
+        "0x3b1b1f2e775a6db1664f8e7d59ad568605ea2406312c11aef03146c0cf89d5b9",
+        "0x0000000000000000000000008f10b468b06c6fd214b65f87778827f7d113f996"
+      ],
+      "data_hex": "0x000000000000000000000000000000000000000000000000000000025424ec92fffffffffffffffffffffffffffffffffffffffffffffde1e61f361b489276f100000000000000000000000000000000000f41eb149f65e9e19a48f6c826f03e000000000000000000000000000000000000000000000a97ab38f90b70a9093700000000000000000000000000000000000000000000000000000000000437620000000000000000000000000000000000000000000000000000000000000006",
+      "abi_scope": "Fields interpreted in the paired chapter"
+    },
+    {
+      "meaning": "USDT output to routing address",
+      "evidence_layer": "examined 17 October 2026",
+      "log_index": 1027,
+      "emitter": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "topics": [
+        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+        "0x000000000000000000000000000000000004444c5dc75cb358380d2e3de08a90",
+        "0x0000000000000000000000008f10b468b06c6fd214b65f87778827f7d113f996"
+      ],
+      "data_hex": "0x000000000000000000000000000000000000000000000000000000025424ec92",
+      "abi_scope": "Fields interpreted in the paired chapter"
+    },
+    {
+      "meaning": "Unverified routing-event word correspondence: swap leg",
+      "evidence_layer": "examined 17 October 2026",
+      "log_index": 1028,
+      "emitter": "0x8f10b468b06c6fd214b65f87778827f7d113f996",
+      "topics": [
+        "0xa6fee24309b1d83d9ec7b9e4dbb73c6f882746efbfb26db7b7d9e9f2fb6dc95a"
+      ],
+      "data_hex": "0x000000000000000000000000000000000004444c5dc75cb358380d2e3de08a90000000000000000000000000dc035d45d973e3ec169d2276ddab16f1e407384f000000000000000000000000dac17f958d2ee523a2206206994597c13d831ec700000000000000000000000000000000000000000000021e19e0c9e4b76d890f000000000000000000000000000000000000000000000000000000025424ec92",
+      "abi_scope": "Unnamed routing event; only word correspondence used"
+    },
+    {
+      "meaning": "USDT receipt by borrower",
+      "evidence_layer": "previously retained",
+      "log_index": 1029,
+      "emitter": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "topics": [
+        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+        "0x0000000000000000000000008f10b468b06c6fd214b65f87778827f7d113f996",
+        "0x000000000000000000000000ea1776733cc969df4ff004a9e1a2d87f5b60add4"
+      ],
+      "data_hex": "0x000000000000000000000000000000000000000000000000000000025424ec92",
+      "abi_scope": "Fields interpreted in the paired chapter"
+    },
+    {
+      "meaning": "USDT debt-service transfer",
+      "evidence_layer": "previously retained",
+      "log_index": 1037,
+      "emitter": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "topics": [
+        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+        "0x000000000000000000000000ea1776733cc969df4ff004a9e1a2d87f5b60add4",
+        "0x00000000000000000000000023878914efe38d27c4d67ab83ed1b93a74d4086a"
+      ],
+      "data_hex": "0x00000000000000000000000000000000000000000000000000000002546c778a",
+      "abi_scope": "Fields interpreted in the paired chapter"
+    },
+    {
+      "meaning": "Ordinary repayment event",
+      "evidence_layer": "previously retained",
+      "log_index": 1038,
+      "emitter": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+      "topics": [
+        "0xa534c8dbe71f871f9f3530e97a74601fea17b426cae02e1c5aee42c96c784051",
+        "0x000000000000000000000000dac17f958d2ee523a2206206994597c13d831ec7",
+        "0x000000000000000000000000ea1776733cc969df4ff004a9e1a2d87f5b60add4",
+        "0x000000000000000000000000ea1776733cc969df4ff004a9e1a2d87f5b60add4"
+      ],
+      "data_hex": "0x00000000000000000000000000000000000000000000000000000002546c778a0000000000000000000000000000000000000000000000000000000000000000",
+      "abi_scope": "Fields interpreted in the paired chapter"
+    },
+    {
+      "meaning": "USDC replacement borrowing received",
+      "evidence_layer": "previously retained",
+      "log_index": 1043,
+      "emitter": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "topics": [
+        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+        "0x00000000000000000000000098c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c",
+        "0x000000000000000000000000ea1776733cc969df4ff004a9e1a2d87f5b60add4"
+      ],
+      "data_hex": "0x00000000000000000000000000000000000000000000000000000002540be400",
+      "abi_scope": "Fields interpreted in the paired chapter"
+    },
+    {
+      "meaning": "Persistent variable USDC borrowing event",
+      "evidence_layer": "previously retained",
+      "log_index": 1044,
+      "emitter": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+      "topics": [
+        "0xb3d084820fb1a9decffb176436bd02558d15fac9b0ddfed8c465bc7359d7dce0",
+        "0x000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "0x000000000000000000000000ea1776733cc969df4ff004a9e1a2d87f5b60add4",
+        "0x0000000000000000000000000000000000000000000000000000000000000000"
+      ],
+      "data_hex": "0x000000000000000000000000ea1776733cc969df4ff004a9e1a2d87f5b60add400000000000000000000000000000000000000000000000000000002540be40000000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000002737935a0315f1799fd4b8",
+      "abi_scope": "Fields interpreted in the paired chapter"
+    },
+    {
+      "meaning": "Temporary USDC principal returned",
+      "evidence_layer": "previously retained",
+      "log_index": 1048,
+      "emitter": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "topics": [
+        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+        "0x000000000000000000000000ea1776733cc969df4ff004a9e1a2d87f5b60add4",
+        "0x000000000000000000000000bbbbbbbbbb9cc5e90e3b3af64bdaf62c37eeffcb"
+      ],
+      "data_hex": "0x00000000000000000000000000000000000000000000000000000002540be400",
+      "abi_scope": "Fields interpreted in the paired chapter"
+    }
+  ],
+  "inherited_account_endpoint": {
+    "chain_id": 1,
+    "block": 26202255,
+    "time_utc": "2026-10-16T02:58:59+00:00",
+    "debt_usdt": "5872570.456250",
+    "debt_usdc": "10012.220363",
+    "health_factor": "1.050458478312570382",
+    "refreshed_on_research_date": false
+  },
+  "history_scope": {
+    "indexed_erc20_interval": [
+      26141670,
+      26202255
+    ],
+    "requested_blocks": 60586,
+    "returned_rows": 0,
+    "page_size": 100,
+    "has_more": false,
+    "independent_completeness_established": false,
+    "earlier_ordinary_role_coverage_blocks": 6208,
+    "earlier_uncovered_gap_blocks": 54378,
+    "new_logs_are_complete_receipt": false,
+    "receipt_level_status": null,
+    "complete_liquidation_history": null,
+    "complete_relevant_token_history": null
+  },
+  "limits": [
+    "The DAI recipient is not necessarily the original USDC payer or beneficial owner.",
+    "The initial USDC path into the PSM and extra DAI source are not fully attributed.",
+    "Token transitions and duplicate descriptions of a flow are not independent backing or funding resources.",
+    "Event-specific zero PSM fee does not identify a current parameter or the exact entry function.",
+    "The swap rate is not an itemized expense; observed USDT output is not reduced a second time without a separate liability.",
+    "The partial refinance returned temporary principal by creating persistent USDC debt; both surviving denominations matter.",
+    "No new whole-account endpoint, final persistent-creditor payoff, complete funded recovery or all-in expenses are established.",
+    "Empty indexer results do not establish complete ordinary, liquidation or wallet-transfer history.",
+    "Earlier Base, PT and selected-shareholder observations and conditional exceptional safeguards retain their dates."
+  ],
+  "sources": [
+    {
+      "title": "Ethereum execution JSON-RPC documentation",
+      "url": "https://ethereum.org/developers/docs/apis/json-rpc/",
+      "examined_date": "2026-10-17",
+      "scope": "Documentary field definitions, not a receipt or an independent history provider."
+    },
+    {
+      "title": "Sky ecosystem DssLitePsm.sol",
+      "url": "https://raw.githubusercontent.com/sky-ecosystem/dss-lite-psm/master/src/DssLitePsm.sol",
+      "examined_date": "2026-10-17",
+      "scope": "As-served public source; no immutable commit or historical runtime correspondence established. Used for event units and recipient/payer distinction only."
+    },
+    {
+      "title": "Sky ecosystem DaiUsds.sol",
+      "url": "https://raw.githubusercontent.com/sky-ecosystem/usds/master/src/DaiUsds.sol",
+      "examined_date": "2026-10-17",
+      "scope": "Public source semantics paired with historical identities and matched transfers, not complete source/deployment assurance."
+    },
+    {
+      "title": "Uniswap v4 IPoolManager interface",
+      "url": "https://raw.githubusercontent.com/Uniswap/v4-core/main/src/interfaces/IPoolManager.sol",
+      "examined_date": "2026-10-17",
+      "scope": "Interface is not a full receipt, historical implementation match, or evidence of all-in transaction expense."
+    },
+    {
+      "title": "Account abstraction v0.7 IEntryPoint interface",
+      "url": "https://raw.githubusercontent.com/eth-infinitism/account-abstraction/v0.7.0/contracts/interfaces/IEntryPoint.sol",
+      "examined_date": "2026-10-17",
+      "scope": "One version-specific event definition; no sponsor, gas payer or full execution model is established for the account."
+    },
+    {
+      "title": "Account abstraction v0.7 release record",
+      "url": "https://github.com/eth-infinitism/account-abstraction/releases/tag/v0.7.0",
+      "examined_date": "2026-10-17",
+      "scope": "Version-specific discovery for one one-block event screen; no whole-account execution-model identification."
+    },
+    {
+      "title": "ERC-4337 account abstraction specification",
+      "url": "https://ercs.ethereum.org/ERCS/erc-4337",
+      "examined_date": "2026-10-17",
+      "scope": "General documentary alternative only. No paymaster, sponsor or reimbursement obligation established for the selected account."
+    }
+  ]
+}

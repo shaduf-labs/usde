@@ -2,6 +2,23 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "2026-10-17-historical-conversion-and-payment-attribution",
+      "status": "completed",
+      "started_at": "2026-10-17",
+      "completed_at": "2026-10-17",
+      "report_path": "/p/usde/research/2026-10-17-historical-conversion-and-payment-attribution/",
+      "entrypoint": "research/2026-10-17-historical-conversion-and-payment-attribution/index.html",
+      "title": "The conversion behind a partial repayment",
+      "summary": "Historical DAI and USDS records now explain more of the USDT that reached a borrower and its lender. They do not identify every payer, settle the last creditor or establish the complete cost.",
+      "answer_change": "meaningful_change",
+      "research_scope_status": "partial",
+      "analysis_date": "2026-10-17",
+      "financial_observation_date": "2026-10-16",
+      "event_occurrence_date": "2026-10-07",
+      "evidence_examined_date": "2026-10-17",
+      "new_on_chain_observations": true
+    },
+    {
       "run_id": "2026-10-16-payment-window-and-claim-settlement",
       "status": "completed",
       "started_at": "2026-10-16",
